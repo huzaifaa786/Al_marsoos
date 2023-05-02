@@ -25,10 +25,10 @@ Route::view('MorePages/ourevents', 'MorePages.ourevents')->name('MorePages.ourev
 Route::view('MorePages/eventdetail', 'MorePages.eventdetail')->name('MorePages.eventdetail');
 
 Route::view('admin/layout', 'admin.layout');
-// Route::view('admin/auth/login', 'admin.auth.login')->name('admin.auth.login');
+Route::view('admin/login', 'admin.auth.login')->name('admin.auth.login');
 Route::view('admin/blog/createblog', 'admin.blog.createblog')->name('admin.blog.createblog');
 Route::view('admin/blog/allblog', 'admin.blog.allblog')->name('admin.blog.allblog');
-Route::post('admin/auth/login', [AdminController::class, 'login'])->name('admin.auth.login');
+Route::post('admin/login', [AdminController::class, 'login'])->name('admin.auth.login');
 Route::post('Contact/contact', [ContactController::class, 'store'])->name('Contact.contact');
 Route::post('admin/blog/createblog', [BlogPostController::class, 'store'])->name('admin.blog.createblog');
 Route::get('admin/blog/allblog', [BlogPostController::class, 'index'])->name('admin.blog.allblog');
