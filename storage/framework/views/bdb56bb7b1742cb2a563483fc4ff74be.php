@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Bismillah - Islamic Center HTML Template</title>
+    <title>Al Marsoos</title>
 
     <link rel="shortcut icon" href="favicon.html">
     <link rel="icon" sizes="16x16 32x32 64x64" href="favicon.html">
