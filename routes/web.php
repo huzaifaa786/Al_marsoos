@@ -28,7 +28,7 @@ Route::view('MorePages/eventdetail', 'MorePages.eventdetail')->name('MorePages.e
 
 Route::view('admin/layout', 'admin.layout');
 // Route::view('admin/auth/login', 'admin.auth.login')->name('admin.auth.login');
-// Route::view('admin/blog/createblog', 'admin.blog.createblog')->name('admin.blog.createblog');
+Route::view('admin/blog/createblog', 'admin.blog.createblog')->name('admin.blog.createblog');
 Route::view('admin/blog/allblog', 'admin.blog.allblog')->name('admin.blog.allblog');
 Route::post('admin/auth/login', [AdminController::class, 'login'])->name('admin.auth.login');
 Route::post('Contact/contact', [ContactController::class, 'store'])->name('Contact.contact');
