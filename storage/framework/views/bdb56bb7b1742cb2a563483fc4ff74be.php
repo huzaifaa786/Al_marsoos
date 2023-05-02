@@ -84,100 +84,20 @@
             </div><!-- Topbar -->
             <div class="logo-menu-sec">
                 <div class="container">
-                    <div class="logo "><a href="index.html" title="Logo"><img
+                    <div class="logo "><a href="" title="Logo"><img
                                 src="<?php echo e(asset('asset/images/kkkk.jpeg')); ?>" style="height: 100px; width:100px;"
                                 alt="logo1.png"></a>
                     </div><!-- Logo -->
                     <nav>
                         <div>
                             <ul>
-                                <li class="menu-item-has-children"><a href="#" title=""
-                                        itemprop="url">Home</a><i class="fas fa-angle-down"></i>
-                                    <ul>
-                                        <li><a href="<?php echo e(route('Home.index')); ?>" title=""
-                                                itemprop="url">Homepage 1</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#" title=""
-                                        itemprop="url">Our Blog</a><i class="fas fa-angle-down"></i>
-                                    <ul>
-                                        <li><a href="<?php echo e(route('Blog.bloglist')); ?>" title=""
-                                                itemprop="url">Blog List Style</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#" title=""
-                                        itemprop="url">More Pages</a><i class="fas fa-angle-down"></i>
-                                    <ul>
-                                        <li class="menu-item-has-children"><a href="#" title=""
-                                                itemprop="url">Our Events</a><i class="fas fa-angle-right"></i>
-                                            <ul>
-                                                <li><a href="<?php echo e(route('MorePages.ourevents')); ?>" title=""
-                                                        itemprop="url">Our
-                                                        Events</a></li>
-                                                <li><a href="<?php echo e(route('MorePages.eventdetail')); ?>" title=""
-                                                        itemprop="url">Event
-                                                        Detail</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="#" title=""
-                                                itemprop="url">Our Products</a><i class="fas fa-angle-right"></i>
-                                            <ul>
-                                                <li><a href="product.html" title="" itemprop="url">Our
-                                                        Products</a></li>
-                                                <li><a href="product-detail.html" title=""
-                                                        itemprop="url">Product Detail</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="#" title=""
-                                                itemprop="url">Our Team</a><i class="fas fa-angle-right"></i>
-                                            <ul>
-                                                <li><a href="team.html" title="" itemprop="url">Our Team</a>
-                                                </li>
-                                                <li><a href="team-detail.html" title="" itemprop="url">Team
-                                                        Detail</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="#" title=""
-                                                itemprop="url">Gallery Styles</a><i class="fas fa-angle-right"></i>
-                                            <ul>
-                                                <li><a href="gallery1.html" title="" itemprop="url">Gallery
-                                                        Style 1</a></li>
-                                                <li><a href="gallery2.html" title="" itemprop="url">Gallery
-                                                        Style 2</a></li>
-                                                <li><a href="gallery3.html" title="" itemprop="url">Gallery
-                                                        Style 3</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="404.html" title="" itemprop="url">Error Page</a></li>
-                                        <li><a href="search-found.html" title="" itemprop="url">Search
-                                                Found</a></li>
-                                        <li><a href="search-not-found.html" title="" itemprop="url">Search Not
-                                                Found</a></li>
-                                        <li><a href="islamic-teaching.html" title="" itemprop="url">Islamic
-                                                Teaching</a></li>
-                                        <li><a href="about.html" title="" itemprop="url">About Us</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#" title=""
-                                        itemprop="url">Our Causes</a><i class="fas fa-angle-down"></i>
-                                    <ul>
-                                        <li><a href="cause.html" title="" itemprop="url">Cause</a></li>
-                                        <li><a href="cause-detail.html" title="" itemprop="url">Cause
-                                                Detail</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#" title=""
-                                        itemprop="url">Our Services</a><i class="fas fa-angle-down"></i>
-                                    <ul>
-                                        <li><a href="service.html" title="" itemprop="url">Service Style 1</a>
-                                        </li>
-                                        <li><a href="service2.html" title="" itemprop="url">Service Style 2</a>
-                                        </li>
-                                        <li><a href="service-detail.html" title="" itemprop="url">Service
-                                                Detail</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="<?php echo e(route('Home.index')); ?>" title=""
+                                    itemprop="url">Home</a></li>
+                                    <li><a href="<?php echo e(route('Blog.bloglist')); ?>" title=""
+                                        itemprop="url">Blogs</a></li>
+                                
+                                
+                                
                                 <li><a href="<?php echo e(route('Contact.contact')); ?>" title=""
                                         itemprop="url">Contact</a></li>
                             </ul>
@@ -331,24 +251,24 @@
                                         <h5 itemprop="headline">Latest Blogs</h5>
                                         <div class="rcnt-wrp">
                                             <div class="rcnt-bx">
-                                                <a class="brd-rd5" href="blog-detail.html" title=""
+                                                <a class="brd-rd5" href="" title=""
                                                     itemprop="url"><img
                                                         src="<?php echo e(asset('asset/images/resources/rcnt-img1.jpg')); ?>"
                                                         alt="rcnt-img1.jpg" itemprop="image"></a>
                                                 <div class="rcnt-inf">
-                                                    <h6 itemprop="headline"><a href="blog-detail.html" title=""
+                                                    <h6 itemprop="headline"><a href="" title=""
                                                             itemprop="url">Help Poor People</a></h6>
                                                     <span class="theme-clr"><i class="far fa-calendar-alt"></i>Sept
                                                         09, 2020</span>
                                                 </div>
                                             </div>
                                             <div class="rcnt-bx">
-                                                <a class="brd-rd5" href="blog-detail.html" title=""
+                                                <a class="brd-rd5" href="" title=""
                                                     itemprop="url"><img
                                                         src="<?php echo e(asset('asset/images/resources/rcnt-img2.jpg')); ?>"
                                                         alt="rcnt-img2.jpg" itemprop="image"></a>
                                                 <div class="rcnt-inf">
-                                                    <h6 itemprop="headline"><a href="blog-detail.html" title=""
+                                                    <h6 itemprop="headline"><a href="" title=""
                                                             itemprop="url">Learn Modern Islam</a></h6>
                                                     <span class="theme-clr"><i class="far fa-calendar-alt"></i>Sept
                                                         05, 2020</span>

@@ -182,7 +182,7 @@
                                         elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                                 </div>
                                 <div class="view-more">
-                                    <a class="theme-btn theme-bg brd-rd5" href="islamic-teaching.html" title=""
+                                    <a class="theme-btn theme-bg brd-rd5" href="" title=""
                                         itemprop="url">VIEW MORE</a>
                                 </div><!-- View More -->
                             </div>
@@ -196,7 +196,7 @@
                                                 <div class="tch-thmb">
                                                     <img src="assets/images/resources/tch-vdo-img1.jpg"
                                                         alt="tch-vdo-img1.jpg" itemprop="image">
-                                                    <a href="https://www.youtube.com/embed/juKd26qkNAw" data-fancybox=""
+                                                    <a href="" data-fancybox=""
                                                         title="" itemprop="url"><i
                                                             class="flaticon-play-button"></i></a>
                                                 </div>
@@ -215,7 +215,7 @@
                                                 <div class="tch-thmb">
                                                     <img src="assets/images/resources/tch-vdo-img2.jpg"
                                                         alt="tch-vdo-img2.jpg" itemprop="image">
-                                                    <a href="https://www.youtube.com/embed/juKd26qkNAw" data-fancybox=""
+                                                    <a href="" data-fancybox=""
                                                         title="" itemprop="url"><i
                                                             class="flaticon-play-button"></i></a>
                                                 </div>
@@ -255,7 +255,7 @@
                                     <img src="assets/images/resources/tch-ado-img1.jpg" alt="tch-ado-img1.jpg"
                                         itemprop="image">
                                     <a class="fancybox fancybox.iframe"
-                                        href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/128094075&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
+                                        href=""
                                         data-fancybox="" title="" itemprop="url"><i
                                             class="flaticon-play-button"></i></a>
                                 </div>
@@ -277,7 +277,7 @@
                                     <img src="assets/images/resources/tch-ado-img2.jpg" alt="tch-ado-img2.jpg"
                                         itemprop="image">
                                     <a class="fancybox fancybox.iframe"
-                                        href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/128094075&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
+                                        href=""
                                         data-fancybox="" title="" itemprop="url"><i
                                             class="flaticon-play-button"></i></a>
                                 </div>
@@ -299,7 +299,7 @@
                                     <img src="assets/images/resources/tch-ado-img3.jpg" alt="tch-ado-img3.jpg"
                                         itemprop="image">
                                     <a class="fancybox fancybox.iframe"
-                                        href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/128094075&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
+                                        href=""
                                         data-fancybox="" title="" itemprop="url"><i
                                             class="flaticon-play-button"></i></a>
                                 </div>
@@ -318,7 +318,7 @@
                     </div>
                 </div>
                 <div class="view-more text-center">
-                    <a class="theme-btn theme-bg brd-rd5" href="islamic-teaching.html" title=""
+                    <a class="theme-btn theme-bg brd-rd5" href="" title=""
                         itemprop="url">VIEW MORE</a>
                 </div><!-- View More -->
             </div>
@@ -359,35 +359,35 @@
                             <div class="event-bx brd-rd5"
                                 style="background-image: url(assets/images/resources/event-img1-1.jpg);">
                                 <span class="theme-clr">17 <i>May</i></span>
-                                <h5 itemprop="headline"><a href="event-detail.html" title=""
+                                <h5 itemprop="headline"><a href="" title=""
                                         itemprop="url">Importance Of Prayer In Islam</a></h5>
                                 <ul class="pst-mta">
                                     <li><i class="fas fa-map-marker-alt theme-clr"></i> Dehli, Jamia Mosque</li>
                                     <li><i class="far fa-clock theme-clr"></i> 04:00 pm - 08:00 pm</li>
                                 </ul>
-                                <a href="event-detail.html" title="" itemprop="url">Event Details</a>
+                                <a href="" title="" itemprop="url">Event Details</a>
                             </div>
                             <div class="event-bx brd-rd5"
                                 style="background-image: url(assets/images/resources/event-img1-2.jpg);">
                                 <span class="theme-clr">25 <i>Nov</i></span>
-                                <h5 itemprop="headline"><a href="event-detail.html" title=""
+                                <h5 itemprop="headline"><a href="" title=""
                                         itemprop="url">Importance Of Prayer In Islam</a></h5>
                                 <ul class="pst-mta">
                                     <li><i class="fas fa-map-marker-alt theme-clr"></i> Dhaka, Islamic Center</li>
                                     <li><i class="far fa-clock theme-clr"></i> 04:00 pm - 08:00 pm</li>
                                 </ul>
-                                <a href="event-detail.html" title="" itemprop="url">Event Details</a>
+                                <a href="" title="" itemprop="url">Event Details</a>
                             </div>
                             <div class="event-bx brd-rd5"
                                 style="background-image: url(assets/images/resources/event-img1-3.jpg);">
                                 <span class="theme-clr">10 <i>Dec</i></span>
-                                <h5 itemprop="headline"><a href="event-detail.html" title=""
+                                <h5 itemprop="headline"><a href="" title=""
                                         itemprop="url">Importance Of Prayer In Islam</a></h5>
                                 <ul class="pst-mta">
                                     <li><i class="fas fa-map-marker-alt theme-clr"></i> Park, Islamic Center</li>
                                     <li><i class="far fa-clock theme-clr"></i> 04:00 pm - 08:00 pm</li>
                                 </ul>
-                                <a href="event-detail.html" title="" itemprop="url">Event Details</a>
+                                <a href="" title="" itemprop="url">Event Details</a>
                             </div>
                         </div>
                     </div>
@@ -560,7 +560,7 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-12 col-lg-4">
                             <div class="team-bx text-center">
-                                <div class="team-thmb brd-rd5"><a href="team-detail.html" title=""
+                                <div class="team-thmb brd-rd5"><a href="" title=""
                                         itemprop="url"><img src="assets/images/resources/team-img1-3.jpg"
                                             alt="team-img1-3.jpg" itemprop="image"></a></div>
                                 <div class="team-inf brd-rd5">
@@ -576,7 +576,7 @@
                                         <a href="#" title="Youtube" itemprop="url" target="_blank"><i
                                                 class="fab fa-youtube"></i></a>
                                     </div>
-                                    <h5 itemprop="headline"><a href="team-detail.html" title=""
+                                    <h5 itemprop="headline"><a href="" title=""
                                             itemprop="url">Sharuf Al Hammam</a></h5>
                                     <span>Islamic Scholar</span>
                                 </div>
@@ -590,7 +590,7 @@
                                             <img src="assets/images/resources/tch-ado-img1.jpg" alt="tch-ado-img1.jpg"
                                                 itemprop="image">
                                             <a class="fancybox fancybox.iframe"
-                                                href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/128094075&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
+                                                href=""
                                                 data-fancybox="" title="" itemprop="url"><i
                                                     class="flaticon-play-button"></i></a>
                                         </div>
@@ -605,7 +605,7 @@
                                             <img src="assets/images/resources/tch-ado-img2.jpg" alt="tch-ado-img2.jpg"
                                                 itemprop="image">
                                             <a class="fancybox fancybox.iframe"
-                                                href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/128094075&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
+                                                href=""
                                                 data-fancybox="" title="" itemprop="url"><i
                                                     class="flaticon-play-button"></i></a>
                                         </div>
@@ -620,7 +620,7 @@
                                             <img src="assets/images/resources/tch-ado-img3.jpg" alt="tch-ado-img3.jpg"
                                                 itemprop="image">
                                             <a class="fancybox fancybox.iframe"
-                                                href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/128094075&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
+                                                href=""
                                                 data-fancybox="" title="" itemprop="url"><i
                                                     class="flaticon-play-button"></i></a>
                                         </div>
@@ -676,7 +676,7 @@
                     </div>
                 </div><!-- Team Sec -->
                 <div class="view-more text-center">
-                    <a class="theme-btn theme-bg brd-rd5 book-block-btn" href="team.html" title=""
+                    <a class="theme-btn theme-bg brd-rd5 book-block-btn" href="" title=""
                         itemprop="url">VIEW MORE</a>
                 </div><!-- View More -->
             </div>

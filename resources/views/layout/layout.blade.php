@@ -84,29 +84,18 @@
             </div><!-- Topbar -->
             <div class="logo-menu-sec">
                 <div class="container">
-                    <div class="logo "><a href="index.html" title="Logo"><img
+                    <div class="logo "><a href="" title="Logo"><img
                                 src="{{ asset('asset/images/kkkk.jpeg') }}" style="height: 100px; width:100px;"
                                 alt="logo1.png"></a>
                     </div><!-- Logo -->
                     <nav>
                         <div>
                             <ul>
-                                <li class="menu-item-has-children"><a href="#" title=""
-                                        itemprop="url">Home</a><i class="fas fa-angle-down"></i>
-                                    <ul>
-                                        <li><a href="{{ route('Home.index') }}" title=""
-                                                itemprop="url">Homepage 1</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#" title=""
-                                        itemprop="url">Our Blog</a><i class="fas fa-angle-down"></i>
-                                    <ul>
-                                        <li><a href="{{ route('Blog.bloglist') }}" title=""
-                                                itemprop="url">Blog List Style</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#" title=""
+                                <li><a href="{{ route('Home.index') }}" title=""
+                                    itemprop="url">Home</a></li>
+                                    <li><a href="{{ route('Blog.bloglist') }}" title=""
+                                        itemprop="url">Blogs</a></li>
+                                {{-- <li class="menu-item-has-children"><a href="#" title=""
                                         itemprop="url">More Pages</a><i class="fas fa-angle-down"></i>
                                     <ul>
                                         <li class="menu-item-has-children"><a href="#" title=""
@@ -158,16 +147,16 @@
                                                 Teaching</a></li>
                                         <li><a href="about.html" title="" itemprop="url">About Us</a></li>
                                     </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#" title=""
+                                </li> --}}
+                                {{-- <li class="menu-item-has-children"><a href="#" title=""
                                         itemprop="url">Our Causes</a><i class="fas fa-angle-down"></i>
                                     <ul>
                                         <li><a href="cause.html" title="" itemprop="url">Cause</a></li>
                                         <li><a href="cause-detail.html" title="" itemprop="url">Cause
                                                 Detail</a></li>
                                     </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#" title=""
+                                </li> --}}
+                                {{-- <li class="menu-item-has-children"><a href="#" title=""
                                         itemprop="url">Our Services</a><i class="fas fa-angle-down"></i>
                                     <ul>
                                         <li><a href="service.html" title="" itemprop="url">Service Style 1</a>
@@ -177,7 +166,7 @@
                                         <li><a href="service-detail.html" title="" itemprop="url">Service
                                                 Detail</a></li>
                                     </ul>
-                                </li>
+                                </li> --}}
                                 <li><a href="{{ route('Contact.contact') }}" title=""
                                         itemprop="url">Contact</a></li>
                             </ul>
@@ -331,24 +320,24 @@
                                         <h5 itemprop="headline">Latest Blogs</h5>
                                         <div class="rcnt-wrp">
                                             <div class="rcnt-bx">
-                                                <a class="brd-rd5" href="blog-detail.html" title=""
+                                                <a class="brd-rd5" href="" title=""
                                                     itemprop="url"><img
                                                         src="{{ asset('asset/images/resources/rcnt-img1.jpg') }}"
                                                         alt="rcnt-img1.jpg" itemprop="image"></a>
                                                 <div class="rcnt-inf">
-                                                    <h6 itemprop="headline"><a href="blog-detail.html" title=""
+                                                    <h6 itemprop="headline"><a href="" title=""
                                                             itemprop="url">Help Poor People</a></h6>
                                                     <span class="theme-clr"><i class="far fa-calendar-alt"></i>Sept
                                                         09, 2020</span>
                                                 </div>
                                             </div>
                                             <div class="rcnt-bx">
-                                                <a class="brd-rd5" href="blog-detail.html" title=""
+                                                <a class="brd-rd5" href="" title=""
                                                     itemprop="url"><img
                                                         src="{{ asset('asset/images/resources/rcnt-img2.jpg') }}"
                                                         alt="rcnt-img2.jpg" itemprop="image"></a>
                                                 <div class="rcnt-inf">
-                                                    <h6 itemprop="headline"><a href="blog-detail.html" title=""
+                                                    <h6 itemprop="headline"><a href="" title=""
                                                             itemprop="url">Learn Modern Islam</a></h6>
                                                     <span class="theme-clr"><i class="far fa-calendar-alt"></i>Sept
                                                         05, 2020</span>

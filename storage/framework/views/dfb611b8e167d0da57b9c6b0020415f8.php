@@ -5,11 +5,11 @@
             <div class="container">
                 <div class="pg-tp-wrp text-center">
                     <div class="pg-tp-inr">
-                        <h1 itemprop="headline">Latest Masjid Sidiki Updates</h1>
+                        <h1 itemprop="headline">Latest Al Marsoos Updates</h1>
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="<?php echo e(route('Home.index')); ?>" title=""
                                     itemprop="url">Home</a></li>
-                            <li class="breadcrumb-item active">Masjid Sidiki News</li>
+                            <li class="breadcrumb-item active">Al Marsoos News</li>
                         </ol>
                     </div>
                 </div><!-- Page Top Wrap -->

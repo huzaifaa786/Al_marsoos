@@ -17,11 +17,9 @@ use App\Http\Controllers\FrontendController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 Route::view('layout/layout', 'layout.layout');
-Route::view('/home', 'Home.index')->name('Home.index');
+
 Route::view('Contact/contact', 'Contact.contact')->name('Contact.contact');
 Route::view('MorePages/ourevents', 'MorePages.ourevents')->name('MorePages.ourevents');
 Route::view('MorePages/eventdetail', 'MorePages.eventdetail')->name('MorePages.eventdetail');
@@ -35,6 +33,6 @@ Route::post('Contact/contact', [ContactController::class, 'store'])->name('Conta
 Route::post('admin/blog/createblog', [BlogPostController::class, 'store'])->name('admin.blog.createblog');
 Route::get('admin/blog/allblog', [BlogPostController::class, 'index'])->name('admin.blog.allblog');
 Route::get('Blog/bloglist', [FrontendController::class, 'index'])->name('Blog.bloglist');
-Route::get('Home/index', [FrontendController::class, 'home'])->name('Home.index');
+Route::get('/', [FrontendController::class, 'home'])->name('Home.index');
 Route::get('blog/{id}', [FrontendController::class, 'blogDetail'])->name('blog.detail');
 Route::get('logout', [AdminController::class, 'logout'])->name('logout/page');
