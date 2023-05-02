@@ -91,10 +91,9 @@
                     <nav>
                         <div>
                             <ul>
-                                <li><a href="<?php echo e(route('Home.index')); ?>" title=""
-                                    itemprop="url">Home</a></li>
-                                    <li><a href="<?php echo e(route('Blog.bloglist')); ?>" title=""
-                                        itemprop="url">Blogs</a></li>
+                                <li><a href="<?php echo e(route('Home.index')); ?>" title="" itemprop="url">Home</a></li>
+                                <li><a href="<?php echo e(route('Blog.bloglist')); ?>" title="" itemprop="url">Blogs</a>
+                                </li>
                                 
                                 
                                 
@@ -145,85 +144,20 @@
             <div class="rsnp-mnu">
                 <span class="rspn-mnu-cls"><i class="fa fa-times"></i></span>
                 <ul>
-                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Home</a>
-                        <ul>
-                            <li><a href="index.html" title="" itemprop="url">Homepage 1</a></li>
-                            <li><a href="index2.html" title="" itemprop="url">Homepage 2</a></li>
-                            <li><a href="index3.html" title="" itemprop="url">Homepage 3</a></li>
-                            <li><a href="index4.html" title="" itemprop="url">Homepage 4</a></li>
-                            <li><a href="bismillah-rtl/index.html" title="" itemprop="url">Arabic Version</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Our Blog</a>
-                        <ul>
-                            <li><a href="blog.html" title="" itemprop="url">Blog List Style</a></li>
-                            <li><a href="blog2.html" title="" itemprop="url">Blog Grid Style</a></li>
-                            <li><a href="blog-detail.html" title="" itemprop="url">Blog Detail</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">More
-                            Pages</a>
-                        <ul>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Our
-                                    Events</a>
-                                <ul>
-                                    <li><a href="events.html" title="" itemprop="url">Our Events</a></li>
-                                    <li><a href="event-detail.html" title="" itemprop="url">Event Detail</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Our
-                                    Products</a>
-                                <ul>
-                                    <li><a href="product.html" title="" itemprop="url">Our Products</a></li>
-                                    <li><a href="product-detail.html" title="" itemprop="url">Product
-                                            Detail</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Our
-                                    Team</a>
-                                <ul>
-                                    <li><a href="team.html" title="" itemprop="url">Our Team</a></li>
-                                    <li><a href="team-detail.html" title="" itemprop="url">Team Detail</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a href="#" title=""
-                                    itemprop="url">Gallery Styles</a>
-                                <ul>
-                                    <li><a href="gallery1.html" title="" itemprop="url">Gallery Style 1</a>
-                                    </li>
-                                    <li><a href="gallery2.html" title="" itemprop="url">Gallery Style 2</a>
-                                    </li>
-                                    <li><a href="gallery3.html" title="" itemprop="url">Gallery Style 3</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="404.html" title="" itemprop="url">Error Page</a></li>
-                            <li><a href="search-found.html" title="" itemprop="url">Search Found</a></li>
-                            <li><a href="search-not-found.html" title="" itemprop="url">Search Not Found</a>
-                            </li>
-                            <li><a href="islamic-teaching.html" title="" itemprop="url">Islamic Teaching</a>
-                            </li>
-                            <li><a href="about.html" title="" itemprop="url">About Us</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Our
-                            Causes</a>
-                        <ul>
-                            <li><a href="cause.html" title="" itemprop="url">Cause</a></li>
-                            <li><a href="cause-detail.html" title="" itemprop="url">Cause Detail</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Our
-                            Services</a>
-                        <ul>
-                            <li><a href="service.html" title="" itemprop="url">Service Style 1</a></li>
-                            <li><a href="service2.html" title="" itemprop="url">Service Style 2</a></li>
-                            <li><a href="service-detail.html" title="" itemprop="url">Service Detail</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html" title="" itemprop="url">Contact</a></li>
+                    <li><a href="<?php echo e(route('Home.index')); ?>" title="" itemprop="url">Home</a></li>
+                    <li><a href="<?php echo e(route('Blog.bloglist')); ?>" title="" itemprop="url">Blogs</a></li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li><a href="<?php echo e(route('Contact.contact')); ?>" title="" itemprop="url">Contact</a></li>
                 </ul>
             </div><!-- Responsive Menu -->
         </div><!-- Responsive Header -->
@@ -251,8 +185,7 @@
                                         <h5 itemprop="headline">Latest Blogs</h5>
                                         <div class="rcnt-wrp">
                                             <div class="rcnt-bx">
-                                                <a class="brd-rd5" href="" title=""
-                                                    itemprop="url"><img
+                                                <a class="brd-rd5" href="" title="" itemprop="url"><img
                                                         src="<?php echo e(asset('asset/images/resources/rcnt-img1.jpg')); ?>"
                                                         alt="rcnt-img1.jpg" itemprop="image"></a>
                                                 <div class="rcnt-inf">
@@ -263,8 +196,7 @@
                                                 </div>
                                             </div>
                                             <div class="rcnt-bx">
-                                                <a class="brd-rd5" href="" title=""
-                                                    itemprop="url"><img
+                                                <a class="brd-rd5" href="" title="" itemprop="url"><img
                                                         src="<?php echo e(asset('asset/images/resources/rcnt-img2.jpg')); ?>"
                                                         alt="rcnt-img2.jpg" itemprop="image"></a>
                                                 <div class="rcnt-inf">
