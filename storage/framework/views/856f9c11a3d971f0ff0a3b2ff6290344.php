@@ -173,8 +173,8 @@
                                 <div class="col-md-3 col-sm-6 col-lg-3">
                                     <div class="widget">
                                         <h5 itemprop="headline">About Us</h5>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, conec tetur adipisicing
-                                            elit, sed do eiusd tempor incididunt ut labore dolore magna aliqua tempor.
+                                        <p itemprop="description">Vividly colored flowers swayed gracefully, filling the air with a delightful fragrance,
+                                             while the sun's warm embrace bathed everything in a golden glow.
                                         </p>
                                         <div class="loc-mp brd-rd5" id="loc-mp"></div>
                                         <span><i class="fas fa-map-marker-alt theme-clr"></i>Find us on Map</span>
