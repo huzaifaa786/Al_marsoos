@@ -12,9 +12,9 @@
                         data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
                         data-param8="" data-param9="" data-param10="" data-description="">
 
-                        <img src="{{ asset('asset/images/resources/slider11.jpg') }}" alt="slide1.jpg" data-bgposition="center center"
-                            data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg"
-                            data-no-retina>
+                        <img src="{{ asset('asset/images/resources/slider11.jpg') }}" alt="slide1.jpg"
+                            data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                            data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                         <div class="tp-caption tp-resizeme" id="slide-layer-1"
                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
@@ -62,9 +62,9 @@
                         data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                         data-description="">
 
-                        <img src="{{ asset('asset/images/resources/sliderr2.jpg') }}" alt="slide2.jpg" data-bgposition="center center"
-                            data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg"
-                            data-no-retina>
+                        <img src="{{ asset('asset/images/resources/sliderr2.jpg') }}" alt="slide2.jpg"
+                            data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                            data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                         <div class="tp-caption tp-resizeme" id="slide-layer-15"
                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
@@ -114,9 +114,9 @@
                         data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
                         data-description="">
 
-                        <img src="{{ asset('asset/images/resources/sliderr3.jpg') }}" alt="slide3.jpg" data-bgposition="center center"
-                            data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg"
-                            data-no-retina>
+                        <img src="{{ asset('asset/images/resources/sliderr3.jpg') }}" alt="slide3.jpg"
+                            data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                            data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                         <div class="tp-caption tp-resizeme" id="slide-layer-55"
                             data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
@@ -175,11 +175,11 @@
                                         <span class="theme-clr">Scholar Lectures</span>
                                         <h2 itemprop="headline">Sermon Archives</h2>
                                     </div>
-                                    <p itemprop="description">Listen to latest speech given by mufti at islamic center for
-                                        global peace and prosperity, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris .Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                    <p itemprop="description">It seems like the text you've provided is a placeholder or filler text commonly known as 
+                                        "Lorem Ipsum," often used in design and typesetting. It doesn't contain any real speech or meaningful content. 
+                                        If you have a specific speech or content you'd like me to work with, please provide that, and I'd be happy to 
+                                        assist you in modifying or summarizing it.The serene sunset painted the sky with a mesmerizing blend of colors,
+                                        casting a tranquil reflection upon the calm lake below.</p>
                                 </div>
                                 <div class="view-more">
                                     <a class="theme-btn theme-bg brd-rd5" href="" title=""
@@ -196,8 +196,7 @@
                                                 <div class="tch-thmb">
                                                     <img src="assets/images/resources/tch-vdo-img1.jpg"
                                                         alt="tch-vdo-img1.jpg" itemprop="image">
-                                                    <a href="" data-fancybox=""
-                                                        title="" itemprop="url"><i
+                                                    <a href="" data-fancybox="" title="" itemprop="url"><i
                                                             class="flaticon-play-button"></i></a>
                                                 </div>
                                                 <div class="tch-inf">
@@ -215,8 +214,7 @@
                                                 <div class="tch-thmb">
                                                     <img src="assets/images/resources/tch-vdo-img2.jpg"
                                                         alt="tch-vdo-img2.jpg" itemprop="image">
-                                                    <a href="" data-fancybox=""
-                                                        title="" itemprop="url"><i
+                                                    <a href="" data-fancybox="" title="" itemprop="url"><i
                                                             class="flaticon-play-button"></i></a>
                                                 </div>
                                                 <div class="tch-inf">
@@ -254,10 +252,8 @@
                                 <div class="tch-thmb">
                                     <img src="assets/images/resources/tch-ado-img1.jpg" alt="tch-ado-img1.jpg"
                                         itemprop="image">
-                                    <a class="fancybox fancybox.iframe"
-                                        href=""
-                                        data-fancybox="" title="" itemprop="url"><i
-                                            class="flaticon-play-button"></i></a>
+                                    <a class="fancybox fancybox.iframe" href="" data-fancybox="" title=""
+                                        itemprop="url"><i class="flaticon-play-button"></i></a>
                                 </div>
                                 <div class="tch-inf">
                                     <h5 itemprop="headline">Listen For Heart Cure</h5>
@@ -276,10 +272,8 @@
                                 <div class="tch-thmb">
                                     <img src="assets/images/resources/tch-ado-img2.jpg" alt="tch-ado-img2.jpg"
                                         itemprop="image">
-                                    <a class="fancybox fancybox.iframe"
-                                        href=""
-                                        data-fancybox="" title="" itemprop="url"><i
-                                            class="flaticon-play-button"></i></a>
+                                    <a class="fancybox fancybox.iframe" href="" data-fancybox="" title=""
+                                        itemprop="url"><i class="flaticon-play-button"></i></a>
                                 </div>
                                 <div class="tch-inf">
                                     <h5 itemprop="headline">Heart Treatment with Quran</h5>
@@ -298,10 +292,8 @@
                                 <div class="tch-thmb">
                                     <img src="assets/images/resources/tch-ado-img3.jpg" alt="tch-ado-img3.jpg"
                                         itemprop="image">
-                                    <a class="fancybox fancybox.iframe"
-                                        href=""
-                                        data-fancybox="" title="" itemprop="url"><i
-                                            class="flaticon-play-button"></i></a>
+                                    <a class="fancybox fancybox.iframe" href="" data-fancybox="" title=""
+                                        itemprop="url"><i class="flaticon-play-button"></i></a>
                                 </div>
                                 <div class="tch-inf">
                                     <h5 itemprop="headline">Electing a Plain English</h5>
@@ -318,8 +310,7 @@
                     </div>
                 </div>
                 <div class="view-more text-center">
-                    <a class="theme-btn theme-bg brd-rd5" href="" title=""
-                        itemprop="url">VIEW MORE</a>
+                    <a class="theme-btn theme-bg brd-rd5" href="" title="" itemprop="url">VIEW MORE</a>
                 </div><!-- View More -->
             </div>
         </div>
@@ -359,8 +350,8 @@
                             <div class="event-bx brd-rd5"
                                 style="background-image: url(assets/images/resources/event-img1-1.jpg);">
                                 <span class="theme-clr">17 <i>May</i></span>
-                                <h5 itemprop="headline"><a href="" title=""
-                                        itemprop="url">Importance Of Prayer In Islam</a></h5>
+                                <h5 itemprop="headline"><a href="" title="" itemprop="url">Importance Of
+                                        Prayer In Islam</a></h5>
                                 <ul class="pst-mta">
                                     <li><i class="fas fa-map-marker-alt theme-clr"></i> Dehli, Jamia Mosque</li>
                                     <li><i class="far fa-clock theme-clr"></i> 04:00 pm - 08:00 pm</li>
@@ -370,8 +361,8 @@
                             <div class="event-bx brd-rd5"
                                 style="background-image: url(assets/images/resources/event-img1-2.jpg);">
                                 <span class="theme-clr">25 <i>Nov</i></span>
-                                <h5 itemprop="headline"><a href="" title=""
-                                        itemprop="url">Importance Of Prayer In Islam</a></h5>
+                                <h5 itemprop="headline"><a href="" title="" itemprop="url">Importance Of
+                                        Prayer In Islam</a></h5>
                                 <ul class="pst-mta">
                                     <li><i class="fas fa-map-marker-alt theme-clr"></i> Dhaka, Islamic Center</li>
                                     <li><i class="far fa-clock theme-clr"></i> 04:00 pm - 08:00 pm</li>
@@ -381,8 +372,8 @@
                             <div class="event-bx brd-rd5"
                                 style="background-image: url(assets/images/resources/event-img1-3.jpg);">
                                 <span class="theme-clr">10 <i>Dec</i></span>
-                                <h5 itemprop="headline"><a href="" title=""
-                                        itemprop="url">Importance Of Prayer In Islam</a></h5>
+                                <h5 itemprop="headline"><a href="" title="" itemprop="url">Importance Of
+                                        Prayer In Islam</a></h5>
                                 <ul class="pst-mta">
                                     <li><i class="fas fa-map-marker-alt theme-clr"></i> Park, Islamic Center</li>
                                     <li><i class="far fa-clock theme-clr"></i> 04:00 pm - 08:00 pm</li>
@@ -560,9 +551,9 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-12 col-lg-4">
                             <div class="team-bx text-center">
-                                <div class="team-thmb brd-rd5"><a href="" title=""
-                                        itemprop="url"><img src="assets/images/resources/team-img1-3.jpg"
-                                            alt="team-img1-3.jpg" itemprop="image"></a></div>
+                                <div class="team-thmb brd-rd5"><a href="" title="" itemprop="url"><img
+                                            src="assets/images/resources/team-img1-3.jpg" alt="team-img1-3.jpg"
+                                            itemprop="image"></a></div>
                                 <div class="team-inf brd-rd5">
                                     <div class="scl1">
                                         <a href="#" title="Twitter" itemprop="url" target="_blank"><i
@@ -576,8 +567,8 @@
                                         <a href="#" title="Youtube" itemprop="url" target="_blank"><i
                                                 class="fab fa-youtube"></i></a>
                                     </div>
-                                    <h5 itemprop="headline"><a href="" title=""
-                                            itemprop="url">Sharuf Al Hammam</a></h5>
+                                    <h5 itemprop="headline"><a href="" title="" itemprop="url">Sharuf Al
+                                            Hammam</a></h5>
                                     <span>Islamic Scholar</span>
                                 </div>
                             </div>
@@ -589,10 +580,8 @@
                                         <div class="tch-thmb">
                                             <img src="assets/images/resources/tch-ado-img1.jpg" alt="tch-ado-img1.jpg"
                                                 itemprop="image">
-                                            <a class="fancybox fancybox.iframe"
-                                                href=""
-                                                data-fancybox="" title="" itemprop="url"><i
-                                                    class="flaticon-play-button"></i></a>
+                                            <a class="fancybox fancybox.iframe" href="" data-fancybox=""
+                                                title="" itemprop="url"><i class="flaticon-play-button"></i></a>
                                         </div>
                                         <div class="tch-inf">
                                             <span><i class="far fa-user theme-clr"></i>Sharuf Al Hammam</span>
@@ -604,10 +593,8 @@
                                         <div class="tch-thmb">
                                             <img src="assets/images/resources/tch-ado-img2.jpg" alt="tch-ado-img2.jpg"
                                                 itemprop="image">
-                                            <a class="fancybox fancybox.iframe"
-                                                href=""
-                                                data-fancybox="" title="" itemprop="url"><i
-                                                    class="flaticon-play-button"></i></a>
+                                            <a class="fancybox fancybox.iframe" href="" data-fancybox=""
+                                                title="" itemprop="url"><i class="flaticon-play-button"></i></a>
                                         </div>
                                         <div class="tch-inf">
                                             <span><i class="far fa-user theme-clr"></i>Sharuf Al Hammam</span>
@@ -619,10 +606,8 @@
                                         <div class="tch-thmb">
                                             <img src="assets/images/resources/tch-ado-img3.jpg" alt="tch-ado-img3.jpg"
                                                 itemprop="image">
-                                            <a class="fancybox fancybox.iframe"
-                                                href=""
-                                                data-fancybox="" title="" itemprop="url"><i
-                                                    class="flaticon-play-button"></i></a>
+                                            <a class="fancybox fancybox.iframe" href="" data-fancybox=""
+                                                title="" itemprop="url"><i class="flaticon-play-button"></i></a>
                                         </div>
                                         <div class="tch-inf">
                                             <span><i class="far fa-user theme-clr"></i>Sharuf Al Hammam</span>
