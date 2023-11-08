@@ -392,7 +392,7 @@
                     <div class="newsletter-wrp">
                         <div class="row">
                             <div class="col-md-4 col-sm-12 col-lg-4">
-                                <h4 itemprop="headline">Please subscribe to receive weekly updates</h4>
+                                <h4 itemprop="headline">Subscribe, For Weekly Updates</h4>
                             </div>
                             <div class="col-md-8 col-sm-12 col-lg-8">
                                 <form class="newsletter brd-rd30">
