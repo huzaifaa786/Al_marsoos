@@ -23,24 +23,42 @@ use App\Http\Controllers\StudentController;
 
 Route::view('layout/layout', 'layout.layout');
 
-Route::view('Contact/contact', 'Contact.contact')->name('Contact.contact');
+Route::view('Contact/contact', 'Contact.contact')->name('contact');
 Route::view('MorePages/ourevents', 'MorePages.ourevents')->name('MorePages.ourevents');
 Route::view('MorePages/eventdetail', 'MorePages.eventdetail')->name('MorePages.eventdetail');
 
 Route::view('admin/layout', 'admin.layout');
-Route::view('admin/addstudent', 'admin.students.newstudents')->name('newstudents');
+Route::view('admin/addstudent', 'admin.student.create')->name('newstudents');
 Route::view('admin/course', 'admin.course.addcourse')->name('newcourse');
-Route::view('admin/login', 'admin.auth.login')->name('admin.auth.login');
-Route::view('admin/blog/createblog', 'admin.blog.createblog')->name('admin.blog.createblog');
-Route::view('admin/blog/allblog', 'admin.blog.allblog')->name('admin.blog.allblog');
+Route::view('admin/login', 'admin.auth.login')->name('admin.login');
+
 Route::post('admin/login', [AdminController::class, 'login'])->name('admin.auth.login');
 Route::post('Contact/contact', [ContactController::class, 'store'])->name('Contact.contact');
-Route::post('admin/blog/createblog', [BlogPostController::class, 'store'])->name('admin.blog.createblog');
-Route::get('admin/blog/allblog', [BlogPostController::class, 'index'])->name('admin.blog.allblog');
+
 Route::get('Blog/bloglist', [FrontendController::class, 'index'])->name('Blog.bloglist');
 Route::get('/', [FrontendController::class, 'home'])->name('Home.index');
 Route::get('blog/{id}', [FrontendController::class, 'blogDetail'])->name('blog.detail');
 Route::get('logout', [AdminController::class, 'logout'])->name('logout/page');
-Route::post('add/students', [StudentController::class, 'store'])->name('addstudents');
+
 Route::post('add/course', [CourseController::class, 'store'])->name('addcourse');
 Route::get('send/message', [SMSController::class, 'sendSMS'])->name('sendsms');
+
+Route::get('student/index',[StudentController::class,'index'])->name('student.index');
+Route::post('add/students', [StudentController::class, 'store'])->name('addstudents');
+Route::get('student/edit/{id}',[StudentController::class,'edit'])->name('student.edit');
+Route::post('student/update',[StudentController::class,'update'])->name('student.update');
+Route::get('student/destroy/{id}',[StudentController::class,'destroy'])->name('student.delete');
+
+Route::view('course/create','admin.course.create')->name('course.create');
+Route::post('course/store',[CourseController::class,'store'])->name('course.store');
+Route::get('course/index',[CourseController::class,'index'])->name('course.index');
+Route::get('course/destroy/{id}',[CourseController::class,'destroy'])->name('course.delete');
+Route::get('course/edit/{id}',[CourseController::class,'edit'])->name('course.edit');
+Route::post('course/update',[CourseController::class,'update'])->name('course.update');
+
+Route::view('blogs/create','admin.blog.create')->name('blog.create');
+Route::post('blogs/store',[BlogPostController::class,'store'])->name('blog.store');
+Route::get('blogs/index',[BlogPostController::class,'index'])->name('blog.index');
+Route::get('blogs/edit/{id}',[BlogPostController::class,'edit'])->name('blog.edit');
+Route::post('blogs/update',[BlogPostController::class,'update'])->name('blog.update');
+Route::get('blogs/destroy/{id}',[BlogPostController::class,'destroy'])->name('blog.delete');

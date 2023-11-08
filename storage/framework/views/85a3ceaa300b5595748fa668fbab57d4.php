@@ -12,14 +12,14 @@
     <title>Al-Marsoos Admin-Login</title>
 
     <!-- Custom fonts for this template-->
-    <link href="{{ asset('admin/asset/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="<?php echo e(asset('admin/asset/vendor/fontawesome-free/css/all.min.css')); ?>" rel="stylesheet" type="text/css">
     <link
-        href="{{ asset('admin/asset/https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i') }}"
+        href="<?php echo e(asset('admin/asset/https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i')); ?>"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="{{ asset('admin/asset/css/sb-admin-2.min.css') }}" rel="stylesheet">
-    @yield('css')
+    <link href="<?php echo e(asset('admin/asset/css/sb-admin-2.min.css')); ?>" rel="stylesheet">
+    <?php echo $__env->yieldContent('css'); ?>
 
 </head>
 
@@ -33,8 +33,8 @@
             <div class="col-xl-6 col-lg-8 col-md-5">
 
                 <div class="card o-hidden border-0 shadow-lg my-5">
-                    <form action="{{ route('admin.auth.login') }}" method="post" enctype="multipart/form-data">
-                        @csrf
+                    <form action="<?php echo e(route('admin.auth.login')); ?>" method="post" enctype="multipart/form-data">
+                        <?php echo csrf_field(); ?>
                         <div class="card-body p-0">
                             <!-- Nested Row within Card Body -->
                             <div class="row">
@@ -85,21 +85,22 @@
             </div>
 
         </div>
-        @yield('content')
+        <?php echo $__env->yieldContent('content'); ?>
     </div>
 
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="{{ asset('admin/asset/vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('admin/asset/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="<?php echo e(asset('admin/asset/vendor/jquery/jquery.min.js')); ?>"></script>
+    <script src="<?php echo e(asset('admin/asset/vendor/bootstrap/js/bootstrap.bundle.min.js')); ?>"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="{{ asset('admin/asset/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+    <script src="<?php echo e(asset('admin/asset/vendor/jquery-easing/jquery.easing.min.js')); ?>"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="{{ asset('admin/asset/js/sb-admin-2.min.js') }}"></script>
-    @yield('script')
+    <script src="<?php echo e(asset('admin/asset/js/sb-admin-2.min.js')); ?>"></script>
+    <?php echo $__env->yieldContent('script'); ?>
 </body>
 
 </html>
+<?php /**PATH E:\LARAVEL\Al_marsoos\resources\views/admin/auth/login.blade.php ENDPATH**/ ?>

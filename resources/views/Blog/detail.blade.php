@@ -1,4 +1,4 @@
-@extends('layout.layout')
+{{-- @extends('layout.layout')
 @section('content')
     <section>
         <div class="gap black-layer opc75">
@@ -229,4 +229,4 @@
             </div>
         </div>
     </section>
-@endsection()
+@endsection() --}}

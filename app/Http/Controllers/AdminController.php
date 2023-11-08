@@ -17,8 +17,8 @@ class AdminController extends Controller
         $credentials = $request->only('email', 'password');
         // dd($credentials);
         if (Auth::guard('admin')->attempt($credentials)) {
-            //   toastr()->success(' login successfully ');
-            return redirect()->intended('admin/blog/createblog');
+            //   toastr()->success(' login successfully '); 
+            return redirect()->intended('student/index');
         }
         // toastr()->error('Incorrect email or password');
         return redirect()->back()->withInput($request->only('email', 'remember'))->withErrors([

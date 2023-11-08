@@ -16,10 +16,9 @@ return new class extends Migration
             $table->string('name');
             $table->string('image');
             $table->string('duration');
-            $table->string('timing');
-        
-            $table->string('discription');
-        
+            $table->time('start_time');
+            $table->time('end_time');
+            $table->longText('description');
             $table->timestamps();
         });
     }

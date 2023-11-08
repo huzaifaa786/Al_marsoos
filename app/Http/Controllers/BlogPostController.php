@@ -13,13 +13,39 @@ class BlogPostController extends Controller
 {
     public function store(Request $request)
     {
+        $request->validate([
+            "title"=> "required",
+            'body'=> 'required',
+            'image'=> 'required'
+        ]);
         Blog::create($request->all());
-        return redirect()->back();
+        return redirect()->back()->with('success','Blog post created successfully');
     }
 
     public function index()
     {
         $blogs = Blog::all();
-        return view('admin.blog.allblog', compact('blogs'));
+        return view('admin.blog.index',['blogs'=>$blogs]);
+    }
+    public function edit($id)
+    {
+        $blog = Blog::find($id);
+        return view('admin.blog.update',['blog'=>$blog]);
+    }
+    public function update(Request $request)
+    {
+        $validated= $request->validate([
+            'title'=> 'required',
+            'body'=> 'required'
+        ]);
+            $blog = Blog::find($request->id);
+            $blog->update($request->all());
+            return redirect()->route('blog.index');
+    }
+    public function destroy($id)
+    {
+        $blog = Blog::find($id);
+        $blog->delete();
+        return redirect()->back();
     }
 }

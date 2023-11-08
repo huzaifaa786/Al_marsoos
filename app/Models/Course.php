@@ -13,10 +13,10 @@ class Course extends Model
     protected $fillable = [
         'name',
         'duration',
-        'discription',
+        'description',
         'image',
-        'timing',
-           
+        'start_time',
+        'end_time',
     ];
     public function setImageAttribute($value)
     {
