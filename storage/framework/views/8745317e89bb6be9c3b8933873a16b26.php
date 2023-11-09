@@ -1,671 +1,464 @@
 <?php $__env->startSection('content'); ?>
-    <section>
-        <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="notgeneric125"
-            data-source="gallery" style="background-color:transparent;padding:0px;">
-            <div id="rev_slider_4_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
-                <ul>
-                    <li data-index="rs-1" data-transition="random" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-title="Slide Title" data-easein="Power4.easeInOut"
-                        data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0" data-fstransition="random"
-                        data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-param1=""
-                        data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
-                        data-param8="" data-param9="" data-param10="" data-description="">
-
-                        <img src="<?php echo e(asset('asset/images/resources/slider11.jpg')); ?>" alt="slide1.jpg"
-                            data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                            data-bgparallax="10" class="rev-slidebg" data-no-retina>
-
-                        <div class="tp-caption tp-resizeme" id="slide-layer-1"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-40','-90','-90','-60']"
-                            data-fontsize="['75','60','45','30']" data-lineheight="['95','60','55','40']" data-width="none"
-                            data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"from":"y:-[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1000,"split":"chars","splitdelay":0.05,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="text-shadow: 0 3px 4px rgba(0,0,0,.19);letter-spacing: 0;color: #fff;font-weight:400;font-family: Playfair Display;">
-                            Know the Real History of Islam
-                        </div>
-
-                        <div class="tp-caption theme-clr tp-resizeme" id="slide-layer-2"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['65','0','-15','-10']"
-                            data-fontsize="['30','25','20','14']" data-lineheight="['44','35','30','25']" data-width="none"
-                            data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="font-weight:300; text-shadow: 0 3px 4px rgba(0,0,0,.19);font-family: lato; color: #fdfdfd; letter-spacing: 0;">
-                            "When things are too hard to handle, retreat & <br> count your blessings instead."
-                        </div>
-
-                        <div class="tp-caption rev-btn theme-btn theme-bg brd-rd5" id="slide-layer-3"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['210','130','100','90']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
-                            data-actions='[{"event":"click","action":"simplelink","slide":"next","delay":"","target": "_self", "url": "#"}]'
-                            data-responsive_offset="on" data-responsive="on"
-                            data-frames='[{"from":"y:-[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[16.5,16.5,10,10]"
-                            data-paddingright="[45,45,25,25]" data-paddingbottom="[16.5,16.5,10,10]"
-                            data-paddingleft="[45,45,25,25]"
-                            style="cursor:pointer;display: inline-block;font-family: roboto slab;font-weight: 700;letter-spacing: 0;line-height: 30px;color: #fff;">
-                            READ MORE
-                        </div>
-                    </li>
-                    <li data-index="rs-2" data-transition="random" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-title="Slide Title" data-easein="Power4.easeInOut"
-                        data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0"
-                        data-fstransition="random" data-fsmasterspeed="1500" data-fsslotamount="7"
-                        data-saveperformance="off" data-param1="" data-param2="" data-param3="" data-param4=""
-                        data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
-                        data-description="">
-
-                        <img src="<?php echo e(asset('asset/images/resources/sliderr2.jpg')); ?>" alt="slide2.jpg"
-                            data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                            data-bgparallax="10" class="rev-slidebg" data-no-retina>
-
-                        <div class="tp-caption tp-resizeme" id="slide-layer-15"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-40','-90','-90','-60']"
-                            data-fontsize="['75','60','45','30']" data-lineheight="['95','60','55','40']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"from":"y:-[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1000,"split":"chars","splitdelay":0.05,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="text-shadow: 0 3px 4px rgba(0,0,0,.19);letter-spacing: 0;color: #fff;font-weight:400;font-family: Playfair Display;">
-                            Know the Real History of Islam
-                        </div>
-
-                        <div class="tp-caption theme-clr tp-resizeme" id="slide-layer-22"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['65','0','-15','-10']"
-                            data-fontsize="['30','25','20','14']" data-lineheight="['44','35','30','25']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="font-weight:300; text-shadow: 0 3px 4px rgba(0,0,0,.19);font-family: lato; color: #fdfdfd; letter-spacing: 0;">
-                            "When things are too hard to handle, retreat & <br> count your blessings instead."
-                        </div>
-
-                        <div class="tp-caption rev-btn theme-btn theme-bg brd-rd5" id="slide-layer2-3"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['210','130','100','90']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
-                            data-actions='[{"event":"click","action":"simplelink","slide":"next","delay":"","target": "_self", "url": "#"}]'
-                            data-responsive_offset="on" data-responsive="on"
-                            data-frames='[{"from":"y:-[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[16.5,16.5,10,10]"
-                            data-paddingright="[45,45,25,25]" data-paddingbottom="[16.5,16.5,10,10]"
-                            data-paddingleft="[45,45,25,25]"
-                            style="cursor:pointer;display: inline-block;font-family: roboto slab;font-weight: 700;letter-spacing: 0;line-height: 30px;color: #fff;">
-                            READ MORE
-                        </div>
-                    </li>
-                    <li data-index="rs-3" data-transition="random" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-title="Slide Title" data-easein="Power4.easeInOut"
-                        data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0"
-                        data-fstransition="random" data-fsmasterspeed="1500" data-fsslotamount="7"
-                        data-saveperformance="off" data-param1="" data-param2="" data-param3="" data-param4=""
-                        data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
-                        data-description="">
-
-                        <img src="<?php echo e(asset('asset/images/resources/sliderr3.jpg')); ?>" alt="slide3.jpg"
-                            data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                            data-bgparallax="10" class="rev-slidebg" data-no-retina>
-
-                        <div class="tp-caption tp-resizeme" id="slide-layer-55"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-40','-90','-90','-60']"
-                            data-fontsize="['75','60','45','30']" data-lineheight="['95','60','55','40']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"from":"y:-[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1000,"split":"chars","splitdelay":0.05,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="text-shadow: 0 3px 4px rgba(0,0,0,.19);letter-spacing: 0;color: #fff;font-weight:400;font-family: Playfair Display;">
-                            Know the Real History of Islam
-                        </div>
-
-                        <div class="tp-caption theme-clr tp-resizeme" id="slide-layer-66"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['65','0','-15','-10']"
-                            data-fontsize="['30','25','20','14']" data-lineheight="['44','35','30','25']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="font-weight:300; text-shadow: 0 3px 4px rgba(0,0,0,.19);font-family: lato; color: #fdfdfd; letter-spacing: 0;">
-                            "When things are too hard to handle, retreat & <br> count your blessings instead."
-                        </div>
-
-                        <div class="tp-caption rev-btn theme-btn theme-bg brd-rd5" id="slide-layer3-3"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['210','130','100','90']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
-                            data-actions='[{"event":"click","action":"simplelink","slide":"next","delay":"","target": "_self", "url": "#"}]'
-                            data-responsive_offset="on" data-responsive="on"
-                            data-frames='[{"from":"y:-[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[16.5,16.5,10,10]"
-                            data-paddingright="[45,45,25,25]" data-paddingbottom="[16.5,16.5,10,10]"
-                            data-paddingleft="[45,45,25,25]"
-                            style="cursor:pointer;display: inline-block;font-family: roboto slab;font-weight: 700;letter-spacing: 0;line-height: 30px;color: #fff;">
-                            READ MORE
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section><!-- Slider Area -->
-    <section>
-        <div class="gap">
-            <img class="vector-bg" src="assets/images/bg-vector-2.png" alt="vector-bg" itemprop="image">
+  <!--=====================================-->
+        <!--=         Banner Area Start         =-->
+        <!--=====================================-->
+        <section class="banner style-1">
             <div class="container">
-                <div class="tch-vdo-wrp sermon-archives">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12 col-lg-6">
-                            <div class="abt-sec-wrp">
-                                <div class="abt-desc">
-                                    <div class="sec-tl">
-                                        <span class="theme-clr">Scholar Lectures</span>
-                                        <h2 itemprop="headline">Sermon Archives</h2>
-                                    </div>
-                                    <p itemprop="description">It seems like the text you've provided is a placeholder or filler text commonly known as 
-                                        "Lorem Ipsum," often used in design and typesetting. It doesn't contain any real speech or meaningful content. 
-                                        If you have a specific speech or content you'd like me to work with, please provide that, and I'd be happy to 
-                                        assist you in modifying or summarizing it.The serene sunset painted the sky with a mesmerizing blend of colors,
-                                        casting a tranquil reflection upon the calm lake below.</p>
-                                </div>
-                                <div class="view-more">
-                                    <a class="theme-btn theme-bg brd-rd5" href="" title=""
-                                        itemprop="url">VIEW MORE</a>
-                                </div><!-- View More -->
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-lg-6">
-                            <div class="remove-ext3 tch-wrp">
-                                <div class="tch-inr">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <div class="tch-bx brd-rd5">
-                                                <div class="tch-thmb">
-                                                    <img src="assets/images/resources/tch-vdo-img1.jpg"
-                                                        alt="tch-vdo-img1.jpg" itemprop="image">
-                                                    <a href="" data-fancybox="" title="" itemprop="url"><i
-                                                            class="flaticon-play-button"></i></a>
-                                                </div>
-                                                <div class="tch-inf">
-                                                    <h5 itemprop="headline">Electing a Plain English</h5>
-                                                    <span><i class="far fa-user theme-clr"></i>Sharuf Al Hammam</span>
-                                                    <div class="tch-dwn-btn">
-                                                        <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                                class="flaticon-download"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <div class="tch-bx brd-rd5">
-                                                <div class="tch-thmb">
-                                                    <img src="assets/images/resources/tch-vdo-img2.jpg"
-                                                        alt="tch-vdo-img2.jpg" itemprop="image">
-                                                    <a href="" data-fancybox="" title="" itemprop="url"><i
-                                                            class="flaticon-play-button"></i></a>
-                                                </div>
-                                                <div class="tch-inf">
-                                                    <h5 itemprop="headline">Quran In English</h5>
-                                                    <span><i class="far fa-user theme-clr"></i>Maryam Ali</span>
-                                                    <div class="tch-dwn-btn">
-                                                        <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                                class="flaticon-download"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="banner-content align-items-center" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
+                    <img alt="ayat" src="assets/media/banner/banner-ayat.png">
+                    <p>And We have sent you (O Muhammad SAWW) not but as a mercy for the ‘Almin (mankind, jinns and all that exists)</p>
+                    <a href="courses.html" class="al-buraq-btn btn-fill-primary btn-lg">Read More</a>
+                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=      Islam Pillars Area Start     =-->
+        <!--=====================================-->
+        <section class="islam-pillars sec-pad bg-color-dark">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="title clr-primary">5 Pillars of Islam</h2>
+                    <p class="clr-white">The Five Pillars are the core beliefs and practices of Islam</p>
+                </div> 
+                <div class="row">
+                    <div class="col-xl col-lg-6 col-md-6 col-sm-6 p-0 ">
+                        <div class="pillar-box">
+                            <div class="content-box">
+                                <h6 class="title">Shahada</h6>
+                                <p class="content">“Ashadu an la ilaha illa-llah, wa ashadu anna muhammadur rasul ullah.” (Arabic)</p>
                             </div>
                         </div>
                     </div>
-                </div><!-- Teaching Video Wrap -->
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="gap white-layer opc75">
-            <div class="fixed-bg" style="background-image: url(assets/images/parallax1.jpg);"></div>
-            <div class="container">
-                <div class="sec-tl text-center">
-                    <span class="theme-clr">Islamic Teachings</span>
-                    <h2 itemprop="headline">Audio Library</h2>
+                    <div class="col-xl col-lg-6 col-md-6 col-sm-6 p-0">
+                        <div class="pillar-box">
+                            <div class="content-box">
+                                <h6 class="title">Salah</h6>
+                                <p class="content">"Verily, Salah restrains (oneself) from shameful and unjust deeds" (Quran 29:45)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl col-lg-6 col-md-6 col-sm-6 p-0">
+                        <div class="pillar-box">
+                            <div class="content-box">
+                                <h6 class="title">Sawm</h6>
+                                <p class="content">In Islam sawm means fasting from dawn until dusk during The Holy month of Ramadan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl col-lg-6 col-md-6 col-sm-6 p-0">
+                        <div class="pillar-box">
+                            <div class="content-box">
+                                <h6 class="title">Zakat</h6>
+                                <p class="content">“If you wish for Allah to multiply your wealth, then purify it (through zakat).” -Prophet Muhammad (S.A.W.W)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl col-lg-6 col-md-6 col-sm-6 offset-xl-0 offset-lg-3 offset-md-3 offset-sm-3 p-0">
+                        <div class="pillar-box">
+                            <div class="content-box">
+                                <h6 class="title">Hajj</h6>
+                                <p class="content">It is a physically demanding journey that offers a chance to wipe clean past sins and start anew before Allah.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="remove-ext3 tch-wrp">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 col-lg-4">
-                            <div class="tch-bx brd-rd5">
-                                <div class="tch-thmb">
-                                    <img src="assets/images/resources/tch-ado-img1.jpg" alt="tch-ado-img1.jpg"
-                                        itemprop="image">
-                                    <a class="fancybox fancybox.iframe" href="" data-fancybox="" title=""
-                                        itemprop="url"><i class="flaticon-play-button"></i></a>
-                                </div>
-                                <div class="tch-inf">
-                                    <h5 itemprop="headline">Listen For Heart Cure</h5>
-                                    <span><i class="far fa-user theme-clr"></i>Ehsaan Ali</span>
-                                    <div class="tch-dwn-btn">
-                                        <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                class="flaticon-pdf-file"></i></a>
-                                        <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                class="flaticon-download"></i></a>
-                                    </div>
-                                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=         About Area Start          =-->
+        <!--=====================================-->
+        <section class="about style-1 sec-pad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <img src="assets/media/about/about-1.png" alt="mosque">
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <h3 class="title">About Al-Marsoos</h3>
+                        <p>It is the responsibility of every Muslim to serve for DEEN <br><br> We established our center in 1954, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="hadith">Prophet Muhammad (S.A.W.W): “If you wish for Allah to multiply your wealth, then purify it (through zakat).”</p>
+                        <a href="about.html" class="al-buraq-btn btn-fill-primary btn-lg">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=     Daily Update Area Start       =-->
+        <!--=====================================-->
+        <section class="daily-update sec-pad bg-color-light">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="title">Quran Translation</h2>
+                    <p class="clr-dark-grey">Your daily learning and process of understanding the Holy Quran</p>
+                </div>
+                <div class="text-center">
+                    <h6 class="bismillah">oبِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</h6> 
+                    <h4 dir="rtl" lang="ar" class="ayat">قُلۡ هُوَ ٱللَّهُ أَحَدٌo  ٱللَّهُ ٱلصَّمَدُo  لَمۡ يَلِدۡ وَلَمۡ يُولَدۡo وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢo</h4>
+                    <p class="ayat-translation">In the name of Allah, the Entirely Merciful, the Especially Merciful.</p><br>
+                    <p class="ayat-translation">Say, “He is Allah, [who is] One. Allah, the Eternal Refuge. He neither begets nor is born. <br> Nor is there to Him any equivalent.”</p><br>
+                </div>
+                <div class="prayer-time text-center">
+                    <h6>Daily Prayer Timings</h6>
+                    <p>in united states</p>
+                    <div class="row d-flex justify-content-between boxes-row">
+                        <div class="col-lg-2 col-md-2 col-sm-4">
+                            <div class="timing-box">
+                                <p class="name">Al-Fajr</p>
+                                <h6 class="time">06:00</h6>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-lg-4">
-                            <div class="tch-bx brd-rd5">
-                                <div class="tch-thmb">
-                                    <img src="assets/images/resources/tch-ado-img2.jpg" alt="tch-ado-img2.jpg"
-                                        itemprop="image">
-                                    <a class="fancybox fancybox.iframe" href="" data-fancybox="" title=""
-                                        itemprop="url"><i class="flaticon-play-button"></i></a>
-                                </div>
-                                <div class="tch-inf">
-                                    <h5 itemprop="headline">Heart Treatment with Quran</h5>
-                                    <span><i class="far fa-user theme-clr"></i>Sharuf Al Hammam</span>
-                                    <div class="tch-dwn-btn">
-                                        <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                class="flaticon-pdf-file"></i></a>
-                                        <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                class="flaticon-download"></i></a>
-                                    </div>
-                                </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4">
+                            <div class="timing-box">
+                                <p class="name">Az-Zuhr</p>
+                                <h6 class="time">01:00</h6>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-lg-4">
-                            <div class="tch-bx brd-rd5">
-                                <div class="tch-thmb">
-                                    <img src="assets/images/resources/tch-ado-img3.jpg" alt="tch-ado-img3.jpg"
-                                        itemprop="image">
-                                    <a class="fancybox fancybox.iframe" href="" data-fancybox="" title=""
-                                        itemprop="url"><i class="flaticon-play-button"></i></a>
+                        <div class="col-lg-2 col-md-2 col-sm-4">
+                            <div class="timing-box">
+                                <p class="name">Al-Asar</p>
+                                <h6 class="time">13:00</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4">
+                            <div class="timing-box">
+                                <p class="name">Al-Maghrib</p>
+                                <h6 class="time">17:00</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4">
+                            <div class="timing-box">
+                                <p class="name">Al-Ishaa</p>
+                                <h6 class="time">19:00</h6>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <!--=====================================-->
+        <!--=        Services Area Start     =-->
+        <!--=====================================-->
+        <section class="services style-1 sec-pad">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="title">Services</h2>
+                    <p>It is the responsibility of every Muslim to serve for DEEN</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="service-card">
+                            <img src="assets/media/services/service-1.png" alt="">
+                            <div class="content-box">
+                                <h6 class="title">Hadith Courses</h6>
+                                <p class="description">Lorem ipsum dolor sit amet, do  consectetur adipiscing elit, sedeiusmod tempor incididunt labore et dolore magna aliqua.</p>
+                                <a href="service-detail.html" class="al-buraq-btn btn-fill-primary btn-lg">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="service-card">
+                            <img src="assets/media/services/service-2.png" alt="">
+                            <div class="content-box">
+                                <h6 class="title">Nikah Registration</h6>
+                                <p class="description">Lorem ipsum dolor sit amet, do  consectetur adipiscing elit, sedeiusmod tempor incididunt labore et dolore magna aliqua.</p>
+                                <a href="service-detail.html" class="al-buraq-btn btn-fill-primary btn-lg">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 offset-lg-0 offset-md-3">
+                        <div class="service-card">
+                            <img src="assets/media/services/service-3.png" alt="">
+                            <div class="content-box">
+                                <h6 class="title">Funeral Services</h6>
+                                <p class="description">Lorem ipsum dolor sit amet, do  consectetur adipiscing elit, sedeiusmod tempor incididunt labore et dolore magna aliqua.</p>
+                                <a href="service-detail.html" class="al-buraq-btn btn-fill-primary btn-lg">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=        Donations Area Start     =-->
+        <!--=====================================-->
+        <section class="donations style-1 sec-pad text-center">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="title clr-white">Your Donations</h2>
+                    <p class="clr-primary">The Mosque was established in 1954, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="progress-bar-1">
+                    <div class="progress">
+                        <div class="progress-done" data-done="70">
+                            70%
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="donation-heading">We need your donation for the restoration of the grand mosque</h3>
+                <a href="donate-now.html" class="al-buraq-btn btn-fill-primary btn-lg">Donate Now</a>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=       Sermons Area Start          =-->
+        <!--=====================================-->
+        <section class="sermons sec-pad bg-color-light">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="title">Courses</h2>
+                    <p>Watch and learn from quality courses</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="sermon-box">
+                            <div class="sermon-img">
+                                <img src="assets/media/sermons/sermon-1.png" alt="" class="image">
+                                <div class="overlay">
+                                    <a href="#" class="icon" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="fas fa-play"></i></a>
                                 </div>
-                                <div class="tch-inf">
-                                    <h5 itemprop="headline">Electing a Plain English</h5>
-                                    <span><i class="far fa-user theme-clr"></i>Ehsaan Ali</span>
-                                    <div class="tch-dwn-btn">
-                                        <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                class="flaticon-pdf-file"></i></a>
-                                        <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                class="flaticon-download"></i></a>
-                                    </div>
+                            </div>
+                            <h6 class="title">Islam and youth</h6>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <a href="course-detail.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="sermon-box">
+                            <div class="sermon-img">
+                                <img src="assets/media/sermons/sermon-2.png" alt="" class="image">
+                                <div class="overlay">
+                                    <a href="#" class="icon" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="fas fa-play"></i></a>
+                                </div>
+                            </div>
+                            <h6 class="title">Parent Education</h6>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <a href="course-detail.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="sermon-box">
+                            <div class="sermon-img">
+                                <img src="assets/media/sermons/sermon-3.png" alt="" class="image">
+                                <div class="overlay">
+                                    <a href="#" class="icon" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="fas fa-play"></i></a>
+                                </div>
+                            </div>
+                            <h6 class="title">Quran Recitation</h6>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <a href="course-detail.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <iframe style="width: 100%;height:400px;border:0" src="https://www.youtube.com/embed/B0-0PvAAgzg"
+                                        title="360 Product Video / Fashion Feature"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="view-more text-center">
-                    <a class="theme-btn theme-bg brd-rd5" href="" title="" itemprop="url">VIEW MORE</a>
-                </div><!-- View More -->
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="gap">
+        </section>
+        <!--=====================================-->
+        <!--=        Events Area Start     =-->
+        <!--=====================================-->
+        <section class="events sec-pad">
             <div class="container">
-                <div class="sec-tl text-center">
-                    <span class="theme-clr">Event & Blog</span>
-                    <h2 itemprop="headline">Our Blogs & Events</h2>
+                <div class="heading">
+                    <h2 class="title">Events</h2>
+                    <p>The up coming events and services in our Mosque</p>
                 </div>
-                <div class="remove-ext3">
-                    <div class="row">
-                        <?php $__currentLoopData = $blogs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $blog): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                            <div class="col-md-7 col-sm-12 col-lg-7">
-                                <div class="post-bx lst brd-rd5">
-                                    <div class="post-thmb"><a href="<?php echo e(route('blog.detail', $blog->id)); ?>" title=""
-                                            itemprop="url"><img src="<?php echo e($blog->image); ?>" alt="<?php echo e($blog->title); ?>"
-                                                itemprop="image"></a>
-                                    </div>
-                                    <div class="post-inf">
-                                        <h5 itemprop="headline"><a href="<?php echo e(route('blog.detail', $blog->id)); ?>"
-                                                title="" itemprop="url"><?php echo e($blog->title); ?></a></h5>
-                                        <ul class="pst-mta">
-                                            <li><i class="far fa-calendar-alt theme-clr"></i>
-                                                <?php echo e($blog->created_at->format('M d, Y')); ?></li>
-                                            <li><i class="far fa-user theme-clr"></i> By <a href="#" title=""
-                                                    itemprop="url">Mubeen Malik</a></li>
-                                        </ul>
-                                        <p itemprop="description"><?php echo Str::limit(strip_tags($blog->body), 200); ?></p>
-                                        <a href="<?php echo e(route('blog.detail', $blog->id)); ?>">View Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                        <div class="col-md-5 col-sm-12 col-lg-5">
-                            <div class="event-bx brd-rd5"
-                                style="background-image: url(assets/images/resources/event-img1-1.jpg);">
-                                <span class="theme-clr">17 <i>May</i></span>
-                                <h5 itemprop="headline"><a href="" title="" itemprop="url">Importance Of
-                                        Prayer In Islam</a></h5>
-                                <ul class="pst-mta">
-                                    <li><i class="fas fa-map-marker-alt theme-clr"></i> Dehli, Jamia Mosque</li>
-                                    <li><i class="far fa-clock theme-clr"></i> 04:00 pm - 08:00 pm</li>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="event-card">
+                            <img src="assets/media/events/event-1.png" alt="">
+                            <div class="content-box">
+                                <h6 class="title">Mahafil Zikr and Bayan</h6>
+                                <ul class="list-unstyled">
+                                    <li class="date"><i class="fas fa-calendar-alt"></i> 07-01-2023</li>
+                                    <li><i class="fas fa-map-marker-alt"></i>Park Lane, NY</li>
                                 </ul>
-                                <a href="" title="" itemprop="url">Event Details</a>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam.</p>
                             </div>
-                            <div class="event-bx brd-rd5"
-                                style="background-image: url(assets/images/resources/event-img1-2.jpg);">
-                                <span class="theme-clr">25 <i>Nov</i></span>
-                                <h5 itemprop="headline"><a href="" title="" itemprop="url">Importance Of
-                                        Prayer In Islam</a></h5>
-                                <ul class="pst-mta">
-                                    <li><i class="fas fa-map-marker-alt theme-clr"></i> Dhaka, Islamic Center</li>
-                                    <li><i class="far fa-clock theme-clr"></i> 04:00 pm - 08:00 pm</li>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="event-card">
+                            <img src="assets/media/events/event-2.png" alt="">
+                            <div class="content-box">
+                                <h6 class="title">Ramadan Fund Raising</h6>
+                                <ul class="list-unstyled">
+                                    <li class="date"><i class="fas fa-calendar-alt"></i> 08-01-2023</li>
+                                    <li><i class="fas fa-map-marker-alt"></i>Park Lane, NY</li>
                                 </ul>
-                                <a href="" title="" itemprop="url">Event Details</a>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam.</p>
                             </div>
-                            <div class="event-bx brd-rd5"
-                                style="background-image: url(assets/images/resources/event-img1-3.jpg);">
-                                <span class="theme-clr">10 <i>Dec</i></span>
-                                <h5 itemprop="headline"><a href="" title="" itemprop="url">Importance Of
-                                        Prayer In Islam</a></h5>
-                                <ul class="pst-mta">
-                                    <li><i class="fas fa-map-marker-alt theme-clr"></i> Park, Islamic Center</li>
-                                    <li><i class="far fa-clock theme-clr"></i> 04:00 pm - 08:00 pm</li>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 offset-lg-0 offset-md-3">
+                        <div class="event-card">
+                            <img src="assets/media/events/event-3.png" alt="">
+                            <div class="content-box">
+                                <h6 class="title">Islamophobia Rally</h6>
+                                <ul class="list-unstyled">
+                                    <li class="date"><i class="fas fa-calendar-alt"></i> 09-01-2023</li>
+                                    <li><i class="fas fa-map-marker-alt"></i>Park Lane, NY</li>
                                 </ul>
-                                <a href="" title="" itemprop="url">Event Details</a>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="gap black-layer opc7 white-testi">
-            <div class="fixed-bg" style="background-image: url(assets/images/parallax2.jpg);"></div>
+        </section>
+        <!--=====================================-->
+        <!--=        Scholars Area Start     =-->
+        <!--=====================================-->
+        <section class="scholars sec-pad bg-color-light">
             <div class="container">
-                <div class="sec-tl text-center">
-                    <span class="theme-clr">Some Good Words</span>
-                    <h2 itemprop="headline">Visitors Feedback</h2>
+                <div class="heading">
+                    <h2 class="title">Islamic Scholars</h2>
+                    <p>It is the responsibility of every Muslim to serve for DEEN</p>
                 </div>
-                <div class="testi-wrp text-center">
-                    <div class="testi-inr testi-car owl-carousel owl-loaded owl-drag">
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage"
-                                style="transform: translate3d(-2000px, 0px, 0px); transition: all 3s ease 0s; width: 4000px;">
-                                <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
-                                    <div class="testi-bx">
-                                        <div class="testi-desc">
-                                            <p itemprop="description">Lorem ipsum dolor sit amet, consect etur adipiscing
-                                                elit, sed do eiusmoed tempor incididunt.</p>
-                                        </div>
-                                        <div class="testi-inf">
-                                            <img class="brd-rd50" src="assets/images/resources/testi-img2.jpg"
-                                                alt="testi-img2.jpg" itemprop="image">
-                                            <h6 itemprop="headline">Fatima Ali</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
-                                    <div class="testi-bx">
-                                        <div class="testi-desc">
-                                            <p itemprop="description">Lorem ipsum dolor sit amet, consect etur adipiscing
-                                                elit, sed do eiusmoed tempor incididunt.</p>
-                                        </div>
-                                        <div class="testi-inf">
-                                            <img class="brd-rd50" src="assets/images/resources/testi-img3.jpg"
-                                                alt="testi-img3.jpg" itemprop="image">
-                                            <h6 itemprop="headline">Muhammad Masood</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
-                                    <div class="testi-bx">
-                                        <div class="testi-desc">
-                                            <p itemprop="description">Lorem ipsum dolor sit amet, consect etur adipiscing
-                                                elit, sed do eiusmoed tempor incididunt.</p>
-                                        </div>
-                                        <div class="testi-inf">
-                                            <img class="brd-rd50" src="assets/images/resources/testi-img4.jpg"
-                                                alt="testi-img4.jpg" itemprop="image">
-                                            <h6 itemprop="headline">Muhammad Masood</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 370px; margin-right: 30px;">
-                                    <div class="testi-bx">
-                                        <div class="testi-desc">
-                                            <p itemprop="description">Lorem ipsum dolor sit amet, consect etur adipiscing
-                                                elit, sed do eiusmoed tempor incididunt.</p>
-                                        </div>
-                                        <div class="testi-inf">
-                                            <img class="brd-rd50" src="assets/images/resources/testi-img1.jpg"
-                                                alt="testi-img1.jpg" itemprop="image">
-                                            <h6 itemprop="headline">Muhammad Masood</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 370px; margin-right: 30px;">
-                                    <div class="testi-bx">
-                                        <div class="testi-desc">
-                                            <p itemprop="description">Lorem ipsum dolor sit amet, consect etur adipiscing
-                                                elit, sed do eiusmoed tempor incididunt.</p>
-                                        </div>
-                                        <div class="testi-inf">
-                                            <img class="brd-rd50" src="assets/images/resources/testi-img2.jpg"
-                                                alt="testi-img2.jpg" itemprop="image">
-                                            <h6 itemprop="headline">Fatima Ali</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item active" style="width: 370px; margin-right: 30px;">
-                                    <div class="testi-bx">
-                                        <div class="testi-desc">
-                                            <p itemprop="description">Lorem ipsum dolor sit amet, consect etur adipiscing
-                                                elit, sed do eiusmoed tempor incididunt.</p>
-                                        </div>
-                                        <div class="testi-inf">
-                                            <img class="brd-rd50" src="assets/images/resources/testi-img3.jpg"
-                                                alt="testi-img3.jpg" itemprop="image">
-                                            <h6 itemprop="headline">Muhammad Masood</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item active" style="width: 370px; margin-right: 30px;">
-                                    <div class="testi-bx">
-                                        <div class="testi-desc">
-                                            <p itemprop="description">Lorem ipsum dolor sit amet, consect etur adipiscing
-                                                elit, sed do eiusmoed tempor incididunt.</p>
-                                        </div>
-                                        <div class="testi-inf">
-                                            <img class="brd-rd50" src="assets/images/resources/testi-img4.jpg"
-                                                alt="testi-img4.jpg" itemprop="image">
-                                            <h6 itemprop="headline">Muhammad Masood</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned active" style="width: 370px; margin-right: 30px;">
-                                    <div class="testi-bx">
-                                        <div class="testi-desc">
-                                            <p itemprop="description">Lorem ipsum dolor sit amet, consect etur adipiscing
-                                                elit, sed do eiusmoed tempor incididunt.</p>
-                                        </div>
-                                        <div class="testi-inf">
-                                            <img class="brd-rd50" src="assets/images/resources/testi-img1.jpg"
-                                                alt="testi-img1.jpg" itemprop="image">
-                                            <h6 itemprop="headline">Muhammad Masood</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
-                                    <div class="testi-bx">
-                                        <div class="testi-desc">
-                                            <p itemprop="description">Lorem ipsum dolor sit amet, consect etur adipiscing
-                                                elit, sed do eiusmoed tempor incididunt.</p>
-                                        </div>
-                                        <div class="testi-inf">
-                                            <img class="brd-rd50" src="assets/images/resources/testi-img2.jpg"
-                                                alt="testi-img2.jpg" itemprop="image">
-                                            <h6 itemprop="headline">Fatima Ali</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
-                                    <div class="testi-bx">
-                                        <div class="testi-desc">
-                                            <p itemprop="description">Lorem ipsum dolor sit amet, consect etur adipiscing
-                                                elit, sed do eiusmoed tempor incididunt.</p>
-                                        </div>
-                                        <div class="testi-inf">
-                                            <img class="brd-rd50" src="assets/images/resources/testi-img3.jpg"
-                                                alt="testi-img3.jpg" itemprop="image">
-                                            <h6 itemprop="headline">Muhammad Masood</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i
-                                    class="fa fa-angle-left"></i></button><button type="button" role="presentation"
-                                class="owl-next"><i class="fa fa-angle-right"></i></button></div>
-                        <div class="owl-dots disabled"></div>
+                <div class="scholars-slider justify-content-center">
+                    <div class="scholar-box text-center">
+                        <img src="assets/media/scholars/scholar-1.png" alt="">
+                        <h6 class="name">Molana Abdus Salam</h6>
+                        <p class="about-scholar">The Mosque is still under development in some sectors and is in need of your support and contribution.</p>
                     </div>
-                </div><!-- Testimonials Wrap -->
+                    <div class="scholar-box text-center">
+                        <img src="assets/media/scholars/scholar-2.png" alt="">
+                        <h6 class="name">Mufti Abd Manaf</h6>
+                        <p class="about-scholar">The Mosque is serving day and night, educating people about Islam and teachings of Quran for children.</p>
+                    </div>
+                    <div class="scholar-box text-center">
+                        <img src="assets/media/scholars/scholar-3.png" alt="">
+                        <h6 class="name">Abida Anishah</h6>
+                        <p class="about-scholar">The Mosque is still under development in some sectors and is in need of your support and contribution.</p>
+                    </div>
+                    <div class="scholar-box text-center">
+                        <img src="assets/media/scholars/scholar-1.png" alt="">
+                        <h6 class="name">Molana Abdus Salam</h6>
+                        <p class="about-scholar">The Mosque is still under development in some sectors and is in need of your support and contribution.</p>
+                    </div>
+                    <div class="scholar-box text-center">
+                        <img src="assets/media/scholars/scholar-2.png" alt="">
+                        <h6 class="name">Mufti Abd Manaf</h6>
+                        <p class="about-scholar">The Mosque is still under development in some sectors and is in need of your support and contribution.</p>
+                    </div>
+                    <div class="scholar-box text-center">
+                        <img src="assets/media/scholars/scholar-3.png" alt="">
+                        <h6 class="name">Abida Anishah</h6>
+                        <p class="about-scholar">The Mosque is still under development in some sectors and is in need of your support and contribution.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                <a href="scholars.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
+                </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="gap">
+        </section>
+        <!--=====================================-->
+        <!--=        Donors Area Start     =-->
+        <!--=====================================-->
+        <section class="donors sec-pad">
             <div class="container">
-                <div class="sec-tl text-center">
-                    <span class="theme-clr">Books & Audio</span>
-                    <h2 itemprop="headline">Scholars Corner</h2>
+                <div class="heading">
+                    <h2 class="title">Donors</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="team-sec remove-ext7">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 col-lg-4">
-                            <div class="team-bx text-center">
-                                <div class="team-thmb brd-rd5"><a href="" title="" itemprop="url"><img
-                                            src="assets/images/resources/team-img1-3.jpg" alt="team-img1-3.jpg"
-                                            itemprop="image"></a></div>
-                                <div class="team-inf brd-rd5">
-                                    <div class="scl1">
-                                        <a href="#" title="Twitter" itemprop="url" target="_blank"><i
-                                                class="fab fa-twitter"></i></a>
-                                        <a href="#" title="Facebook" itemprop="url" target="_blank"><i
-                                                class="fab fa-facebook-f"></i></a>
-                                        <a href="#" title="Linkedin" itemprop="url" target="_blank"><i
-                                                class="fab fa-linkedin-in"></i></a>
-                                        <a href="#" title="Google Plus" itemprop="url" target="_blank"><i
-                                                class="fab fa-google-plus-g"></i></a>
-                                        <a href="#" title="Youtube" itemprop="url" target="_blank"><i
-                                                class="fab fa-youtube"></i></a>
-                                    </div>
-                                    <h5 itemprop="headline"><a href="" title="" itemprop="url">Sharuf Al
-                                            Hammam</a></h5>
-                                    <span>Islamic Scholar</span>
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="donors-slider">
+                            <div class="donor-box">
+                                <div class="donor-name">
+                                    <img src="assets/media/donors/donor-1.png" alt="">
+                                    <h6 class="mt-2">Saliha Kareem</h6>
                                 </div>
+                                <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                            </div>
+                            <div class="donor-box">
+                                <div class="donor-name">
+                                    <img src="assets/media/donors/donor-2.png" alt="">
+                                    <h6 class="mt-2">Abdus Salam</h6>
+                                </div>
+                                <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                            </div>
+                            <div class="donor-box">
+                                <div class="donor-name">
+                                    <img src="assets/media/donors/donor-3.png" alt="">
+                                    <h6 class="mt-2">Abdus Qudus</h6>
+                                </div>
+                                <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                             </div>
                         </div>
-                        <div class="col-md-8 col-sm-12 col-lg-8">
-                            <div class="remove-ext3 tch-wrp row">
-                                <div class="col-md-4 col-sm-4 col-lg-4">
-                                    <div class="tch-bx brd-rd5">
-                                        <div class="tch-thmb">
-                                            <img src="assets/images/resources/tch-ado-img1.jpg" alt="tch-ado-img1.jpg"
-                                                itemprop="image">
-                                            <a class="fancybox fancybox.iframe" href="" data-fancybox=""
-                                                title="" itemprop="url"><i class="flaticon-play-button"></i></a>
-                                        </div>
-                                        <div class="tch-inf">
-                                            <span><i class="far fa-user theme-clr"></i>Sharuf Al Hammam</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-lg-4">
-                                    <div class="tch-bx brd-rd5">
-                                        <div class="tch-thmb">
-                                            <img src="assets/images/resources/tch-ado-img2.jpg" alt="tch-ado-img2.jpg"
-                                                itemprop="image">
-                                            <a class="fancybox fancybox.iframe" href="" data-fancybox=""
-                                                title="" itemprop="url"><i class="flaticon-play-button"></i></a>
-                                        </div>
-                                        <div class="tch-inf">
-                                            <span><i class="far fa-user theme-clr"></i>Sharuf Al Hammam</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-lg-4">
-                                    <div class="tch-bx brd-rd5">
-                                        <div class="tch-thmb">
-                                            <img src="assets/images/resources/tch-ado-img3.jpg" alt="tch-ado-img3.jpg"
-                                                itemprop="image">
-                                            <a class="fancybox fancybox.iframe" href="" data-fancybox=""
-                                                title="" itemprop="url"><i class="flaticon-play-button"></i></a>
-                                        </div>
-                                        <div class="tch-inf">
-                                            <span><i class="far fa-user theme-clr"></i>Sharuf Al Hammam</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-lg-4">
-                                    <div class="book-block">
-                                        <img src="assets/images/book-cover.jpg" alt="book-cover.jpg" itemprop="image">
-                                        <div class="tch-inf">
-                                            <span><i class="far fa-user theme-clr"></i>Sharuf Al</span>
-                                            <div class="tch-dwn-btn">
-                                                <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                        class="flaticon-pdf-file"></i></a>
-                                                <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                        class="flaticon-download"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-lg-4">
-                                    <div class="book-block">
-                                        <img src="assets/images/book-cover.jpg" alt="book-cover.jpg" itemprop="image">
-                                        <div class="tch-inf">
-                                            <span><i class="far fa-user theme-clr"></i>Sharuf Al</span>
-                                            <div class="tch-dwn-btn">
-                                                <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                        class="flaticon-pdf-file"></i></a>
-                                                <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                        class="flaticon-download"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-lg-4">
-                                    <div class="book-block">
-                                        <img src="assets/images/book-cover.jpg" alt="book-cover.jpg" itemprop="image">
-                                        <div class="tch-inf">
-                                            <span><i class="far fa-user theme-clr"></i>Sharuf Al</span>
-                                            <div class="tch-dwn-btn">
-                                                <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                        class="flaticon-pdf-file"></i></a>
-                                                <a href="assets/sample/text.zip" title="" itemprop="url"><i
-                                                        class="flaticon-download"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=        Blogs Area Start     =-->
+        <!--=====================================-->
+        <section class="blogs sec-pad">
+            <div class="container">
+              
+                <div class="heading">
+                    <h2 class="title">Islamic Blogs</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="row">
+                    <?php $__currentLoopData = $blogs->slice(0, 2); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $blog): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="row mb-4">
+                            <div class="col-xl-6">
+                                <img src="<?php echo e($blog->image); ?>" alt="">
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="content-box">
+                                    <h6 class="title"><?php echo e($blog->title); ?></h6>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fas fa-calendar-alt"></i><?php echo e($blog->created_at->format('M d, Y')); ?></li>
+                                        <li><i class="fas fa-user"></i>Mufti Maqsud</li>
+                                    </ul>
+                                    <p class="description"><?php echo Str::limit(strip_tags($blog->body), 200); ?></p>
+                                    <a href="<?php echo e(route('blog.detail', $blog->id)); ?>" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div><!-- Team Sec -->
-                <div class="view-more text-center">
-                    <a class="theme-btn theme-bg brd-rd5 book-block-btn" href="" title=""
-                        itemprop="url">VIEW MORE</a>
-                </div><!-- View More -->
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </div>
+                <div class="row">
+                    <?php $__currentLoopData = $blogs->slice(-2); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $blog): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="row mb-4">
+                            <div class="col-xl-6">
+                                <img src="<?php echo e($blog->image); ?>" alt="">
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="content-box">
+                                    <h6 class="title"><?php echo e($blog->title); ?></h6>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fas fa-calendar-alt"></i><?php echo e($blog->created_at->format('M d, Y')); ?></li>
+                                        <li><i class="fas fa-user"></i>Mufti Maqsud</li>
+                                    </ul>
+                                    <p class="description"><?php echo Str::limit(strip_tags($blog->body), 200); ?></p>
+                                    <a href="<?php echo e(route('blog.detail', $blog->id)); ?>" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                    
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layout.layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH F:\laraval\Al_marsoos\resources\views/Home/index.blade.php ENDPATH**/ ?>
