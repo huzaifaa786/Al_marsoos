@@ -85,6 +85,8 @@
         <!--=====================================-->
         <!--=     Daily Update Area Start       =-->
         <!--=====================================-->
+        
+
         <section class="daily-update sec-pad bg-color-light">
             <div class="container">
                 <div class="heading">

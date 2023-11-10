@@ -139,6 +139,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-xl-3 col-lg-6 col-md-6" data-sal-delay="100">
                             <div class="footer-widget">
                                 <h6 class="widget-title">Latest Blogs</h6>

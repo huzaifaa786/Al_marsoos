@@ -86,6 +86,8 @@
         <!--=====================================-->
         <!--=     Daily Update Area Start       =-->
         <!--=====================================-->
+        {{-- {{ dd(app('App\Http\Controllers\PrayerController')->Prayer()) }} --}}
+
         <section class="daily-update sec-pad bg-color-light">
             <div class="container">
                 <div class="heading">
