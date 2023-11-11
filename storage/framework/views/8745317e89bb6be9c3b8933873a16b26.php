@@ -88,7 +88,6 @@
       
 
         <section class="daily-update sec-pad bg-color-light">
-
             <div class="container">
                 <div class="heading">
                     <h2 class="title">Quran Translation</h2>
@@ -112,8 +111,8 @@
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4">
                             <div class="timing-box">
-                                <p class="name">Az-Zuhr</p>
-                                <h6 class="time">01:00</h6>
+                                <p class="name" >Az-Zuhr</p>
+                                <h6 class="time" class="kkk">01:00</h6>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4">
@@ -465,22 +464,7 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('jscript'); ?>
-    <script>
-        $(document).ready(function() {
-            $.ajax({
-                url: "<?php echo e(route('prayer.time')); ?>",
-                type: 'GET',
-                success: function(response) {
-                    
-                    console.log(response);
-                    
-                },
-                error: function(error) {
-                    console.log(error);
-                }
-            });
-        });
-    </script>
+    
    
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layout.layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH F:\laraval\Al_marsoos\resources\views/Home/index.blade.php ENDPATH**/ ?>

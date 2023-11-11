@@ -89,7 +89,6 @@
       
 
         <section class="daily-update sec-pad bg-color-light">
-
             <div class="container">
                 <div class="heading">
                     <h2 class="title">Quran Translation</h2>
@@ -113,8 +112,8 @@
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4">
                             <div class="timing-box">
-                                <p class="name">Az-Zuhr</p>
-                                <h6 class="time">01:00</h6>
+                                <p class="name" >Az-Zuhr</p>
+                                <h6 class="time" class="kkk">01:00</h6>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4">
@@ -483,21 +482,31 @@
 @endsection()
 
 @section('jscript')
-    <script>
-        $(document).ready(function() {
-            $.ajax({
-                url: "{{ route('prayer.time') }}",
-                type: 'GET',
-                success: function(response) {
-                    
-                    console.log(response);
-                    
-                },
-                error: function(error) {
-                    console.log(error);
-                }
-            });
+    {{-- <script>
+$(document).ready(function() {
+    $(document).on('load', function() {
+        paryertime();
+    });
+
+    function paryertime() {
+        let data = {
+            expectsJson: true,
+        };
+
+        $.ajax({
+            url: "{{ route('prayer.time') }}",
+            type: 'GET',
+            success: function(response) {
+                console.log('jsjsjs', response);
+            },
+            error: function(error) {
+                console.error('AJAX Error not working:', error);
+            }
         });
-    </script>
+    }
+});
+
+
+    </script> --}}
    
 @endsection

@@ -25,7 +25,7 @@
                 <div class="col-xl-9 col-lg-8 col-12">
                     <div class="detail-blog-card">
                         <div class="img-box">
-                            <img src="<?php echo e($blog->image); ?>" height="100px" alt="">
+                            <img src="<?php echo e($blog->image); ?>" height="auto" width="auto" alt="">
                             <div class="content-inner">
                                 <h3 class="title"><?php echo e($blog->title); ?></h3>
                                 <ul class="list-unstyled">
@@ -42,9 +42,10 @@
                 </div>
                 <div class="col-xl-3 col-lg-4">
                     <div class="sidebar-1 p-0">
-                        <form method="get" action="https://uiparadox.co.uk/public/templates/al-buraq/blogs.html">
+                        <form method="post" action="<?php echo e(route('blog.search')); ?>">
+                            <?php echo csrf_field(); ?>
                             <div class="input-group form-group">
-                                <input class="form-control" name="query" placeholder="Search">
+                                <input class="form-control" name="title" placeholder="Search">
                                 <button class="input-group-text ps-3 pe-3" type="submit"><i
                                         class="fal fa-search"></i></button>
                             </div>

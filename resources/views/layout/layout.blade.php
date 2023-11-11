@@ -225,8 +225,10 @@
     <!-- Site Scripts -->
     <script src="{{asset('assets/js/app.js')}}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </body>
 
 
-<!-- Mirrored from uiparadox.co.uk/public/templates/al-buraq/index-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Nov 2023 06:58:43 GMT -->
+<!-- Mirrored from uiparadox.co.uk/public/templates/al-buraq/index-1.html by HTTrack Website Copier/3.x [XR&CO2014], Wed, 08 Nov 2023 06:58:43 GMT -->
 </html>

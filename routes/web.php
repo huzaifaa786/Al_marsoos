@@ -63,5 +63,6 @@ Route::get('blogs/index',[BlogPostController::class,'index'])->name('blog.index'
 Route::get('blogs/edit/{id}',[BlogPostController::class,'edit'])->name('blog.edit');
 Route::post('blogs/update',[BlogPostController::class,'update'])->name('blog.update');
 Route::get('blogs/destroy/{id}',[BlogPostController::class,'destroy'])->name('blog.delete');
+Route::post('blogs/search',[BlogPostController::class,'blogsearch'])->name('blog.search');
 
 Route::get('payer/time', [PayerController::class, 'PayerTime'])->name('prayer.time');

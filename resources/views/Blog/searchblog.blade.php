@@ -24,32 +24,27 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8">
-                       
+                        @foreach ($BlogsSearch as $blog)
                         <div class="row mb-4">
-                            @foreach ($blogs as $blog)
-                                <div class="col-xl-4">
-                                    <img src="{{ $blog->image }}" alt="">
-                                </div>
-                                <div class="col-xl-8">
-                                    <div class="content-box">
-                                        <h6 class="title">{{ $blog->title }}</h6>
-                                        <ul class="list-unstyled">
-                                            <li><i class="fas fa-calendar-alt"></i>{{ $blog->created_at->format('M d, Y') }}</li>
-                                            <li><i class="fas fa-user"></i>Mufti Maqsud</li>
-                                        </ul>
-                                        <p class="description">
-                                            {!! Str::limit(strip_tags($blog->body), 200) !!}
+                            <div class="col-xl-4">
+                                <img src="{{ $blog->image }}" alt="">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="content-box">
+                                    <h6 class="title">{{ $blog->title }}</h6>
+                                    <ul class="list-unstyled">
+                                        <li><i class="fas fa-calendar-alt"></i>{{ $blog->created_at->format('M d, Y') }}</li>
+                                        <li><i class="fas fa-user"></i>Mufti Maqsud</li>
+                                    </ul>
+                                    <p class="description">
+                                        {!! Str::limit(strip_tags($blog->body), 200) !!}
                                         </p>
-                                        <a href="{{ route('blog.detail', $blog->id) }}" class="al-buraq-btn btn-fill-primary btn-lg">Learn
-                                            More</a>
-                                    </div>
+                                    <a href="{{ route('blog.detail', $blog->id) }}" class="al-buraq-btn btn-fill-primary btn-lg">Learn
+                                        More</a>
                                 </div>
-                            @endforeach
+                            </div>
                         </div>
-                        
-                        {{ $blogs->links() }}
-                        
-                     
+                        @endforeach
                         {{-- <div class="row mb-4">
                             <div class="col-xl-4">
                                 <img src="assets/media/blogs/blog-2.jpg" alt="">
@@ -67,8 +62,8 @@
                                         More</a>
                                 </div>
                             </div>
-                        </div> --}}
-                        {{-- <div class="row mb-4">
+                        </div>
+                        <div class="row mb-4">
                             <div class="col-xl-4">
                                 <img src="assets/media/blogs/blog-3.jpg" alt="">
                             </div>

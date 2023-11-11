@@ -24,8 +24,8 @@ class BlogPostController extends Controller
 
     public function index()
     {
-        $blogs = Blog::all();
-        return view('admin.blog.index',['blogs'=>$blogs]);
+        $blog = Blog::paginate(3);
+        return view('admin.blog.index',['blogs'=>$blog]);
     }
     public function edit($id)
     {
@@ -47,5 +47,10 @@ class BlogPostController extends Controller
         $blog = Blog::find($id);
         $blog->delete();
         return redirect()->back();
+    }
+    public function blogsearch(Request $request)
+    {   
+        $search_results = Blog::where('title','LIKE','%'.$request->title.'%')->get();
+        return view('Blog.searchblog',['BlogsSearch'=>$search_results]);
     }
 }
