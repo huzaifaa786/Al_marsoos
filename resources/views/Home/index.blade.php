@@ -86,9 +86,10 @@
         <!--=====================================-->
         <!--=     Daily Update Area Start       =-->
         <!--=====================================-->
-        {{-- {{ dd(app('App\Http\Controllers\PrayerController')->Prayer()) }} --}}
+      
 
         <section class="daily-update sec-pad bg-color-light">
+
             <div class="container">
                 <div class="heading">
                     <h2 class="title">Quran Translation</h2>
@@ -480,3 +481,23 @@
             </div>
         </section>
 @endsection()
+
+@section('jscript')
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                url: "{{ route('prayer.time') }}",
+                type: 'GET',
+                success: function(response) {
+                    
+                    console.log(response);
+                    
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
+        });
+    </script>
+   
+@endsection

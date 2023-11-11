@@ -204,10 +204,10 @@
     <script src="<?php echo e(asset('assets/js/vendor/bootstrap.min.js')); ?>"></script>
     <script src="<?php echo e(asset('assets/js/vendor/slick.min.js')); ?>"></script>
     <script src="<?php echo e(asset('assets/js/vendor/sal.js')); ?>"></script>
-
+      <?php echo $__env->yieldContent('jscript'); ?>  
     <!-- Site Scripts -->
     <script src="<?php echo e(asset('assets/js/app.js')); ?>"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
 </body>
 
 

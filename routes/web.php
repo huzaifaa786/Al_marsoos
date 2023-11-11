@@ -6,6 +6,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\BlogPostController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\PayerController;
 use App\Http\Controllers\SMSController;
 use App\Http\Controllers\StudentController;
 
@@ -62,3 +63,5 @@ Route::get('blogs/index',[BlogPostController::class,'index'])->name('blog.index'
 Route::get('blogs/edit/{id}',[BlogPostController::class,'edit'])->name('blog.edit');
 Route::post('blogs/update',[BlogPostController::class,'update'])->name('blog.update');
 Route::get('blogs/destroy/{id}',[BlogPostController::class,'destroy'])->name('blog.delete');
+
+Route::get('payer/time', [PayerController::class, 'PayerTime'])->name('prayer.time');

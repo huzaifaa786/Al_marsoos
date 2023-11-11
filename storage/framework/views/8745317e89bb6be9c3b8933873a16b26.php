@@ -85,9 +85,10 @@
         <!--=====================================-->
         <!--=     Daily Update Area Start       =-->
         <!--=====================================-->
-        
+      
 
         <section class="daily-update sec-pad bg-color-light">
+
             <div class="container">
                 <div class="heading">
                     <h2 class="title">Quran Translation</h2>
@@ -463,4 +464,23 @@
         </section>
 <?php $__env->stopSection(); ?>
 
+<?php $__env->startSection('jscript'); ?>
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                url: "<?php echo e(route('prayer.time')); ?>",
+                type: 'GET',
+                success: function(response) {
+                    
+                    console.log(response);
+                    
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
+        });
+    </script>
+   
+<?php $__env->stopSection(); ?>
 <?php echo $__env->make('layout.layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH F:\laraval\Al_marsoos\resources\views/Home/index.blade.php ENDPATH**/ ?>

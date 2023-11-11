@@ -221,10 +221,10 @@
     <script src="{{asset('assets/js/vendor/bootstrap.min.js')}}"></script>
     <script src="{{asset('assets/js/vendor/slick.min.js')}}"></script>
     <script src="{{asset('assets/js/vendor/sal.js')}}"></script>
-
+      @yield('jscript')  
     <!-- Site Scripts -->
     <script src="{{asset('assets/js/app.js')}}"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
 </body>
 
 
