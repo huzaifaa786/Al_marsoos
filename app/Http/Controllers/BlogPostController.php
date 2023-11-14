@@ -52,5 +52,6 @@ class BlogPostController extends Controller
     {   
         $search_results = Blog::where('title','LIKE','%'.$request->title.'%')->get();
         return view('Blog.searchblog',['BlogsSearch'=>$search_results]);
+        
     }
 }

@@ -62,9 +62,9 @@ STYLE SHEET INDEXING
 -------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Besley:wght@400;500;600;700&amp;family=Poppins:wght@200;300;400;500;600;700;800&amp;display=swap');
 :root {
-  --color-primary: #D2B995;
+  --color-primary: #cf8122;
   --color-white: #ffffff;
-  --color-light: #FFF3E2;
+  --color-light: #f3ce9a;
   --color-black: #000000;
   --color-dark: #2b2b2b;
   --color-grey: #F3F3F3; 

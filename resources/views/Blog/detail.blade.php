@@ -18,15 +18,17 @@
     <!--=====================================-->
     <section class="blogs-detail sec-mar">
         <div class="container">
-            <div class="heading">
-                <h2 class="title clr-primary text-start">Islamic Blogs</h2>
-                <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="heading w-75 mb-0">
+                <h2 class="title clr-primary text-start">{{$blog->title}}</h2>
+            </div>
+            <div class="mt-0 mb-2">
+                <i class="fas fa-calendar-alt"></i>{{ $blog->created_at->format('M d, Y') }}
             </div>
             <div class="row">
                 <div class="col-xl-9 col-lg-8 col-12">
                     <div class="detail-blog-card">
                         <div class="img-box">
-                            <img src="{{ $blog->image }}" height="auto" width="auto" alt="">
+                            <img src="{{ $blog->image }}" style="height:500px;" width=100% alt="">
                             <div class="content-inner">
                                 <h3 class="title">{{ $blog->title }}</h3>
                                 <ul class="list-unstyled">
@@ -35,8 +37,10 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="content-box">
-                            {!! strip_tags($blog->body)!!}
+                        <div class="p-4">
+                            <div>
+                                {!!$blog->body!!}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -50,22 +54,13 @@
                                         class="fal fa-search"></i></button>
                             </div>
                         </form>
-                        <h6 class="mb-4">Tags</h6>
-                        <ul class="tags">
-                            <li><a href="blog-detail.html">Islam & Youth</a></li>
-                            <li><a href="blog-detail.html">Parenting</a></li>
-                            <li><a href="blog-detail.html">Ahadith</a></li>
-                            <li><a href="blog-detail.html">Ghusal</a></li>
-                            <li><a href="blog-detail.html">Nikkah</a></li>
-                        </ul>
                     </div>
                     <div class="row">
                        @foreach ( App\Models\Blog::latest()->take(3)->get() as $key => $Blog)
-                           
-                      
+
                         <div class="col-lg-12 col-sm-6">
                             <div class="blog-card mt-3 mb-3">
-                                <img src="{{$Blog->image}}" height="100px" alt="">
+                                <img src="{{$Blog->image}}" style=" height:150px; width:100%;"  alt="">
                                 <div class="content-box">
                                     <h6 class="title">{{$Blog->title}}</h6>
                                     <ul class="list-unstyled">

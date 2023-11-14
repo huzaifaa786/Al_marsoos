@@ -38,6 +38,7 @@ Route::post('Contact/contact', [ContactController::class, 'store'])->name('Conta
 
 Route::get('Blog/bloglist', [FrontendController::class, 'index'])->name('Blog.bloglist');
 Route::get('/', [FrontendController::class, 'home'])->name('Home.index');
+Route::get('about/us',[FrontendController::class,'about'])->name('about');
 Route::get('blog/{id}', [FrontendController::class, 'blogDetail'])->name('blog.detail');
 Route::get('logout', [AdminController::class, 'logout'])->name('logout/page');
 

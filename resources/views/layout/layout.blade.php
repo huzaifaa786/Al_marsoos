@@ -2,33 +2,37 @@
 <html lang="en">
 
 <!-- Mirrored from uiparadox.co.uk/public/templates/al-buraq/index-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Nov 2023 06:58:43 GMT -->
+
 <head>
     <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Al-Marsoos | Mosque HTML 5 Template</title>
+    <title>Al-Marsoos   </title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/media/mlogo.PNG')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/media/mlogo.PNG') }}">
 
-    <link rel="stylesheet" href="{{asset('assets/css/vendor/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/vendor/font-awesome.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/vendor/slick.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/vendor/slick-theme.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/vendor/sal.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/vendor/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/vendor/font-awesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/vendor/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/vendor/slick-theme.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/vendor/sal.css') }}">
     <!-- Site Stylesheet -->
-    <link rel="stylesheet" href="{{asset('assets/css/app.css')}}">
-    
+    <link rel="stylesheet" href="{{ asset('assets/css/app.css') }}">
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-266165434-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-266165434-1');
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-266165434-1');
     </script>
 
 
@@ -37,8 +41,8 @@
 <body>
     <!-- Preloader -->
     <div id="preloader">
-        <img src="{{asset('assets/media/mlogo.PNG')}}" alt="logo" class="mb-5"><br>
-        <img src="{{asset('assets/media/preloader.gif')}}" alt="logo">
+        <img src="{{ asset('assets/media/mlogo.PNG') }}" alt="logo" class="mb-5"><br>
+        <img src="{{ asset('assets/media/preloader.gif') }}" alt="logo">
     </div>
     <!-- Back To Top Start -->
     <a href="#main-wrapper" id="backto-top" class="back-to-top">
@@ -54,46 +58,32 @@
             <!-- Start Main menu Nav -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-logo" href="{{route('Home.index')}}"><img src="{{asset('assets/media/mlogo.PNG')}}" width="50px" height="50px" alt=""></a>
+                    <a class="navbar-logo" href="{{ route('Home.index') }}"><img
+                            src="{{ asset('assets/media/mlogo.PNG') }}" width="50px" height="50px"
+                            alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                         <i class="fas fa-bars"></i>
                     </button>
                     <div class="collapse navbar-collapse center justify-content-end" id="mynavbar">
                         <ul class="navbar-nav text-right mainmenu ">
                             <li class="menu-item-has-children">
-                                <a href="{{route('Home.index')}}" class="active">Home</a>
+                                <a href="{{ route('Home.index') }}" class="active">Home</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="services.html">Services</a>
+                                <a href="{{ route('Blog.bloglist') }}">Blogs</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="events.html">Events</a>
+                                <a href="{{ route('about') }}">About</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="courses.html">Courses</a>
+                                <a href="{{ route('contact') }}">Contact Us</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="javascript:void(0);">Pages</a>
+                                <a href="javascript:void(0);">More</a>
                                 <ul class="al-buraq-submenu multiline">
-                                    <li><a href="{{route('Home.index')}}" class="active">Home 1</a></li>
-                                    <li><a href="index-2.html">Home 2</a></li>
-                                    <li><a href="about.html">About Page</a></li>
-                                    <li><a href="gallery.html">Gallery Page</a></li>
+                                    <li><a href="{{ route('Home.index') }}">Home </a></li>
                                     <li><a href="services.html">Services Page</a></li>
-                                    <li><a href="service-detail.html">Services Detail</a></li>
-                                    <li><a href="{{route('Blog.bloglist')}}">Blogs Page</a></li>
-                                    <li><a href="blog-detail.html">Blog Detail Page</a></li>
                                     <li><a href="courses.html">Courses Page</a></li>
-                                    <li><a href="course-detail.html">Course Detail Page</a></li>
-                                    <li><a href="scholars.html">Scholars Page</a></li>
-                                    <li><a href="scholars-detail.html"> Detail Page</a></li>
-                                    <li><a href="donations.html">Donations Page</a></li>
-                                    <li><a href="donate-now.html">Donate Now Page</a></li>
-                                    <li><a href="donation-policy.html">Donation Policy Page</a></li>
-                                    <li><a href="events.html">Events Page</a></li>
-                               <li><a href="{{route('contact')}}">Contact Page</a></li>
-                                    <li><a href="404.html">404 Page</a></li>
-                                    <li><a href="coming-soon.html">Coming Soon Page</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -105,7 +95,7 @@
             </nav>
         </header>
         @yield('content')
-      <!--=====================================-->
+        <!--=====================================-->
         <!--=     Footer Area Start     =-->
         <!--=====================================-->
         <footer>
@@ -114,12 +104,16 @@
                     <div class="row">
                         <div class="col-xl-3 col-lg-6 col-md-6" data-sal-delay="100">
                             <div class="footer-widget">
-                                <a href="{{route('Home.index')}}"><img class="logo" alt="" src="{{asset('assets/media/logo.png')}}"></a>
-                                <p>Islam is about knowing what and how to live your life in the best way. Lorem Ipsum proin gravida nibh vel velit auctor aliquet.</p>
+                                <a href="{{ route('Home.index') }}"><img class="logo" alt=""
+                                        src="{{ asset('assets/media/logo.png') }}"></a>
+                                <p>Islam is about knowing what and how to live your life in the best way. Lorem Ipsum
+                                    proin gravida nibh vel velit auctor aliquet.</p>
                                 <ul class="list-unstyled info">
                                     <li><i class="fas fa-map-marked-alt"></i>1957 Turkey Pen Road, New York</li>
-                                    <li><a href="mailto:info@al-buraq.com"><i class="fas fa-envelope"></i>contactinfo@al-buraq.com </a></li>
-                                    <li><a href="tel:1234567678"><i class="fas fa-phone-alt"></i>+1 917-239-5190</a></li>
+                                    <li><a href="mailto:info@al-buraq.com"><i
+                                                class="fas fa-envelope"></i>contactinfo@al-buraq.com </a></li>
+                                    <li><a href="tel:1234567678"><i class="fas fa-phone-alt"></i>+1 917-239-5190</a>
+                                    </li>
                                     <li><i class="fas fa-fax"></i>646-385-7126</li>
                                 </ul>
                             </div>
@@ -129,31 +123,33 @@
                                 <h6 class="widget-title">Quick Links</h6>
                                 <div class="footer-menu-link">
                                     <ul class="list-unstyled">
-                                        <li><a href="{{route('Home.index')}}">Home</a></li>
+                                        <li><a href="{{ route('Home.index') }}">Home</a></li>
                                         <li><a href="services.html">Services</a></li>
                                         <li><a href="blogs.html">Blogs</a></li>
                                         <li><a href="about.html">About</a></li>
-                                        <li><a href="{{route('contact')}}">Contact</a></li>
+                                        <li><a href="{{ route('contact') }}">Contact</a></li>
                                         <li><a href="courses.html">Courses</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-xl-3 col-lg-6 col-md-6" data-sal-delay="100">
                             <div class="footer-widget">
                                 <h6 class="widget-title">Latest Blogs</h6>
                                 <div class="footer-blogs-link">
-                                    @foreach ( App\Models\Blog::latest()->take(3)->get() as $key => $Blog)
-                                    <a class="row" href="{{ route('blog.detail', $Blog->id) }}">
-                                        <div class="col-5 mb-3">
-                                            <img src="{{$Blog->image}}" alt="">
-                                        </div>
-                                        <div class="col-7 ps-0">
-                                            <h6 class="title">{{$Blog->title}}</h6>
-                                            <p class="date"><i class="fas fa-calendar-alt"></i>{{ $Blog->created_at->format('M d, Y') }}</p>
-                                        </div>
-                                    </a>
+                                    @foreach (App\Models\Blog::latest()->take(3)->get() as $key => $Blog)
+                                        <a class="row" href="{{ route('blog.detail', $Blog->id) }}">
+                                            <div class="col-5 mb-3">
+                                                <img src="{{ $Blog->image }}" alt="">
+                                            </div>
+                                            <div class="col-7 ps-0">
+                                                <h6 class="title">{{ $Blog->title }}</h6>
+                                                <p class="date"><i
+                                                        class="fas fa-calendar-alt"></i>{{ $Blog->created_at->format('M d, Y') }}
+                                                </p>
+                                            </div>
+                                        </a>
                                     @endforeach
 
                                     {{-- <a class="row" href="blog-detail.html">
@@ -181,13 +177,17 @@
                             <div class="footer-widget">
                                 <h6 class="widget-title">Contact us</h6>
                                 <div class="contact-form">
-                                    <form method="post" action="https://uiparadox.co.uk/public/templates/al-buraq/index-1.html" class="footer-contact-form al-buraq-contact-form">
+                                    <form method="post"
+                                        action="https://uiparadox.co.uk/public/templates/al-buraq/index-1.html"
+                                        class="footer-contact-form al-buraq-contact-form">
                                         <div class="row">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" name="name" placeholder="Full Name" required>
+                                                <input type="text" class="form-control" name="name"
+                                                    placeholder="Full Name" required>
                                             </div>
                                             <div class="form-group">
-                                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                                <input type="email" class="form-control" name="email"
+                                                    placeholder="Your Email" required>
                                             </div>
                                             <div class="form-group">
                                                 <textarea id="message" class="form-control" name="message" placeholder="Write Message" required></textarea>
@@ -216,19 +216,21 @@
         </footer>
     </div>
 
-     <!-- Jquery Js -->
-    <script src="{{asset('assets/js/vendor/jquery-3.6.0.min.js')}}"></script>
-    <script src="{{asset('assets/js/vendor/bootstrap.min.js')}}"></script>
-    <script src="{{asset('assets/js/vendor/slick.min.js')}}"></script>
-    <script src="{{asset('assets/js/vendor/sal.js')}}"></script>
-      @yield('jscript')  
+    <!-- Jquery Js -->
+    <script src="{{ asset('assets/js/vendor/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/slick.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/sal.js') }}"></script>
+    @yield('jscript')
     <!-- Site Scripts -->
-    <script src="{{asset('assets/js/app.js')}}"></script>
+    <script src="{{ asset('assets/js/app.js') }}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+        < script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" >
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </body>
 
 
 <!-- Mirrored from uiparadox.co.uk/public/templates/al-buraq/index-1.html by HTTrack Website Copier/3.x [XR&CO2014], Wed, 08 Nov 2023 06:58:43 GMT -->
+
 </html>

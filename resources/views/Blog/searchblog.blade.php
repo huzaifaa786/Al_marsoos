@@ -100,21 +100,7 @@
                             </div>
                         </div> --}}
                         <div class="pagination-wrape mb-0">
-                            <ul class="pagination">
-                                <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                    </a>
-                                </li>
-                                <li class="page-item"><a class="page-link current" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                    </a>
-                                </li>
-                            </ul>
+                           
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -127,20 +113,6 @@
                                             class="fal fa-search"></i></button>
                                 </div>
                             </form>
-                            <h6 class="mb-4">Tags</h6>
-                            <ul class="tags">
-                                <li><a href="#">Islam & Youth</a></li>
-                                <li><a href="#">Parenting</a></li>
-                                <li><a href="#">Ahadith</a></li>
-                                <li><a href="#">Ghusal</a></li>
-                            </ul>
-                            <h6 class="mt-5 mb-3">Categories</h6>
-                            <ul class="category">
-                                <li><a href="#">Videos</a></li>
-                                <li><a href="#">Blogs</a></li>
-                                <li><a href="#">Shariah </a></li>
-                                <li><a href="#">Recitations</a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>

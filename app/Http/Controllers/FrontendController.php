@@ -11,9 +11,11 @@ class FrontendController extends Controller
     {
         // Retrieve all users
         $blogs = Blog::paginate(3);
-        
         // dd($category);
         return view('Blog.bloglist', ['blogs' => $blogs]);
+    }
+    public function about(){
+        return view('MorePages.about');
     }
     public function blogDetail($id)
     {
