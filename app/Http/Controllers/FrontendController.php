@@ -10,7 +10,8 @@ class FrontendController extends Controller
     public function index()
     {
         // Retrieve all users
-        $blogs = Blog::all();
+        $blogs = Blog::paginate(3);
+        
         // dd($category);
         return view('Blog.bloglist', ['blogs' => $blogs]);
     }

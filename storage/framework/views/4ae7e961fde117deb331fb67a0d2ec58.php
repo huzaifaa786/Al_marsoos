@@ -46,17 +46,13 @@
                                 </div>
                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                         </div>
-                        
-                        <?php echo e($blogs->links()); ?>
-
-                        
-                     
+                       
                         
                         
                         <div class="pagination-wrape mb-0">
                             <ul class="pagination">
                                 <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Previous">
+                                    <a class="page-link" href="" aria-label="Previous">
                                         <span aria-hidden="true">&laquo;</span>
                                     </a>
                                 </li>
@@ -70,6 +66,7 @@
                                 </li>
                             </ul>
                         </div>
+                        
                     </div>
                     <div class="col-lg-4">
                         <div class="sidebar-1">

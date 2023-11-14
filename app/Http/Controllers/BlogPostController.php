@@ -24,7 +24,7 @@ class BlogPostController extends Controller
 
     public function index()
     {
-        $blog = Blog::paginate(3);
+        $blog = Blog::all();
         return view('admin.blog.index',['blogs'=>$blog]);
     }
     public function edit($id)
