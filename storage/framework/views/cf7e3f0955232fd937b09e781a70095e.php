@@ -19,6 +19,7 @@
         <div class="container">
             <div class="heading w-75 mb-0">
                 <h2 class="title clr-primary text-start"><?php echo e($blog->title); ?></h2>
+            
             </div>
             <div class="mt-0 mb-2">
                 <i class="fas fa-calendar-alt"></i><?php echo e($blog->created_at->format('M d, Y')); ?>
@@ -57,8 +58,9 @@
                         </form>
                     </div>
                     <div class="row">
-                       <?php $__currentLoopData = App\Models\Blog::latest()->take(3)->get(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $Blog): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
+                       <?php $__currentLoopData = App\Models\Blog::latest()->take(4)->get(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $Blog): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                              <?php if($Blog->id != $blog->id): ?>    
                         <div class="col-lg-12 col-sm-6">
                             <div class="blog-card mt-3 mb-3">
                                 <img src="<?php echo e($Blog->image); ?>" style=" height:150px; width:100%;"  alt="">
@@ -73,6 +75,7 @@
                                 </div>
                             </div>
                         </div>
+                        <?php endif; ?>
                         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                         
                     </div>

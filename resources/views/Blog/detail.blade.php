@@ -20,6 +20,7 @@
         <div class="container">
             <div class="heading w-75 mb-0">
                 <h2 class="title clr-primary text-start">{{$blog->title}}</h2>
+            
             </div>
             <div class="mt-0 mb-2">
                 <i class="fas fa-calendar-alt"></i>{{ $blog->created_at->format('M d, Y') }}
@@ -56,8 +57,9 @@
                         </form>
                     </div>
                     <div class="row">
-                       @foreach ( App\Models\Blog::latest()->take(3)->get() as $key => $Blog)
 
+                       @foreach ( App\Models\Blog::latest()->take(4)->get() as $key => $Blog)
+                              @if ($Blog->id != $blog->id)    
                         <div class="col-lg-12 col-sm-6">
                             <div class="blog-card mt-3 mb-3">
                                 <img src="{{$Blog->image}}" style=" height:150px; width:100%;"  alt="">
@@ -72,6 +74,7 @@
                                 </div>
                             </div>
                         </div>
+                        @endif
                         @endforeach
                         {{-- <div class="col-lg-12 col-sm-6">
                             <div class="blog-card mb-3">
