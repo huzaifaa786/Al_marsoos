@@ -9,8 +9,13 @@ class ContactController extends Controller
 {
     public function store(Request $request)
     {
-        dd($request);
         Contact::create($request->all());
+       toastr()->success('Thanks For Contact Us...');
         return redirect()->back();
+    }
+    public function index()
+    {
+        $message = Contact::all();
+        return view('admin.message.contact',['messages'=>$message]);
     }
 }

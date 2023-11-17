@@ -27,30 +27,28 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <form method="POST" action="<?php echo e(route('contact.store')); ?>"  enctype="multipart/form-data"  class="al-buraq-contact-form card">
+                <form action="<?php echo e(route('contact.store')); ?>" method="POST">
                     <?php echo csrf_field(); ?>
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" required aria-required="true" name="name" placeholder="Your Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" required aria-required="true" name="email" placeholder="Your Email">
-                    </div>
-                    <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="name">Name</label>
+                          <input type="text" class="form-control" placeholder="Enter Name" name="name">
+                        </div>
+                        <div class="col">
+                            <label for="email">Email</label>
+                          <input type="email" class="form-control" placeholder="Enter Email" name="email">
+                        </div>
+                      </div>
+                      <div class="mb-3 mt-3">
                         <label for="phone">Mobile No</label>
-                        <input type="number" class="form-control" required aria-required="true" name="phone" placeholder="Your Mobile No">
-                    </div>
-                    <div class="form-group">
+                        <input type="integer" class="form-control" name="phone" id="phone" placeholder="Enter Mobile No" name="email">
+                      </div>
+                      <div class="mb-3 mt-3">
                         <label for="message">Message</label>
-                        <textarea class="form-control" rows="4" id="contact-message" required aria-required="true" name="message" placeholder="Message"></textarea>
-                    </div>
-                    <div class="text-center mt-4 mb-4">
-                        <button type="submit" class="al-buraq-btn btn-fill-primary btn-xl">Send Message</button>
-                    </div>
-                    <!-- Alert Message -->
-                    <div class="alert-msg message"></div>
-                </form>
+                        <textarea class="form-control" name="message" type="text" placeholder="Enter Message" > </textarea>
+                      </div>
+                    <button type="submit" class=" al-buraq-btn btn-fill-primary btn-xl">Submit</button>
+                  </form>
                 
             </div>
             <div class="col-lg-4">

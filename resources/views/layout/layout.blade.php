@@ -178,8 +178,9 @@
                                 <h6 class="widget-title">Contact us</h6>
                                 <div class="contact-form">
                                     <form method="post"
-                                        action="https://uiparadox.co.uk/public/templates/al-buraq/index-1.html"
-                                        class="footer-contact-form al-buraq-contact-form">
+                                        action="{{route('contact.store')}}"
+                                        class="footer-contact-form ">
+                                        @csrf
                                         <div class="row">
                                             <div class="form-group">
                                                 <input type="text" class="form-control" name="name"
@@ -188,6 +189,10 @@
                                             <div class="form-group">
                                                 <input type="email" class="form-control" name="email"
                                                     placeholder="Your Email" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="phone"
+                                                    placeholder="Mobile No" required>
                                             </div>
                                             <div class="form-group">
                                                 <textarea id="message" class="form-control" name="message" placeholder="Write Message" required></textarea>

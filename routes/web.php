@@ -33,6 +33,7 @@ Route::view('admin/layout', 'admin.layout');
 Route::view('admin/addstudent', 'admin.student.create')->name('newstudents');
 Route::view('admin/course', 'admin.course.addcourse')->name('newcourse');
 Route::view('admin/login', 'admin.auth.login')->name('admin.login');
+Route::get('all/messages',[ContactController::class,'index'])->name('contact.show.message');
 
 Route::post('admin/login', [AdminController::class, 'login'])->name('admin.auth.login');
 
@@ -68,4 +69,6 @@ Route::get('blogs/destroy/{id}',[BlogPostController::class,'destroy'])->name('bl
 Route::post('blogs/search',[BlogPostController::class,'blogsearch'])->name('blog.search');
 
 Route::get('payer/time', [PayerController::class, 'PayerTime'])->name('prayer.time');
+
 Route::post('contact/store',[ContactController::class,'store'])->name('contact.store');
+
