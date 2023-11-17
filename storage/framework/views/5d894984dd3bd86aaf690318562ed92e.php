@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <form method="POST" action="<?php echo e(route('Contact.store')); ?>"  enctype="multipart/form-data"  class="al-buraq-contact-form card">
+                <form method="POST" action="<?php echo e(route('contact.store')); ?>"  enctype="multipart/form-data"  class="al-buraq-contact-form card">
                     <?php echo csrf_field(); ?>
                     <div class="form-group">
                         <label for="name">Name</label>

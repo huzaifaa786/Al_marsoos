@@ -35,7 +35,7 @@ Route::view('admin/course', 'admin.course.addcourse')->name('newcourse');
 Route::view('admin/login', 'admin.auth.login')->name('admin.login');
 
 Route::post('admin/login', [AdminController::class, 'login'])->name('admin.auth.login');
-Route::post('Contact', [ContactController::class, 'store'])->name('Contact.store');
+
 
 Route::get('Blog/bloglist', [FrontendController::class, 'index'])->name('Blog.bloglist');
 Route::get('/', [FrontendController::class, 'home'])->name('Home.index');
@@ -68,3 +68,4 @@ Route::get('blogs/destroy/{id}',[BlogPostController::class,'destroy'])->name('bl
 Route::post('blogs/search',[BlogPostController::class,'blogsearch'])->name('blog.search');
 
 Route::get('payer/time', [PayerController::class, 'PayerTime'])->name('prayer.time');
+Route::post('contact/store',[ContactController::class,'store'])->name('contact.store');
