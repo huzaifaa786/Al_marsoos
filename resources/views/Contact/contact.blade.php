@@ -28,18 +28,23 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <form method="post" action="" class="al-buraq-contact-form card">
+                <form method="POST" action="{{ route('Contact.store') }}"  enctype="multipart/form-data"  class="al-buraq-contact-form card">
+                    @csrf
                     <div class="form-group">
-                        <label>Name</label>
-                        <input type="text" class="form-control" required name="name" placeholder="Your Name">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" required aria-required="true" name="name" placeholder="Your Name">
                     </div>
                     <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" class="form-control" required name="email" placeholder="Your Email">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" required aria-required="true" name="email" placeholder="Your Email">
                     </div>
                     <div class="form-group">
-                        <label>Message</label>
-                        <textarea class="form-control" rows="4" id="contact-message" required name="message" placeholder="Message"></textarea>
+                        <label for="phone">Mobile No</label>
+                        <input type="number" class="form-control" required aria-required="true" name="phone" placeholder="Your Mobile No">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" rows="4" id="contact-message" required aria-required="true" name="message" placeholder="Message"></textarea>
                     </div>
                     <div class="text-center mt-4 mb-4">
                         <button type="submit" class="al-buraq-btn btn-fill-primary btn-xl">Send Message</button>
@@ -47,6 +52,7 @@
                     <!-- Alert Message -->
                     <div class="alert-msg message"></div>
                 </form>
+                
             </div>
             <div class="col-lg-4">
                 <div class="card">

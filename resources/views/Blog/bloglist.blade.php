@@ -20,7 +20,7 @@
             <div class="container">
                 <div class="heading">
                     <h2 class="title clr-primary text-start">Blogs</h2>
-                    <p class="text-start">Watch and listen Islamic videos, Bayan and sermons from below</p>
+                    {{-- <p class="text-start">Watch and listen Islamic videos, Bayan and sermons from below</p> --}}
                 </div>
                 <div class="row">
                     <div class="col-lg-8">
@@ -35,7 +35,7 @@
                                         <h6 class="title">{{ $blog->title }}</h6>
                                         <ul class="list-unstyled">
                                             <li><i class="fas fa-calendar-alt"></i>{{ $blog->created_at->format('M d, Y') }}</li>
-                                            <li><i class="fas fa-user"></i>Mufti Maqsud</li>
+                                            {{-- <li><i class="fas fa-user"></i>Mufti Maqsud</li> --}}
                                         </ul>
                                         <p class="description">
                                             {!! Str::limit(strip_tags($blog->body), 200) !!}

@@ -6,6 +6,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\BlogPostController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\MessageController;
 use App\Http\Controllers\PayerController;
 use App\Http\Controllers\SMSController;
 use App\Http\Controllers\StudentController;
@@ -34,7 +35,7 @@ Route::view('admin/course', 'admin.course.addcourse')->name('newcourse');
 Route::view('admin/login', 'admin.auth.login')->name('admin.login');
 
 Route::post('admin/login', [AdminController::class, 'login'])->name('admin.auth.login');
-Route::post('Contact/contact', [ContactController::class, 'store'])->name('Contact.contact');
+Route::post('Contact', [ContactController::class, 'store'])->name('Contact.store');
 
 Route::get('Blog/bloglist', [FrontendController::class, 'index'])->name('Blog.bloglist');
 Route::get('/', [FrontendController::class, 'home'])->name('Home.index');

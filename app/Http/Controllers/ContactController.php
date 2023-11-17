@@ -9,6 +9,7 @@ class ContactController extends Controller
 {
     public function store(Request $request)
     {
+        dd($request);
         Contact::create($request->all());
         return redirect()->back();
     }

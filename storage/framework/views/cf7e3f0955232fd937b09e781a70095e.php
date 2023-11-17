@@ -68,7 +68,7 @@
                                     <h6 class="title"><?php echo e($Blog->title); ?></h6>
                                     <ul class="list-unstyled">
                                         <li><i class="fas fa-calendar-alt"></i><?php echo e($Blog->created_at->format('M d, Y')); ?></li>
-                                        <li><i class="fas fa-user"></i>Ahmad Ansari</li>
+                                
                                     </ul>
                                     <p class="description"><?php echo Str::limit(strip_tags($blog->body), 50); ?></p>
                                     <a href="<?php echo e(route('blog.detail', $Blog->id)); ?>" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
