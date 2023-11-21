@@ -105,7 +105,7 @@
                         <div class="col-xl-3 col-lg-6 col-md-6" data-sal-delay="100">
                             <div class="footer-widget">
                                 <a href="{{ route('Home.index') }}"><img class="logo" alt=""
-                                        src="{{ asset('assets/media/logo.png') }}"></a>
+                                        src="{{ asset('assets/media/mlogo.PNG') }}"></a>
                                 <p>Islam is about knowing what and how to live your life in the best way. Lorem Ipsum
                                     proin gravida nibh vel velit auctor aliquet.</p>
                                 <ul class="list-unstyled info">
