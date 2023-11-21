@@ -25,26 +25,30 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="row">
-                        @foreach ($courses as $course)
-                            
-                        
-                        <div class="col-lg-6 col-sm-6 mb-4 col-12 ">
-                            <div class="sermon-card">
-                                <div class="sermon-img">
-                                    <img src="{{$course->image}}"  alt="Image" style="height:200px;" width=100% class="image">
-                                    <div class="overlay">
+                      
+                        @if($coursesearch->isEmpty())
+                        <h1 style="color: #CF8122;">No match Found</h1>
+                    @else
+                        @foreach ($coursesearch as $course)
+                            <div class="col-lg-6 col-sm-6 mb-4 col-12">
+                                <div class="sermon-card">
+                                    <div class="sermon-img">
+                                        <img src="{{ $course->image }}" alt="Image" style="height:200px;" width="100%" class="image">
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="content-box">
+                                        <h6 class="title">{{ $course->name }}</h6>
+                                        <p class="description">
+                                            {!! Str::limit(strip_tags($course->description), 200) !!}
+                                        </p>
+                                        <a href="{{ route('Course.detail', $course->id) }}" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
                                     </div>
                                 </div>
-                                <div class="content-box">
-                                    <h6 class="title">{{$course->name}}</h6>
-                                    <p class="description">
-                                        {!! Str::limit(strip_tags($course->description), 200) !!}
-                                    </p>
-                                    <a href="{{ route('Course.detail', $course->id) }}" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
-                                </div>
                             </div>
-                        </div>
                         @endforeach
+                        {{ $coursesearch->links() }}
+                    @endif
+                    
                         {{-- <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
@@ -60,7 +64,7 @@
                         </div> --}}
                     </div>
                     <div class="pagination-wrape">
-                        {{ $courses->links() }}
+                        {{ $coursesearch->links() }}
 
                     </div>
                 </div>

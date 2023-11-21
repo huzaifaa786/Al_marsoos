@@ -27,6 +27,11 @@ class FrontendController extends Controller
         $blog = Blog::find($id);
         return view('Blog.detail', ['blog' => $blog]);
     }
+    public function courseDetail($id)
+    {
+        $course = Course::find($id);
+        return view('Courses.detailcourse', ['courses' => $course]);
+    }
     public function home()
     {
         // Retrieve all users

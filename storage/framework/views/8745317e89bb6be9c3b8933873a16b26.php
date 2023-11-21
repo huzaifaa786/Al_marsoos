@@ -214,45 +214,26 @@
                     <p>Watch and learn from quality courses</p>
                 </div>
                 <div class="row">
+                    <?php $__currentLoopData = App\Models\Course::latest()->take(3)->get(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $course): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        
+                    
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="sermon-box">
                             <div class="sermon-img">
-                                <img src="assets/media/sermons/sermon-1.png" alt="" class="image">
+                                <img src="<?php echo e($course->image); ?>" style=" height:200px; width:100%;" height="100px"  alt="" class="image">
                                 <div class="overlay">
                                     <a href="#" class="icon" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="fas fa-play"></i></a>
                                 </div>
                             </div>
-                            <h6 class="title">Islam and youth</h6>
-                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <h6 class="title"><?php echo e($course->name); ?></h6>
+                            <p class="description">
+                                <?php echo Str::limit(strip_tags($course->description), 100); ?>
+
+                            </p>
                             <a href="course-detail.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="sermon-box">
-                            <div class="sermon-img">
-                                <img src="assets/media/sermons/sermon-2.png" alt="" class="image">
-                                <div class="overlay">
-                                    <a href="#" class="icon" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="fas fa-play"></i></a>
-                                </div>
-                            </div>
-                            <h6 class="title">Parent Education</h6>
-                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                            <a href="course-detail.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="sermon-box">
-                            <div class="sermon-img">
-                                <img src="assets/media/sermons/sermon-3.png" alt="" class="image">
-                                <div class="overlay">
-                                    <a href="#" class="icon" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="fas fa-play"></i></a>
-                                </div>
-                            </div>
-                            <h6 class="title">Quran Recitation</h6>
-                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                            <a href="course-detail.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
-                        </div>
-                    </div>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -363,44 +344,6 @@
                 </div>
                 <div class="text-center">
                 <a href="scholars.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
-                </div>
-            </div>
-        </section>
-        <!--=====================================-->
-        <!--=        Donors Area Start     =-->
-        <!--=====================================-->
-        <section class="donors sec-pad">
-            <div class="container">
-                <div class="heading">
-                    <h2 class="title">Donors</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="donors-slider">
-                            <div class="donor-box">
-                                <div class="donor-name">
-                                    <img src="assets/media/donors/donor-1.png" alt="">
-                                    <h6 class="mt-2">Saliha Kareem</h6>
-                                </div>
-                                <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                            </div>
-                            <div class="donor-box">
-                                <div class="donor-name">
-                                    <img src="assets/media/donors/donor-2.png" alt="">
-                                    <h6 class="mt-2">Abdus Salam</h6>
-                                </div>
-                                <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                            </div>
-                            <div class="donor-box">
-                                <div class="donor-name">
-                                    <img src="assets/media/donors/donor-3.png" alt="">
-                                    <h6 class="mt-2">Abdus Qudus</h6>
-                                </div>
-                                <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>

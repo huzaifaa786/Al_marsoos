@@ -34,7 +34,7 @@
                                 <h3 class="title">{{ $blog->title }}</h3>
                                 <ul class="list-unstyled">
                                     <li><i class="fas fa-calendar-alt"></i>{{ $blog->created_at->format('M d, Y') }}</li>
-                                    <li><i class="fas fa-user"></i>Mufti Maqsud</li>
+                                    {{-- <li><i class="fas fa-user"></i>Mufti Maqsud</li> --}}
                                 </ul>
                             </div>
                         </div>

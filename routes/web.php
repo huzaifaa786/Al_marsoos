@@ -72,3 +72,5 @@ Route::get('payer/time', [PayerController::class, 'PayerTime'])->name('prayer.ti
 
 Route::post('contact/store',[ContactController::class,'store'])->name('contact.store');
 Route::get('courses/course',[FrontendController::class,'course'])->name('courses.view');
+Route::get('course/{id}', [FrontendController::class, 'courseDetail'])->name('Course.detail');
+Route::post('course/search',[CourseController::class,'coursesearch'])->name('course.search');

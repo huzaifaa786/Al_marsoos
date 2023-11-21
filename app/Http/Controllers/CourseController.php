@@ -52,5 +52,19 @@ class CourseController extends Controller
         $course->update($request->all());
         return redirect()->route('course.index');
     }
+    public function coursesearch(Request $request)
+    {   
+      
+        $search_results = Course::where('name', 'LIKE', '%' . $request->name . '%')->paginate(4);
+
+        if ($search_results->isEmpty()) {
+            // If no results are found, return a message
+            return view('Courses.searchcourse', ['coursesearch' => $search_results, 'message' => 'No matches found.']);
+        } else {
+            // If results are found, paginate and return the view
+            return view('Courses.searchcourse', ['coursesearch' => $search_results]);
+        }
+        
+    }
 }
 

@@ -25,31 +25,36 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="row">
-                        <?php $__currentLoopData = $courses; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $course): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                            
-                        
-                        <div class="col-lg-6 col-sm-6 mb-4 col-12 ">
-                            <div class="sermon-card">
-                                <div class="sermon-img">
-                                    <img src="<?php echo e($course->image); ?>"  alt="Image" style="height:200px;" width=100% class="image">
-                                    <div class="overlay">
+                      
+                        <?php if($coursesearch->isEmpty()): ?>
+                        <h1 style="color: #CF8122;">No match Found</h1>
+                    <?php else: ?>
+                        <?php $__currentLoopData = $coursesearch; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $course): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                            <div class="col-lg-6 col-sm-6 mb-4 col-12">
+                                <div class="sermon-card">
+                                    <div class="sermon-img">
+                                        <img src="<?php echo e($course->image); ?>" alt="Image" style="height:200px;" width="100%" class="image">
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="content-box">
+                                        <h6 class="title"><?php echo e($course->name); ?></h6>
+                                        <p class="description">
+                                            <?php echo Str::limit(strip_tags($course->description), 200); ?>
+
+                                        </p>
+                                        <a href="<?php echo e(route('Course.detail', $course->id)); ?>" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
                                     </div>
                                 </div>
-                                <div class="content-box">
-                                    <h6 class="title"><?php echo e($course->name); ?></h6>
-                                    <p class="description">
-                                        <?php echo Str::limit(strip_tags($course->description), 200); ?>
-
-                                    </p>
-                                    <a href="<?php echo e(route('Course.detail', $course->id)); ?>" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
-                                </div>
                             </div>
-                        </div>
                         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                        <?php echo e($coursesearch->links()); ?>
+
+                    <?php endif; ?>
+                    
                         
                     </div>
                     <div class="pagination-wrape">
-                        <?php echo e($courses->links()); ?>
+                        <?php echo e($coursesearch->links()); ?>
 
 
                     </div>
@@ -72,4 +77,4 @@
     </section>
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layout.layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH F:\laraval\Al_marsoos\resources\views/Courses/courses.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layout.layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH F:\laraval\Al_marsoos\resources\views/Courses/searchcourse.blade.php ENDPATH**/ ?>
