@@ -1836,7 +1836,7 @@ ul.pagination li a.current {
   color: var(--color-primary);
 }
 .about.style-2{
-  background: url(../media/about/about-bg.png);
+  /* background: url(../media/about/about-bg.png); */
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -83,7 +83,7 @@
                                 <ul class="al-buraq-submenu multiline">
                                     <li><a href="<?php echo e(route('Home.index')); ?>">Home </a></li>
                                     <li><a href="services.html">Services Page</a></li>
-                                    <li><a href="courses.html">Courses Page</a></li>
+                                    <li><a href="<?php echo e(route('courses.view')); ?>">Courses Page</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -124,11 +124,11 @@
                                 <div class="footer-menu-link">
                                     <ul class="list-unstyled">
                                         <li><a href="<?php echo e(route('Home.index')); ?>">Home</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="blogs.html">Blogs</a></li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="<?php echo e(route('Blog.bloglist')); ?>">Blogs</a></li>
+                                        <li><a href="<?php echo e(route('about')); ?>">About</a></li>
                                         <li><a href="<?php echo e(route('contact')); ?>">Contact</a></li>
-                                        <li><a href="courses.html">Courses</a></li>
+                                        <li><a href="<?php echo e(route('courses.view')); ?>">Courses</a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>

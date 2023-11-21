@@ -71,4 +71,4 @@ Route::post('blogs/search',[BlogPostController::class,'blogsearch'])->name('blog
 Route::get('payer/time', [PayerController::class, 'PayerTime'])->name('prayer.time');
 
 Route::post('contact/store',[ContactController::class,'store'])->name('contact.store');
-
+Route::get('courses/course',[FrontendController::class,'course'])->name('courses.view');

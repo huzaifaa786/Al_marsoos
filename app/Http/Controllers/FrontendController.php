@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Blog;
+use App\Models\Course;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
@@ -13,6 +14,10 @@ class FrontendController extends Controller
         $blogs = Blog::paginate(3);
         // dd($category);
         return view('Blog.bloglist', ['blogs' => $blogs]);
+    }
+    public function course(){
+        $course = Course::paginate(4);
+        return view('Courses.courses',['courses' => $course]);
     }
     public function about(){
         return view('MorePages.about');

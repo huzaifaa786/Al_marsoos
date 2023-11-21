@@ -16,11 +16,11 @@
  <!--=====================================-->
         <!--=          Map Area Start           =-->
         <!--=====================================-->
-        <section class="sec-mar">
+        {{-- <section class="sec-mar">
             <div class="container">
                 <img src="{{asset('assets/media/contact/map.png')}}" alt="">
             </div>
-        </section>
+        </section> --}}
         <!--=====================================-->
         <!--=        Contact Area Start         =-->
         <!--=====================================-->

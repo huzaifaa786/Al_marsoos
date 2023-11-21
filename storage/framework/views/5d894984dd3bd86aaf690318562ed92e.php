@@ -15,11 +15,7 @@
  <!--=====================================-->
         <!--=          Map Area Start           =-->
         <!--=====================================-->
-        <section class="sec-mar">
-            <div class="container">
-                <img src="<?php echo e(asset('assets/media/contact/map.png')); ?>" alt="">
-            </div>
-        </section>
+        
         <!--=====================================-->
         <!--=        Contact Area Start         =-->
         <!--=====================================-->
