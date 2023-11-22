@@ -5,6 +5,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\BlogPostController;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\EventController;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\PayerController;
@@ -74,3 +75,10 @@ Route::post('contact/store',[ContactController::class,'store'])->name('contact.s
 Route::get('courses/course',[FrontendController::class,'course'])->name('courses.view');
 Route::get('course/{id}', [FrontendController::class, 'courseDetail'])->name('Course.detail');
 Route::post('course/search',[CourseController::class,'coursesearch'])->name('course.search');
+
+Route::view('/event', 'admin.event.create')->name('event.create');
+Route::post('/event/create',[EventController::class,'store'])->name('Event.store');
+Route::get('events/index',[EventController::class,'index'])->name('event.index');
+Route::get('events/destroy/{id}',[EventController::class,'destroy'])->name('event.delete');
+Route::get('event/edit/{id}',[EventController::class,'edit'])->name('event.edit');
+Route::post('event/update',[EventController::class,'update'])->name('event.update');

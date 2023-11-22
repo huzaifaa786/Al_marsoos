@@ -220,9 +220,9 @@
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="sermon-box">
                             <div class="sermon-img">
-                                <img src="<?php echo e($course->image); ?>" style=" height:200px; width:100%;" height="100px"  alt="" class="image">
+                                <img src="<?php echo e($course->image); ?>" style=" height:300px; width:447px;" height="100px"  alt="" class="image">
                                 <div class="overlay">
-                                    <a href="#" class="icon" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="fas fa-play"></i></a>
+                                    <a href="#" class="icon" data-bs-toggle="modal" data-bs-target="#videoModal"></i></a>
                                 </div>
                             </div>
                             <h6 class="title"><?php echo e($course->name); ?></h6>
@@ -230,7 +230,7 @@
                                 <?php echo Str::limit(strip_tags($course->description), 100); ?>
 
                             </p>
-                            <a href="course-detail.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
+                            <a href="<?php echo e(route('Course.detail', $course->id)); ?>" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
                         </div>
                     </div>
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
@@ -259,45 +259,25 @@
                     <p>The up coming events and services in our Mosque</p>
                 </div>
                 <div class="row">
+                    <?php $__currentLoopData = App\Models\Event::latest()->take(3)->get(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $event): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="event-card">
-                            <img src="assets/media/events/event-1.png" alt="">
+                            <img src="<?php echo e($event->image); ?>" style=" height:300px; width:447px;" alt="">
                             <div class="content-box">
-                                <h6 class="title">Mahafil Zikr and Bayan</h6>
+                                <h6 class="title"><?php echo e($event->name); ?></h6>
                                 <ul class="list-unstyled">
-                                    <li class="date"><i class="fas fa-calendar-alt"></i> 07-01-2023</li>
-                                    <li><i class="fas fa-map-marker-alt"></i>Park Lane, NY</li>
+                                    <li class="date"><i class="fas fa-calendar-alt"></i> <?php echo e($event->date); ?></li>
+                                    <li><i class="fas fa-map-marker-alt"></i><?php echo e($event->address); ?></li>
                                 </ul>
-                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam.</p>
+                                <p class="description">
+                                    <?php echo Str::limit(strip_tags($event->description), 100); ?>
+
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="event-card">
-                            <img src="assets/media/events/event-2.png" alt="">
-                            <div class="content-box">
-                                <h6 class="title">Ramadan Fund Raising</h6>
-                                <ul class="list-unstyled">
-                                    <li class="date"><i class="fas fa-calendar-alt"></i> 08-01-2023</li>
-                                    <li><i class="fas fa-map-marker-alt"></i>Park Lane, NY</li>
-                                </ul>
-                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12 offset-lg-0 offset-md-3">
-                        <div class="event-card">
-                            <img src="assets/media/events/event-3.png" alt="">
-                            <div class="content-box">
-                                <h6 class="title">Islamophobia Rally</h6>
-                                <ul class="list-unstyled">
-                                    <li class="date"><i class="fas fa-calendar-alt"></i> 09-01-2023</li>
-                                    <li><i class="fas fa-map-marker-alt"></i>Park Lane, NY</li>
-                                </ul>
-                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                    
                 </div>
             </div>
         </section>

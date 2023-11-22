@@ -221,16 +221,16 @@
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="sermon-box">
                             <div class="sermon-img">
-                                <img src="{{$course->image}}" style=" height:200px; width:100%;" height="100px"  alt="" class="image">
+                                <img src="{{$course->image}}" style=" height:300px; width:447px;" height="100px"  alt="" class="image">
                                 <div class="overlay">
-                                    <a href="#" class="icon" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="fas fa-play"></i></a>
+                                    <a href="#" class="icon" data-bs-toggle="modal" data-bs-target="#videoModal"></i></a>
                                 </div>
                             </div>
                             <h6 class="title">{{$course->name}}</h6>
                             <p class="description">
                                 {!! Str::limit(strip_tags($course->description), 100) !!}
                             </p>
-                            <a href="course-detail.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
+                            <a href="{{ route('Course.detail', $course->id) }}" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
                         </div>
                     </div>
                     @endforeach
@@ -259,20 +259,24 @@
                     <p>The up coming events and services in our Mosque</p>
                 </div>
                 <div class="row">
+                    @foreach (App\Models\Event::latest()->take(3)->get() as $event)
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="event-card">
-                            <img src="assets/media/events/event-1.png" alt="">
+                            <img src="{{$event->image}}" style=" height:300px; width:447px;" alt="">
                             <div class="content-box">
-                                <h6 class="title">Mahafil Zikr and Bayan</h6>
+                                <h6 class="title">{{$event->name}}</h6>
                                 <ul class="list-unstyled">
-                                    <li class="date"><i class="fas fa-calendar-alt"></i> 07-01-2023</li>
-                                    <li><i class="fas fa-map-marker-alt"></i>Park Lane, NY</li>
+                                    <li class="date"><i class="fas fa-calendar-alt"></i> {{$event->date}}</li>
+                                    <li><i class="fas fa-map-marker-alt"></i>{{$event->address}}</li>
                                 </ul>
-                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam.</p>
+                                <p class="description">
+                                    {!! Str::limit(strip_tags($event->description), 100) !!}
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12">
+                    @endforeach
+                    {{-- <div class="col-lg-4 col-md-6 col-12">
                         <div class="event-card">
                             <img src="assets/media/events/event-2.png" alt="">
                             <div class="content-box">
@@ -297,7 +301,7 @@
                                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>

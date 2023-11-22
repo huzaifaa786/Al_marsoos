@@ -25,32 +25,34 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="row">
-                      
-                        <?php if($coursesearch->isEmpty()): ?>
-                        <h1 style="color: #CF8122;">No match Found</h1>
-                    <?php else: ?>
-                        <?php $__currentLoopData = $coursesearch; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $course): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                            <div class="col-lg-6 col-sm-6 mb-4 col-12">
-                                <div class="sermon-card">
-                                    <div class="sermon-img">
-                                        <img src="<?php echo e($course->image); ?>" alt="Image" style="height:200px;" width="100%" class="image">
-                                        <div class="overlay"></div>
-                                    </div>
-                                    <div class="content-box">
-                                        <h6 class="title"><?php echo e($course->name); ?></h6>
-                                        <p class="description">
-                                            <?php echo Str::limit(strip_tags($course->description), 200); ?>
 
-                                        </p>
-                                        <a href="<?php echo e(route('Course.detail', $course->id)); ?>" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
+                        <?php if($coursesearch->isEmpty()): ?>
+                            <h1 style="color: #CF8122;">No match Found</h1>
+                        <?php else: ?>
+                            <?php $__currentLoopData = $coursesearch; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $course): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                <div class="col-lg-6 col-sm-6 mb-4 col-12">
+                                    <div class="sermon-card">
+                                        <div class="sermon-img">
+                                            <img src="<?php echo e($course->image); ?>" alt="Image" style="height:200px;"
+                                                width="100%" class="image">
+                                            <div class="overlay"></div>
+                                        </div>
+                                        <div class="content-box">
+                                            <h6 class="title"><?php echo e($course->name); ?></h6>
+                                            <p class="description">
+                                                <?php echo Str::limit(strip_tags($course->description), 200); ?>
+
+                                            </p>
+                                            <a href="<?php echo e(route('Course.detail', $course->id)); ?>"
+                                                class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                        <?php echo e($coursesearch->links()); ?>
+                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                            <?php echo e($coursesearch->links()); ?>
 
-                    <?php endif; ?>
-                    
+                        <?php endif; ?>
+
                         
                     </div>
                     <div class="pagination-wrape">
@@ -69,7 +71,7 @@
                                         class="fal fa-search"></i></button>
                             </div>
                         </form>
-                        
+
                     </div>
                 </div>
             </div>
