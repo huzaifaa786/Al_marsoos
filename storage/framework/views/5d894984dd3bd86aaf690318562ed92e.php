@@ -41,7 +41,7 @@
                       </div>
                       <div class="mb-3 mt-3">
                         <label for="message">Message</label>
-                        <textarea class="form-control" name="message" type="text" placeholder="Enter Message" > </textarea>
+                        <textarea class="form-control" name="message" type="text"  ></textarea>
                       </div>
                     <button type="submit" class=" al-buraq-btn btn-fill-primary btn-xl">Submit</button>
                   </form>

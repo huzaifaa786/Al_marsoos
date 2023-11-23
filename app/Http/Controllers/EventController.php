@@ -17,7 +17,7 @@ class EventController extends Controller
             'description' => 'required',
         ]);
         Event::create($request->all());
-        return redirect()->back()->with('success', 'Course added successfully');
+        return redirect()->back()->with('success', 'Event added successfully');
     }
     public function index()
     {

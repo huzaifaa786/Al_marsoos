@@ -10,6 +10,7 @@ use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\PayerController;
 use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\ScholarsController;
 use App\Http\Controllers\SMSController;
 use App\Http\Controllers\StudentController;
 
@@ -86,3 +87,10 @@ Route::post('event/update', [EventController::class, 'update'])->name('event.upd
 
 Route::get('payment/view', [FrontendController::class, 'payment'])->name('donate.index');
 Route::post('payment/create',[PaymentController::class,'stripePost'])->name('payment.store');
+
+Route::view('/scholars', 'admin.scholars.create')->name('scholars.create');
+Route::post('scholar/store',[ScholarsController::class,'store'])->name('scholar.store');
+Route::get('scholar/index',[ScholarsController::class,'index'])->name('scholar.index');
+Route::get('scholar/destroy/{id}', [ScholarsController::class, 'destroy'])->name('scholar.delete');
+Route::get('scholar/edit/{id}', [ScholarsController::class, 'edit'])->name('scholar.edit');
+Route::post('scholar/update', [ScholarsController::class, 'update'])->name('scholar.update');

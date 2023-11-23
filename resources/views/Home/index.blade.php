@@ -8,7 +8,7 @@
                 <div class="banner-content align-items-center" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
                     <img alt="ayat" src="assets/media/banner/banner-ayat.png">
                     <p>And We have sent you (O Muhammad SAWW) not but as a mercy for the ‘Almin (mankind, jinns and all that exists)</p>
-                    <a href="courses.html" class="al-buraq-btn btn-fill-primary btn-lg">Read More</a>
+                    <a href="{{route('courses.view')}}" class="al-buraq-btn btn-fill-primary btn-lg">Read More</a>
                 </div>
             </div>
         </section>
@@ -78,7 +78,7 @@
                         <h3 class="title">About Al-Marsoos</h3>
                         <p>It is the responsibility of every Muslim to serve for DEEN <br><br> We established our center in 1954, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p class="hadith">Prophet Muhammad (S.A.W.W): “If you wish for Allah to multiply your wealth, then purify it (through zakat).”</p>
-                        <a href="about.html" class="al-buraq-btn btn-fill-primary btn-lg">Read More</a>
+                        <a href="{{route('about')}}" class="al-buraq-btn btn-fill-primary btn-lg">Read More</a>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
         <!--=====================================-->
         <!--=        Services Area Start     =-->
         <!--=====================================-->
-        <section class="services style-1 sec-pad">
+        {{-- <section class="services style-1 sec-pad">
             <div class="container">
                 <div class="heading">
                     <h2 class="title">Services</h2>
@@ -182,7 +182,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!--=====================================-->
         <!--=        Donations Area Start     =-->
         <!--=====================================-->
@@ -196,13 +196,13 @@
                 <div class="progress-bar-1">
                     <div class="progress">
                         <div class="progress-done" data-done="70">
-                            70%
+                            60%
                         </div>
                     </div>
                 </div>
 
                 <h3 class="donation-heading">We need your donation for the restoration of the grand mosque</h3>
-                <a href="donate-now.html" class="al-buraq-btn btn-fill-primary btn-lg">Donate Now</a>
+                <a href="{{route('donate.index')}}" class="al-buraq-btn btn-fill-primary btn-lg">Donate Now</a>
             </div>
         </section>
         <!--=====================================-->
@@ -315,12 +315,18 @@
                     <p>It is the responsibility of every Muslim to serve for DEEN</p>
                 </div>
                 <div class="scholars-slider justify-content-center">
+                    @foreach (App\Models\Scholars::latest()->take(4)->get() as $scholar)
+                        
+                 
                     <div class="scholar-box text-center">
-                        <img src="assets/media/scholars/scholar-1.png" alt="">
-                        <h6 class="name">Molana Abdus Salam</h6>
-                        <p class="about-scholar">The Mosque is still under development in some sectors and is in need of your support and contribution.</p>
+                        <img src="{{$scholar->image}}" style="width:290px;height:250px" alt="">
+                        <h6 class="name">{{$scholar->name}}</h6>
+                        <p class="about-scholar">
+                            {!! Str::limit(strip_tags($scholar->description), 100) !!} 
+                        </p>
                     </div>
-                    <div class="scholar-box text-center">
+                    @endforeach
+                    {{-- <div class="scholar-box text-center">
                         <img src="assets/media/scholars/scholar-2.png" alt="">
                         <h6 class="name">Mufti Abd Manaf</h6>
                         <p class="about-scholar">The Mosque is serving day and night, educating people about Islam and teachings of Quran for children.</p>
@@ -344,7 +350,7 @@
                         <img src="assets/media/scholars/scholar-3.png" alt="">
                         <h6 class="name">Abida Anishah</h6>
                         <p class="about-scholar">The Mosque is still under development in some sectors and is in need of your support and contribution.</p>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="text-center">
                 <a href="scholars.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
