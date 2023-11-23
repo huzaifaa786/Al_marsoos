@@ -31,7 +31,7 @@
                         <div class="col-lg-6 col-sm-6 mb-4 col-12 ">
                             <div class="sermon-card">
                                 <div class="sermon-img">
-                                    <img src="<?php echo e($course->image); ?>"  alt="Image" style="height:200px;" width=100% class="image">
+                                    <img src="<?php echo e($course->image); ?>"  alt="Image" style="height:300px;" width=447px class="image">
                                     <div class="overlay">
                                     </div>
                                 </div>
