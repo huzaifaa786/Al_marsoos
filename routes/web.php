@@ -94,3 +94,6 @@ Route::get('scholar/index',[ScholarsController::class,'index'])->name('scholar.i
 Route::get('scholar/destroy/{id}', [ScholarsController::class, 'destroy'])->name('scholar.delete');
 Route::get('scholar/edit/{id}', [ScholarsController::class, 'edit'])->name('scholar.edit');
 Route::post('scholar/update', [ScholarsController::class, 'update'])->name('scholar.update');
+
+Route::get('scholar/view',[FrontendController::class,'scholars'])->name('scholar');
+Route::get('scholar/{id}', [FrontendController::class, 'scholarsdetail'])->name('scholar.detail');

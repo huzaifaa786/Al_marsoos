@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use App\Models\Course;
+use App\Models\Scholars;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
@@ -41,6 +42,18 @@ class FrontendController extends Controller
     }
     public function payment(){
         return view('payment.stripe');
+    }
+    public function scholars()
+    {
+        // Retrieve all users
+        $scholar = Scholars::paginate(6);
+        // dd($category);
+        return view('Scholars.scholars', ['scholars' => $scholar]);
+    }
+    public function scholarsdetail($id)
+    {
+        $scholars = Scholars::find($id);
+        return view('Scholars.scholarsdetail', ['scholar' => $scholars]);
     }
 
 }

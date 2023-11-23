@@ -2901,7 +2901,8 @@ background-repeat: no-repeat;
       Scholars
 -------------------------*/
 .scholars.scholars-bg{
-  background: url(../media/scholars/bg.png);
+  /* background: url(../media/scholars/bg.png); */
+  background-color:#F3CE9A  ;
   background-repeat: no-repeat;
   background-size: cover;
 }

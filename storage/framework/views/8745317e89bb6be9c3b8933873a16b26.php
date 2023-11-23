@@ -266,7 +266,7 @@
                     
                 </div>
                 <div class="text-center">
-                <a href="scholars.html" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
+                <a href="<?php echo e(route('scholar')); ?>" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
                 </div>
             </div>
         </section>
