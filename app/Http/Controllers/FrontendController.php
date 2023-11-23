@@ -39,5 +39,8 @@ class FrontendController extends Controller
         // dd($category);
         return view('Home.index', ['blogs' => $blogs]);
     }
+    public function payment(){
+        return view('payment.stripe');
+    }
 
 }

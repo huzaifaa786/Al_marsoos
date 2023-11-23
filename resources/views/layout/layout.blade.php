@@ -88,7 +88,7 @@
                             </li>
                         </ul>
                         <div class="d-flex right-nav">
-                            <a href="donate-now.html" class="al-buraq-btn btn-fill-primary btn-lg">Donate Now</a>
+                            <a href="{{route('donate.index')}}" class="al-buraq-btn btn-fill-primary btn-lg">Donate Now</a>
                         </div>
                     </div>
                 </div>
@@ -228,6 +228,7 @@
     <script src="{{ asset('assets/js/vendor/sal.js') }}"></script>
     @yield('jscript')
     <!-- Site Scripts -->
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
     <script src="{{ asset('assets/js/app.js') }}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
         < script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" >

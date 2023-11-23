@@ -2259,7 +2259,8 @@ background-repeat: no-repeat;
       Donate Now 
 -------------------------*/
 .donate-now{
-  background: url('../media/donors/donor-bg.png');
+  /* background: url('../media/donors/donor-bg.png'); */
+  background-color: #F3CE9A ;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2685,7 +2686,8 @@ background-repeat: no-repeat;
 }
 
 .sermons.sermons-bg{
-  background: url(../media/sermons/sermons-bg-2.png);
+  /* background: url(../media/sermons/sermons-bg-2.png); */
+  background-color:#F3CE9A ;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
