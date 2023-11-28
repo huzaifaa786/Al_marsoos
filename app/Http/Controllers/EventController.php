@@ -29,11 +29,12 @@ class EventController extends Controller
 
         $event = Event::find($id);
         $event->delete();
-        return redirect()->back();
+        return redirect()->back()->with('success','Course Delete successfully');
     }
     public function edit($id)
     {
         $events = Event::find($id);
+        toastr()->info('Update your data...');
         return view('admin.event.update', ['event' => $events]);
     }
     public function update(Request $request)
@@ -47,6 +48,6 @@ class EventController extends Controller
         ]);
         $event = Event::find($request->id);
         $event->update($request->all());
-        return redirect()->route('event.index');
+        return redirect()->route('event.index')->with('success','Event update successfully');
     }
 }

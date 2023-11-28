@@ -31,11 +31,12 @@ class ScholarsController extends Controller
 
         $scholar = Scholars::find($id);
         $scholar->delete();
-        return redirect()->back();
+        return redirect()->back()->with('success', 'Scholar delete successfully');
     }
     public function edit($id)
     {
         $scholars = Scholars::find($id);
+        toastr()->info('Update your data...');
         return view('admin.scholars.update', ['scholar' => $scholars]);
     }
     public function update(Request $request)
@@ -51,6 +52,6 @@ class ScholarsController extends Controller
         ]);
         $event = Scholars::find($request->id);
         $event->update($request->all());
-        return redirect()->route('scholar.index');
+        return redirect()->route('scholar.index')->with('success', 'Scholar update successfully');
     }
 }

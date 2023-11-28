@@ -7,7 +7,7 @@
     <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Al-Marsoos   </title>
+    <title>Al-Marsoos </title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -82,13 +82,14 @@
                                 <a href="javascript:void(0);">More</a>
                                 <ul class="al-buraq-submenu multiline">
                                     <li><a href="<?php echo e(route('Home.index')); ?>">Home </a></li>
-                                    <li><a href="services.html">Services Page</a></li>
-                                    <li><a href="<?php echo e(route('courses.view')); ?>">Courses Page</a></li>
+                                    
+                                    <li><a href="<?php echo e(route('courses.view')); ?>">Courses</a></li>
                                 </ul>
                             </li>
                         </ul>
                         <div class="d-flex right-nav">
-                            <a href="<?php echo e(route('donate.index')); ?>" class="al-buraq-btn btn-fill-primary btn-lg">Donate Now</a>
+                            <a href="<?php echo e(route('donate.index')); ?>" class="al-buraq-btn btn-fill-primary btn-lg">Donate
+                                Now</a>
                         </div>
                     </div>
                 </div>
@@ -128,7 +129,7 @@
                                         <li><a href="<?php echo e(route('about')); ?>">About</a></li>
                                         <li><a href="<?php echo e(route('contact')); ?>">Contact</a></li>
                                         <li><a href="<?php echo e(route('courses.view')); ?>">Courses</a></li>
-                                        
+
                                     </ul>
                                 </div>
                             </div>
@@ -161,9 +162,8 @@
                             <div class="footer-widget">
                                 <h6 class="widget-title">Contact us</h6>
                                 <div class="contact-form">
-                                    <form method="post"
-                                        action="<?php echo e(route('contact.store')); ?>"
-                                        class="footer-contact-form ">
+                                    <form method="post" action="<?php echo e(route('contact.store')); ?>"
+                                        class="footer-contact-form" onsubmit="return validateForm()">
                                         <?php echo csrf_field(); ?>
                                         <div class="row">
                                             <div class="form-group">
@@ -172,7 +172,8 @@
                                             </div>
                                             <div class="form-group">
                                                 <input type="email" class="form-control" name="email"
-                                                    placeholder="Your Email" required>
+                                                    id="email" placeholder="Your Email" required>
+                                                <span id="emailError" class="error"></span>
                                             </div>
                                             <div class="form-group">
                                                 <input type="text" class="form-control" name="phone"
@@ -187,6 +188,7 @@
                                         </div>
                                         <div class="alert-msg message mb-3"></div>
                                     </form>
+
                                 </div>
                             </div>
                         </div>
@@ -223,5 +225,4 @@
 
 <!-- Mirrored from uiparadox.co.uk/public/templates/al-buraq/index-1.html by HTTrack Website Copier/3.x [XR&CO2014], Wed, 08 Nov 2023 06:58:43 GMT -->
 
-</html>
-<?php /**PATH F:\laraval\Al_marsoos\resources\views/layout/layout.blade.php ENDPATH**/ ?>
+</html><?php /**PATH F:\laraval\Al_marsoos\resources\views/layout/layout.blade.php ENDPATH**/ ?>

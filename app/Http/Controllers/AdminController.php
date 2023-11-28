@@ -17,10 +17,10 @@ class AdminController extends Controller
         $credentials = $request->only('email', 'password');
         // dd($credentials);
         if (Auth::guard('admin')->attempt($credentials)) {
-            //   toastr()->success(' login successfully '); 
+              toastr()->success(' login successfully '); 
             return redirect()->intended('student/index');
         }
-        // toastr()->error('Incorrect email or password');
+        toastr()->error('Incorrect email or password');
         return redirect()->back()->withInput($request->only('email', 'remember'))->withErrors([
             'approve' => 'Wrong password or this account not approved yet.',
         ]);
@@ -28,6 +28,6 @@ class AdminController extends Controller
     public function logout()
     {
         Auth::guard('admin')->logout();
-        return redirect()->route('admin.auth.login');
+        return redirect()->route('admin.auth.login')->with('success',' Logout successfully');
     }
 }

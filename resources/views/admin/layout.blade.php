@@ -81,7 +81,7 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="{{ route('newstudents') }}">Add student</a>
+                        <a class="collapse-item" href="{{ route('newstudents') }}">Add Student</a>
                         <a class="collapse-item" href="{{ route('student.index') }}">All Students</a>
                         {{-- <a class="collapse-item" href="utilities-animation.html">Animations</a>
                         <a class="collapse-item" href="utilities-other.html">Other</a> --}}
@@ -98,8 +98,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="{{ route('course.create') }}">Add course</a>
-                        <a class="collapse-item" href="{{route('course.index')}}">All courses</a>
+                        <a class="collapse-item" href="{{ route('course.create') }}">Add Course</a>
+                        <a class="collapse-item" href="{{route('course.index')}}">All Courses</a>
                         {{-- <a class="collapse-item" href="utilities-animation.html">Animations</a>
                         <a class="collapse-item" href="utilities-other.html">Other</a> --}}
                     </div>
@@ -145,8 +145,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="{{ route('scholars.create') }}">Add Event</a>
-                        <a class="collapse-item" href="{{route('scholar.index')}}">All Events</a>
+                        <a class="collapse-item" href="{{ route('scholars.create') }}">Add Scholar</a>
+                        <a class="collapse-item" href="{{route('scholar.index')}}">All Scholars</a>
                         {{-- <a class="collapse-item" href="utilities-animation.html">Animations</a>
                         <a class="collapse-item" href="utilities-other.html">Other</a> --}}
                     </div>

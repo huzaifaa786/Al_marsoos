@@ -7,7 +7,7 @@
     <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Al-Marsoos   </title>
+    <title>Al-Marsoos </title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -82,13 +82,14 @@
                                 <a href="javascript:void(0);">More</a>
                                 <ul class="al-buraq-submenu multiline">
                                     <li><a href="{{ route('Home.index') }}">Home </a></li>
-                                    <li><a href="services.html">Services Page</a></li>
-                                    <li><a href="{{route('courses.view')}}">Courses Page</a></li>
+                                    {{-- <li><a href="services.html">Services Page</a></li> --}}
+                                    <li><a href="{{ route('courses.view') }}">Courses</a></li>
                                 </ul>
                             </li>
                         </ul>
                         <div class="d-flex right-nav">
-                            <a href="{{route('donate.index')}}" class="al-buraq-btn btn-fill-primary btn-lg">Donate Now</a>
+                            <a href="{{ route('donate.index') }}" class="al-buraq-btn btn-fill-primary btn-lg">Donate
+                                Now</a>
                         </div>
                     </div>
                 </div>
@@ -124,11 +125,11 @@
                                 <div class="footer-menu-link">
                                     <ul class="list-unstyled">
                                         <li><a href="{{ route('Home.index') }}">Home</a></li>
-                                        <li><a href="{{route('Blog.bloglist')}}">Blogs</a></li>
-                                        <li><a href="{{route('about')}}">About</a></li>
+                                        <li><a href="{{ route('Blog.bloglist') }}">Blogs</a></li>
+                                        <li><a href="{{ route('about') }}">About</a></li>
                                         <li><a href="{{ route('contact') }}">Contact</a></li>
-                                        <li><a href="{{route('courses.view')}}">Courses</a></li>
-                                        
+                                        <li><a href="{{ route('courses.view') }}">Courses</a></li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -177,9 +178,8 @@
                             <div class="footer-widget">
                                 <h6 class="widget-title">Contact us</h6>
                                 <div class="contact-form">
-                                    <form method="post"
-                                        action="{{route('contact.store')}}"
-                                        class="footer-contact-form ">
+                                    <form method="post" action="{{ route('contact.store') }}"
+                                        class="footer-contact-form" onsubmit="return validateForm()">
                                         @csrf
                                         <div class="row">
                                             <div class="form-group">
@@ -188,7 +188,8 @@
                                             </div>
                                             <div class="form-group">
                                                 <input type="email" class="form-control" name="email"
-                                                    placeholder="Your Email" required>
+                                                    id="email" placeholder="Your Email" required>
+                                                <span id="emailError" class="error"></span>
                                             </div>
                                             <div class="form-group">
                                                 <input type="text" class="form-control" name="phone"
@@ -203,6 +204,7 @@
                                         </div>
                                         <div class="alert-msg message mb-3"></div>
                                     </form>
+
                                 </div>
                             </div>
                         </div>

@@ -101,36 +101,36 @@
                 </div>
                 <div class="prayer-time text-center">
                     <h6>Daily Prayer Timings</h6>
-                    <p>in united states</p>
+                    <p>in  Pakistan </p>
                     <div class="row d-flex justify-content-between boxes-row">
                         <div class="col-lg-2 col-md-2 col-sm-4">
                             <div class="timing-box">
-                                <p class="name">Al-Fajr</p>
-                                <h6 class="time">06:00</h6>
+                                <p class="name" >Al-Fajr</p>
+                                <h6 class="time" id="Fajr">Loading</h6>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4">
                             <div class="timing-box">
                                 <p class="name" >Az-Zuhr</p>
-                                <h6 class="time" class="kkk">01:00</h6>
+                                <h6 class="time" id="Dhuhr">Loading</h6>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4">
                             <div class="timing-box">
                                 <p class="name">Al-Asar</p>
-                                <h6 class="time">13:00</h6>
+                                <h6 class="time" id="Asr">Loading</h6>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4">
                             <div class="timing-box">
                                 <p class="name">Al-Maghrib</p>
-                                <h6 class="time">17:00</h6>
+                                <h6 class="time" id="Maghrib">Loading</h6>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4">
                             <div class="timing-box">
                                 <p class="name">Al-Ishaa</p>
-                                <h6 class="time">19:00</h6>
+                                <h6 class="time" id="Isha">Loading</h6>
                             </div>
                         </div>
                       </div>
@@ -330,7 +330,41 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('jscript'); ?>
-    
+<script>
+    $(document).ready(function() {
+        prayertime();
+    });
+
+    function prayertime() {
+        let data = {
+            expectsJson: true,
+        };
+        $.ajax({
+            type: "GET",
+            url: "<?php echo e(route('prayer.time')); ?>",
+            data: {
+            },
+            success: function(response) {
+                console.log(response);  
+                var fajar = response.data.timings.Fajr;
+                var zuhur = response.data.timings.Dhuhr;
+                var asr = response.data.timings.Asr;
+                var magrib = response.data.timings.Maghrib;
+                var isha = response.data.timings.Isha;
+                $('#Fajr').text(fajar);
+                $('#Dhuhr').text(zuhur); 
+                $('#Asr').text(asr);
+                $('#Maghrib').text(magrib); 
+                $('#Isha').text(isha); 
+
+            },
+            error: function() {
+                alert("Error Fetching details.");
+            }
+        });
+    }
    
+</script>
 <?php $__env->stopSection(); ?>
+
 <?php echo $__env->make('layout.layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH F:\laraval\Al_marsoos\resources\views/Home/index.blade.php ENDPATH**/ ?>

@@ -16,6 +16,6 @@ class PaymentController extends Controller
             "source" => $request->stripeToken,
             "description" => "test from Tritec"
         ]);
-        return back();
+        return back()->with('success','Thanks for Donating');
     }
 }

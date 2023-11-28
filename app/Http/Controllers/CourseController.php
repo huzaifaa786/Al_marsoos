@@ -31,11 +31,12 @@ class CourseController extends Controller
     {
         $course = Course::find($id);
         $course->delete();
-        return redirect()->back();
+        return redirect()->back()->with('success','Course Delete successfully');
     }
     public function edit($id)
     {
         $course = Course::find($id);
+        toastr()->info('Update your data...');
         return view('admin.course.update',['course'=>$course]);
     }
 
@@ -50,7 +51,7 @@ class CourseController extends Controller
         ]);
         $course = Course::find($request->id);
         $course->update($request->all());
-        return redirect()->route('course.index');
+        return redirect()->route('course.index')->with('success','Course Update successfully');
     }
     public function coursesearch(Request $request)
     {   

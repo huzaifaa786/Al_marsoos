@@ -30,6 +30,7 @@ class BlogPostController extends Controller
     public function edit($id)
     {
         $blog = Blog::find($id);
+        toastr()->info('Update your data...');
         return view('admin.blog.update',['blog'=>$blog]);
     }
     public function update(Request $request)
@@ -40,13 +41,13 @@ class BlogPostController extends Controller
         ]);
             $blog = Blog::find($request->id);
             $blog->update($request->all());
-            return redirect()->route('blog.index');
+            return redirect()->route('blog.index')->with('success','Blog Update successfully');
     }
     public function destroy($id)
     {
         $blog = Blog::find($id);
         $blog->delete();
-        return redirect()->back();
+        return redirect()->back()->with('success','Blog Delete successfully');
     }
     public function blogsearch(Request $request)
     {   

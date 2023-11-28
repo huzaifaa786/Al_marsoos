@@ -8,8 +8,8 @@ use App\Http\Controllers\CourseController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\MessageController;
-use App\Http\Controllers\PayerController;
 use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\PrayerController;
 use App\Http\Controllers\ScholarsController;
 use App\Http\Controllers\SMSController;
 use App\Http\Controllers\StudentController;
@@ -71,7 +71,7 @@ Route::post('blogs/update', [BlogPostController::class, 'update'])->name('blog.u
 Route::get('blogs/destroy/{id}', [BlogPostController::class, 'destroy'])->name('blog.delete');
 Route::post('blogs/search', [BlogPostController::class, 'blogsearch'])->name('blog.search');
 
-Route::get('payer/time', [PayerController::class, 'PayerTime'])->name('prayer.time');
+
 
 Route::post('contact/store', [ContactController::class, 'store'])->name('contact.store');
 Route::get('courses/course', [FrontendController::class, 'course'])->name('courses.view');
@@ -97,3 +97,6 @@ Route::post('scholar/update', [ScholarsController::class, 'update'])->name('scho
 
 Route::get('scholar/view',[FrontendController::class,'scholars'])->name('scholar');
 Route::get('scholar/{id}', [FrontendController::class, 'scholarsdetail'])->name('scholar.detail');
+
+Route::get('paryer/time',[PrayerController::class,'PayerTime'])->name('prayer.time');
+Route::view('prayertime','MorePages.pryer');

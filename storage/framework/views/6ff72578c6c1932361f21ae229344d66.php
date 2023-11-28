@@ -81,7 +81,7 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="<?php echo e(route('newstudents')); ?>">Add student</a>
+                        <a class="collapse-item" href="<?php echo e(route('newstudents')); ?>">Add Student</a>
                         <a class="collapse-item" href="<?php echo e(route('student.index')); ?>">All Students</a>
                         
                     </div>
@@ -97,8 +97,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="<?php echo e(route('course.create')); ?>">Add course</a>
-                        <a class="collapse-item" href="<?php echo e(route('course.index')); ?>">All courses</a>
+                        <a class="collapse-item" href="<?php echo e(route('course.create')); ?>">Add Course</a>
+                        <a class="collapse-item" href="<?php echo e(route('course.index')); ?>">All Courses</a>
                         
                     </div>
                 </div>
@@ -142,8 +142,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="<?php echo e(route('scholars.create')); ?>">Add Event</a>
-                        <a class="collapse-item" href="<?php echo e(route('scholar.index')); ?>">All Events</a>
+                        <a class="collapse-item" href="<?php echo e(route('scholars.create')); ?>">Add Scholar</a>
+                        <a class="collapse-item" href="<?php echo e(route('scholar.index')); ?>">All Scholars</a>
                         
                     </div>
                 </div>

@@ -36,6 +36,7 @@ class StudentController extends Controller
     public function edit($id)
     {
         $student = Student::find($id);
+        toastr()->info('Update your data...');
         return view('admin.student.update', ['student'=>$student]);
     }
     public function update(Request $request)
@@ -52,13 +53,13 @@ class StudentController extends Controller
         ]);
         $student = Student::find($request->id);
         $student->update($request->all());
-        return redirect()->route('student.index');
+        return redirect()->route('student.index')->with('success','Student update successfully');
     }
 
     public function destroy($id)
     {
         $student = Student::find($id);
         $student->delete();
-        return redirect()->back();
+        return redirect()->back()->with('success','Student delete successfully');
     }
 }
