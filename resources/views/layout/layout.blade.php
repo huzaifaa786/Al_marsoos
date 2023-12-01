@@ -67,7 +67,10 @@
                     <div class="collapse navbar-collapse center justify-content-end" id="mynavbar">
                         <ul class="navbar-nav text-right mainmenu ">
                             <li class="menu-item-has-children">
-                                <a href="{{ route('Home.index') }}" class="active">Home</a>
+                                <a href="{{ route('Home.index') }}" >Home</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="{{ route('courses.view') }}" >Course</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="{{ route('Blog.bloglist') }}">Blogs</a>
@@ -77,14 +80,6 @@
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="{{ route('contact') }}">Contact Us</a>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="javascript:void(0);">More</a>
-                                <ul class="al-buraq-submenu multiline">
-                                    <li><a href="{{ route('Home.index') }}">Home </a></li>
-                                    {{-- <li><a href="services.html">Services Page</a></li> --}}
-                                    <li><a href="{{ route('courses.view') }}">Courses</a></li>
-                                </ul>
                             </li>
                         </ul>
                         <div class="d-flex right-nav">

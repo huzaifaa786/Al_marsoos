@@ -28,32 +28,51 @@
                     it (through zakat).”</h6>
             </div>
             <div class="content">
-                <h4 class="heading">Our Madressa's Journey</h4>
+                <h4 class="heading">Our Madressa's </h4>
                 <p style=" text-align: justify">
-                    In 2002, Madressa appeared as a demonstration of a dream devoted to encouraging information, excellence,
-                    and local area. Established by people focused on giving a comprehensive Islamic schooling, Madressa left
-                    on an excursion to profoundly influence the personalities and hearts of its understudies.
+                Al-Marsoos Islamic Institute stands as a dynamic and multifaceted center dedicated to providing a
+                comprehensive platform for Islamic education and services. With a diverse array of courses covering
+                fundamental Quranic studies, advanced Islamic jurisprudence, and specialized Nikah courses, the institute is
+                committed to fostering holistic development among individuals of all ages and backgrounds. This commitment
+                extends beyond the confines of traditional education, creating a modern learning environment that embraces
+                technology and interactive teaching methods.
                 </p>
                 <p style=" text-align: justify">
-                    Fundamental to Madressa's ethos is the development of solid virtues and character advancement.
-                    Understudies are urged to exemplify ethics like sympathy, compassion, and trustworthiness. The
-                    sustaining climate at Madressa stretches out past reading material, imparting a feeling of obligation
-                    and metro obligation in every understudy, forming people who emphatically add to their networks and
-                    society.
+                At the core of Al-Marsoos's mission is its recognition of the pivotal role that marriage plays in
+                individuals' lives and the broader community. The institute takes a unique approach by offering specialized
+                Nikah courses, providing comprehensive pre-marital counseling, guidance on Islamic principles of marriage,
+                and practical tips for sustaining a healthy and harmonious marital life. These courses not only prepare
+                couples for their life journey together but also contribute to the strength and unity of the community
+                through resilient and well-founded families.
                 </p>
                 <p style=" text-align: justify">
-                    As Madressa praises its establishing year in 2002, it imagines a future set apart by development,
-                    advancement, and an extending influence on the existences of its understudies. The foundation stays
-                    unflinching in obligation to giving a vigorous schooling grants information and imparts a significant
-                    feeling of direction and values. Madressa plans to guarantee that each graduate arises as a signal of
-                    light and direction in a steadily developing world.
+                In addition to its educational offerings, Al-Marsoos actively engages with the community through various
+                outreach programs. These initiatives encompass charity drives, community events, and collaborations with
+                local organizations to address social issues. The institute understands the importance of fostering a sense
+                of unity and shared responsibility among its members, contributing to the overall well-being of the broader
+                community.
                 </p>
                 <p style=" text-align: justify">
-                    As Madressa celebrates its founding year in 2002, it envisions a future marked by growth, innovation,
-                    and a deepening impact on the lives of its students. The institution remains steadfast in its commitment
-                    to providing a robust education that imparts knowledge and instills a profound sense of purpose and
-                    values. Madressa aims to ensure that each graduate emerges as a beacon of light and guidance in an
-                    ever-evolving world.
+                The institute places a strong emphasis on nurturing the spiritual growth of its students. Regular Islamic
+                lectures, spiritual retreats, and Quranic recitation circles create an atmosphere of reflection and
+                connection with the divine. Al-Marsoos believes that a holistic education is incomplete without addressing
+                the spiritual needs of individuals, striving to instill a profound sense of piety and mindfulness in its
+                students.
+                </p>
+                <p style=" text-align: justify" >
+                Al-Marsoos Islamic Institute is not merely a place of learning; it is a hub for spiritual growth and
+                community support. Its commitment to providing a modern and technologically advanced learning environment
+                ensures that the educational experience is both engaging and accessible. Leveraging online platforms,
+                multimedia resources, and interactive teaching methods, the institute enables students to benefit from the
+                wealth of Islamic knowledge regardless of their physical location.
+                </p>
+                <p style=" text-align: justify" >
+
+                The institute takes pride in being an inclusive and welcoming space for individuals from diverse
+                backgrounds. It actively promotes mutual respect, understanding, and cooperation among its students,
+                fostering an environment where everyone feels valued and accepted. Al-Marsoos stands as a beacon for those
+                seeking comprehensive Islamic education and services, playing a pivotal role in shaping a brighter and more
+                enlightened future for individuals who aspire to deepen their understanding of Islam and its teachings.
                 </p>
             </div>
         </div>

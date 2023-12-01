@@ -67,7 +67,10 @@
                     <div class="collapse navbar-collapse center justify-content-end" id="mynavbar">
                         <ul class="navbar-nav text-right mainmenu ">
                             <li class="menu-item-has-children">
-                                <a href="<?php echo e(route('Home.index')); ?>" class="active">Home</a>
+                                <a href="<?php echo e(route('Home.index')); ?>" >Home</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="<?php echo e(route('courses.view')); ?>" >Course</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="<?php echo e(route('Blog.bloglist')); ?>">Blogs</a>
@@ -77,14 +80,6 @@
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="<?php echo e(route('contact')); ?>">Contact Us</a>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="javascript:void(0);">More</a>
-                                <ul class="al-buraq-submenu multiline">
-                                    <li><a href="<?php echo e(route('Home.index')); ?>">Home </a></li>
-                                    
-                                    <li><a href="<?php echo e(route('courses.view')); ?>">Courses</a></li>
-                                </ul>
                             </li>
                         </ul>
                         <div class="d-flex right-nav">
