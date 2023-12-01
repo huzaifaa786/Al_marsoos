@@ -28,7 +28,7 @@
                         <div class="row mb-4">
                             @foreach ($blogs as $blog)
                                 <div class="col-xl-4">
-                                    <img src="{{ $blog->image }}" alt="">
+                                    <img src="{{ $blog->image }}" style="height:200 ; width:304px" alt="">
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="content-box">

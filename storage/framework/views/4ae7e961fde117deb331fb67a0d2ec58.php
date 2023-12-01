@@ -27,7 +27,7 @@
                         <div class="row mb-4">
                             <?php $__currentLoopData = $blogs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $blog): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                 <div class="col-xl-4">
-                                    <img src="<?php echo e($blog->image); ?>" alt="">
+                                    <img src="<?php echo e($blog->image); ?>" style="height:200 ; width:304px" alt="">
                                 </div>
                                 <div class="col-xl-8">
                                     <div class="content-box">

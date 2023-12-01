@@ -73,7 +73,7 @@
                                 <a href="{{ route('courses.view') }}" >Course</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="{{ route('Blog.bloglist') }}">Blogs</a>
+                                <a href="{{route('Blog.bloglist') }}">Blogs</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="{{ route('about') }}">About</a>

@@ -264,7 +264,7 @@
                     <div class="col-lg-6 col-md-6 col-12">
                         <div class="row mb-4">
                             <div class="col-xl-6">
-                                <img src="<?php echo e($blog->image); ?>" alt="">
+                                <img src="<?php echo e($blog->image); ?>" style="height:200 ; width:304px" alt="">
                             </div>
                             <div class="col-xl-6">
                                 <div class="content-box">
@@ -286,7 +286,7 @@
                     <div class="col-lg-6 col-md-6 col-12">
                         <div class="row mb-4">
                             <div class="col-xl-6">
-                                <img src="<?php echo e($blog->image); ?>" alt="">
+                                <img src="<?php echo e($blog->image); ?>" style="height:200 ; width:304px" alt="">
                             </div>
                             <div class="col-xl-6">
                                 <div class="content-box">
