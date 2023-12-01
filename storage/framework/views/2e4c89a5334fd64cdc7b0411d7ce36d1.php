@@ -23,7 +23,7 @@
                         <td><img src="<?php echo e($scholar->image); ?>" alt="" width="40px" height="40px"></td>
                         <td><?php echo e($scholar->qualification); ?></td>
                         <td><?php echo e($scholar->experience); ?></td>
-                        <td><?php echo e($scholar->description); ?></td>
+                        <td><div style="overflow-y: scroll; height:100px;"><?php echo $scholar->description; ?></div></td>
                         <td> <a href="<?php echo e(route('scholar.edit', ['id' => $scholar->id])); ?>" type="button"
                                 class="btn btn-primary px-4">Edit</a>
                         </td>

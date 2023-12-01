@@ -48,11 +48,11 @@ class PrayerController extends Controller
                 $errorResponse['status'] = $ex->getResponse()->getStatusCode();
                 $errorResponse['message'] = json_decode($ex->getResponse()->getBody(), true);
             } else {
-                $errorResponse['status'] = 500; // Internal Server Error
+                $errorResponse['status'] = 500; 
                 $errorResponse['message'] = $ex->getMessage();
             }
         
-            return response()->json($errorResponse); // Return JSON error response
+            return response()->json($errorResponse); 
         }
     
 }

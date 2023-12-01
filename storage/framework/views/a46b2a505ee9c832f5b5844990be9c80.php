@@ -31,8 +31,8 @@
                         </div>
                         <hr>
                         <h6 class="content-title">Overview</h6>
-                        <p>
-                            <?php echo e($scholar->description); ?>
+                        <p style="text-align: justify">
+                            <?php echo $scholar->description; ?>
 
                         </p>
                         <h6 class="content-title">Personal Profile</h6>

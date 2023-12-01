@@ -23,7 +23,7 @@
                         <td><img src="{{ $scholar->image }}" alt="" width="40px" height="40px"></td>
                         <td>{{ $scholar->qualification }}</td>
                         <td>{{ $scholar->experience }}</td>
-                        <td>{{ $scholar->description }}</td>
+                        <td><div style="overflow-y: scroll; height:100px;">{!!$scholar->description!!}</div></td>
                         <td> <a href="{{ route('scholar.edit', ['id' => $scholar->id]) }}" type="button"
                                 class="btn btn-primary px-4">Edit</a>
                         </td>

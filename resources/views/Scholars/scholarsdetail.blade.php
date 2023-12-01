@@ -31,8 +31,8 @@
                         </div>
                         <hr>
                         <h6 class="content-title">Overview</h6>
-                        <p>
-                            {{ $scholar->description }}
+                        <p style="text-align: justify">
+                            {!! $scholar->description !!}
                         </p>
                         <h6 class="content-title">Personal Profile</h6>
                         <div class="row profile-tab">
