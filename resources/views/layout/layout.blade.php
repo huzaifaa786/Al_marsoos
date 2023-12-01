@@ -64,22 +64,22 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                         <i class="fas fa-bars"></i>
                     </button>
-                    <div class="collapse navbar-collapse center justify-content-end" id="mynavbar">
+                    <div class=" collapse navbar-collapse center justify-content-end" id="mynavbar">
                         <ul class="navbar-nav text-right mainmenu ">
-                            <li class="menu-item-has-children">
-                                <a href="{{ route('Home.index') }}" >Home</a>
+                            <li class=" menu-item-has-children">
+                                <a href="{{ route('Home.index') }}" class="{{request()->is('/') ? 'active': ''}}" >Home</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="{{ route('courses.view') }}" >Course</a>
+                                <a href="{{ route('courses.view') }}"  class="{{request()->is('courses/course') ? 'active': ''}}" >Course</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="{{route('Blog.bloglist') }}">Blogs</a>
+                                <a href="{{route('Blog.bloglist') }}" class="{{request()->is('Blog/bloglist') ? 'active': ''}}" >Blogs</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="{{ route('about') }}">About</a>
+                                <a href="{{ route('about') }}" class="{{request()->is('about/us') ? 'active': ''}}"  >About</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="{{ route('contact') }}">Contact Us</a>
+                                <a href="{{ route('contact') }}" class="{{request()->is('Contact/contact') ? 'active': ''}}" >Contact Us</a>
                             </li>
                         </ul>
                         <div class="d-flex right-nav">

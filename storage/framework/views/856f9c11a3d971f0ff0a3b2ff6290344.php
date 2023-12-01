@@ -64,22 +64,22 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                         <i class="fas fa-bars"></i>
                     </button>
-                    <div class="collapse navbar-collapse center justify-content-end" id="mynavbar">
+                    <div class=" collapse navbar-collapse center justify-content-end" id="mynavbar">
                         <ul class="navbar-nav text-right mainmenu ">
-                            <li class="menu-item-has-children">
-                                <a href="<?php echo e(route('Home.index')); ?>" >Home</a>
+                            <li class=" menu-item-has-children">
+                                <a href="<?php echo e(route('Home.index')); ?>" class="<?php echo e(request()->is('/') ? 'active': ''); ?>" >Home</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="<?php echo e(route('courses.view')); ?>" >Course</a>
+                                <a href="<?php echo e(route('courses.view')); ?>"  class="<?php echo e(request()->is('courses/course') ? 'active': ''); ?>" >Course</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="<?php echo e(route('Blog.bloglist')); ?>">Blogs</a>
+                                <a href="<?php echo e(route('Blog.bloglist')); ?>" class="<?php echo e(request()->is('Blog/bloglist') ? 'active': ''); ?>" >Blogs</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="<?php echo e(route('about')); ?>">About</a>
+                                <a href="<?php echo e(route('about')); ?>" class="<?php echo e(request()->is('about/us') ? 'active': ''); ?>"  >About</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="<?php echo e(route('contact')); ?>">Contact Us</a>
+                                <a href="<?php echo e(route('contact')); ?>" class="<?php echo e(request()->is('Contact/contact') ? 'active': ''); ?>" >Contact Us</a>
                             </li>
                         </ul>
                         <div class="d-flex right-nav">
