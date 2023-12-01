@@ -183,28 +183,7 @@
                 </div>
             </div>
         </section> --}}
-        <!--=====================================-->
-        <!--=        Donations Area Start     =-->
-        <!--=====================================-->
-        <section class="donations style-1 sec-pad text-center">
-            <div class="container">
-                <div class="heading">
-                    <h2 class="title clr-white">Your Donations</h2>
-                    <p class="clr-primary">The Mosque was established in 1954, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-
-                <div class="progress-bar-1">
-                    <div class="progress">
-                        <div class="progress-done" data-done="70">
-                            60%
-                        </div>
-                    </div>
-                </div>
-
-                <h3 class="donation-heading">We need your donation for the restoration of the grand mosque</h3>
-                <a href="{{route('donate.index')}}" class="al-buraq-btn btn-fill-primary btn-lg">Donate Now</a>
-            </div>
-        </section>
+        
         <!--=====================================-->
         <!--=       Sermons Area Start          =-->
         <!--=====================================-->
