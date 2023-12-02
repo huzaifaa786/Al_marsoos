@@ -358,7 +358,7 @@
                                     <h6 class="title">{{ $blog->title }}</h6>
                                     <ul class="list-unstyled">
                                         <li><i class="fas fa-calendar-alt"></i>{{ $blog->created_at->format('M d, Y') }}</li>
-                                        <li><i class="fas fa-user"></i>Mufti Maqsud</li>
+                                        {{-- <li><i class="fas fa-user"></i>Mufti Maqsud</li> --}}
                                     </ul>
                                     <p class="description">{!! Str::limit(strip_tags($blog->body), 200) !!}</p>
                                     <a href="{{ route('blog.detail', $blog->id) }}" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
@@ -380,7 +380,7 @@
                                     <h6 class="title">{{ $blog->title }}</h6>
                                     <ul class="list-unstyled">
                                         <li><i class="fas fa-calendar-alt"></i>{{ $blog->created_at->format('M d, Y') }}</li>
-                                        <li><i class="fas fa-user"></i>Mufti Maqsud</li>
+                                        {{-- <li><i class="fas fa-user"></i>Mufti Maqsud</li> --}}
                                     </ul>
                                     <p class="description">{!! Str::limit(strip_tags($blog->body), 200) !!}</p>
                                     <a href="{{ route('blog.detail', $blog->id) }}" class="al-buraq-btn btn-fill-primary btn-lg">Learn More</a>
