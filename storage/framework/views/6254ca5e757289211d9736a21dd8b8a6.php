@@ -17,15 +17,15 @@
     <title>Al Marsoos- Dashboard</title>
 
     <!-- Custom fonts for this template-->
-    <link href="{{ asset('admin/asset/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="<?php echo e(asset('admin/asset/vendor/fontawesome-free/css/all.min.css')); ?>" rel="stylesheet" type="text/css">
     <link
-        href="{{ asset('admin/asset/https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i') }}"
+        href="<?php echo e(asset('admin/asset/https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i')); ?>"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="{{ asset('admin/asset/css/sb-admin-2.min.css') }}" rel="stylesheet">
+    <link href="<?php echo e(asset('admin/asset/css/sb-admin-2.min.css')); ?>" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"/>
-    @yield('css')
+    <?php echo $__env->yieldContent('css'); ?>
 </head>
 
 <body id="page-top">
@@ -64,8 +64,8 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="{{ route('blog.create') }}">Create Blog</a>
-                        <a class="collapse-item" href="{{route('blog.index')}}">All Blog</a>
+                        <a class="collapse-item" href="<?php echo e(route('blog.create')); ?>">Create Blog</a>
+                        <a class="collapse-item" href="<?php echo e(route('blog.index')); ?>">All Blog</a>
                     </div>
                 </div>
             </li>
@@ -81,14 +81,13 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="{{ route('newstudents') }}">Add Student</a>
-                        <a class="collapse-item" href="{{ route('student.index') }}">All Students</a>
-                        {{-- <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a> --}}
+                        <a class="collapse-item" href="<?php echo e(route('newstudents')); ?>">Add Student</a>
+                        <a class="collapse-item" href="<?php echo e(route('student.index')); ?>">All Students</a>
+                        
                     </div>
                 </div>
             </li>
-            {{-- <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                     aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-wrench"></i>
@@ -98,12 +97,12 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="{{ route('course.create.view') }}">Add Course</a>
-                        <a class="collapse-item" href="{{route('course.index')}}">All Courses</a>
-                      
+                        <a class="collapse-item" href="<?php echo e(route('course.create')); ?>">Add Course</a>
+                        <a class="collapse-item" href="<?php echo e(route('course.index')); ?>">All Courses</a>
+                        
                     </div>
                 </div>
-            </li> --}}
+            </li>
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsefour"
                     aria-expanded="true" aria-controls="collapseTwo">
@@ -113,7 +112,7 @@
                 <div id="collapsefour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Message Component</h6>
-                        <a class="collapse-item" href="{{route('contact.show.message')}}">All Messages</a>
+                        <a class="collapse-item" href="<?php echo e(route('contact.show.message')); ?>">All Messages</a>
                     </div>
                 </div>
             </li>
@@ -127,10 +126,9 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="{{ route('event.create') }}">Add Event</a>
-                        <a class="collapse-item" href="{{route('event.index')}}">All Events</a>
-                        {{-- <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a> --}}
+                        <a class="collapse-item" href="<?php echo e(route('event.create')); ?>">Add Event</a>
+                        <a class="collapse-item" href="<?php echo e(route('event.index')); ?>">All Events</a>
+                        
                     </div>
                 </div>
             </li>
@@ -144,10 +142,9 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="{{ route('scholars.create') }}">Add Scholar</a>
-                        <a class="collapse-item" href="{{route('scholar.index')}}">All Scholars</a>
-                        {{-- <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a> --}}
+                        <a class="collapse-item" href="<?php echo e(route('scholars.create')); ?>">Add Scholar</a>
+                        <a class="collapse-item" href="<?php echo e(route('scholar.index')); ?>">All Scholars</a>
+                        
                     </div>
                 </div>
             </li>
@@ -259,7 +256,7 @@
                 <!-- Begin Page Content -->
 
                 <!-- /.container-fluid -->
-                @yield('content')
+                <?php echo $__env->yieldContent('content'); ?>
             </div>
             <!-- End of Main Content -->
 
@@ -299,30 +296,31 @@
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
 
-                    <a class="btn btn-primary" href="{{ route('logout/page') }}">Logout</a>
-                    @csrf
+                    <a class="btn btn-primary" href="<?php echo e(route('logout/page')); ?>">Logout</a>
+                    <?php echo csrf_field(); ?>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="{{ asset('admin/asset/vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('admin/asset/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="<?php echo e(asset('admin/asset/vendor/jquery/jquery.min.js')); ?>"></script>
+    <script src="<?php echo e(asset('admin/asset/vendor/bootstrap/js/bootstrap.bundle.min.js')); ?>"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="{{ asset('admin/asset/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+    <script src="<?php echo e(asset('admin/asset/vendor/jquery-easing/jquery.easing.min.js')); ?>"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="{{ asset('admin/asset/js/sb-admin-2.min.js') }}"></script>
+    <script src="<?php echo e(asset('admin/asset/js/sb-admin-2.min.js')); ?>"></script>
 
     <!-- Page level plugins -->
-    <script src="{{ asset('admin/asset/vendor/chart.js/Chart.min.js') }}"></script>
+    <script src="<?php echo e(asset('admin/asset/vendor/chart.js/Chart.min.js')); ?>"></script>
 
     <!-- Page level custom scripts -->
-    <script src="{{ asset('admin/asset/js/demo/chart-area-demo.js') }}"></script>
-    <script src="{{ asset('admin/asset/js/demo/chart-pie-demo.js') }}"></script>
-    @yield('script')
+    <script src="<?php echo e(asset('admin/asset/js/demo/chart-area-demo.js')); ?>"></script>
+    <script src="<?php echo e(asset('admin/asset/js/demo/chart-pie-demo.js')); ?>"></script>
+    <?php echo $__env->yieldContent('script'); ?>
 </body>
 
 </html>
+<?php /**PATH E:\laravel\Al_marsoos\resources\views/admin/layout.blade.php ENDPATH**/ ?>

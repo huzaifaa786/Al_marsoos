@@ -32,9 +32,7 @@ Route::view('Contact/contact', 'Contact.contact')->name('contact');
 Route::view('MorePages/ourevents', 'MorePages.ourevents')->name('MorePages.ourevents');
 Route::view('MorePages/eventdetail', 'MorePages.eventdetail')->name('MorePages.eventdetail');
 
-Route::view('admin/layout', 'admin.layout');
-Route::view('admin/addstudent', 'admin.student.create')->name('newstudents');
-Route::view('admin/course', 'admin.course.addcourse')->name('newcourse');
+
 Route::view('admin/login', 'admin.auth.login')->name('admin.login');
 
 
@@ -47,7 +45,7 @@ Route::get('about/us', [FrontendController::class, 'about'])->name('about');
 Route::get('blog/{id}', [FrontendController::class, 'blogDetail'])->name('blog.detail');
 
 
-Route::post('add/course', [CourseController::class, 'store'])->name('addcourse');
+
 Route::get('send/message', [SMSController::class, 'sendSMS'])->name('sendsms');
 
 Route::post('blogs/search', [BlogPostController::class, 'blogsearch'])->name('blog.search');
@@ -69,6 +67,9 @@ Route::get('scholar/{id}', [FrontendController::class, 'scholarsdetail'])->name(
 Route::get('paryer/time', [PrayerController::class, 'PayerTime'])->name('prayer.time');
 
 Route::group(['middleware' => 'auth:admin'], function () {
+    Route::view('admin/addstudent', 'admin.student.create')->name('newstudents');
+    // Route::view('admin/course', 'admin.course.addcourse')->name('newcourse');
+    Route::view('admin/layout', 'admin.layout');
     //Scholars in admin side
     Route::view('/scholars', 'admin.scholars.create')->name('scholars.create');
     Route::post('scholar/store', [ScholarsController::class, 'store'])->name('scholar.store');
@@ -97,7 +98,7 @@ Route::group(['middleware' => 'auth:admin'], function () {
     Route::post('student/update', [StudentController::class, 'update'])->name('student.update');
     Route::get('student/destroy/{id}', [StudentController::class, 'destroy'])->name('student.delete');
     //course side in admin
-    Route::view('course/create', 'admin.course.create')->name('course.create');
+   Route::get('course/view',[CourseController::class,'viewCourse'])->name('course.create.view');
     Route::post('course/store', [CourseController::class, 'store'])->name('course.store');
     Route::get('course/index', [CourseController::class, 'index'])->name('course.index');
     Route::get('course/destroy/{id}', [CourseController::class, 'destroy'])->name('course.delete');
